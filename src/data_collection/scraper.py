@@ -39,12 +39,12 @@ class NewsArticleScraper:
         self._setup_output_dir()
         self.session = requests.Session()
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
+            'Referer': 'https://www.google.com/',
+            'DNT': '1',
             'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1',
-            'Cache-Control': 'max-age=0',
         }
     
     def _setup_output_dir(self):
@@ -114,6 +114,10 @@ class NewsArticleScraper:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        })
+
         saved_files = []
         
         try:
@@ -160,11 +164,14 @@ class NewsArticleScraper:
             
             # Process each article
             for i, link in enumerate(article_links):
+                driver.delete_all_cookies()
+                time.sleep(2)  # Brief pause after clearing cookies
                 try:
                     logger.info(f"Processing article {i+1}/{len(article_links)}: {link}")
                     # Navigate to the article page
-                    driver.get(link)
-                    
+                    self._random_delay(5, 10)
+                    driver.execute_script(f"window.location.href = '{link}';")  # Use JS navigation instead of driver.get() not to get blocked
+                    self._random_delay(5, 10)
                     # Wait for the article content to load
                     WebDriverWait(driver, 10).until(
                         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "[data-testid='DefaultArticleHeader']"))
@@ -187,20 +194,28 @@ class NewsArticleScraper:
 
                     # Get article content
                     try:
-                        # Find the article body container
+                        # First, locate the article body container
                         article_body = WebDriverWait(driver, 10).until(
-                            EC.presence_of_element_located((By.CSS_SELECTOR, ".article-body__container_3ypuX"))
+                            EC.presence_of_element_located((By.CSS_SELECTOR, ".article-body__container_3ypuX, [class*='article-body__container'], [data-testid='ArticleBody']"))
                         )
                         
-                        # Get all paragraph elements with data-testid attribute like 'paragraph-1', 'paragraph-2', etc.
+                        # Find all paragraphs with data-testid attributes starting with "paragraph-"
                         paragraphs = article_body.find_elements(By.CSS_SELECTOR, "[data-testid^='paragraph-']")
                         
-                        # If no paragraphs found, try alternative selectors
-                        if not paragraphs:
-                            paragraphs = article_body.find_elements(By.CSS_SELECTOR, ".article-body__content_17Yit p")
+                        # Extract text from each paragraph
+                        paragraph_texts = []
+                        for paragraph in paragraphs:
+                            paragraph_text = paragraph.text.strip()
+                            if paragraph_text:
+                                paragraph_texts.append(paragraph_text)
                         
-                        # Extract text from paragraphs
-                        content = "\n".join([p.text for p in paragraphs if p.text])
+                        # Join all paragraph texts with newlines
+                        content = "\n".join(paragraph_texts)
+                        
+                        # If no paragraphs found, try alternative approach
+                        if not content:
+                            content_divs = article_body.find_elements(By.CSS_SELECTOR, ".article-body__content_17Yit p, [class*='article-body__content'] p")
+                            content = "\n".join([div.text for div in content_divs if div.text.strip()])
                         
                     except Exception as e:
                         logger.warning(f"Error extracting content: {e}")
@@ -224,11 +239,14 @@ class NewsArticleScraper:
                     saved_file = self._save_article(article, "reuters")
                     saved_files.append(saved_file)
                     
+                    # Clear session data to prevent tracking patterns
+                    driver.execute_script("window.localStorage.clear(); window.sessionStorage.clear();")
                     # Random delay to avoid being blocked
-                    self._random_delay(10,15)
+                    self._random_delay(15,30)
                 
                 except Exception as e:
                     logger.error(f"Error processing article {link}: {e}")
+                    continue
             
             logger.info(f"Scraped {len(saved_files)} articles from Reuters")
         

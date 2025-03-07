@@ -62,11 +62,3 @@ python src/main.py
 
 - Python 3.6+
 - See requirements.txt for package dependencies
-
-### License
-
-MIT
-
-### Contributors
-
-- Your Name
