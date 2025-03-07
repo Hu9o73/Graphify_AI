@@ -1,0 +1,10 @@
+{
+    "id": "example1",
+    "title": "Apple announces new partnership with Microsoft",
+    "url": "https://example.com/article1",
+    "source": "example",
+    "category": "business",
+    "published_date": "2023-01-01",
+    "scraped_date": "2023-01-02",
+    "content": "Apple Inc. has announced a new partnership with Microsoft Corporation, according to CEO Tim Cook. The collaboration will focus on cloud computing services and AI integration. The partnership was revealed at a press conference in Cupertino, California yesterday. Microsoft CEO Satya Nadella expressed excitement about working with the iPhone maker. Apple was founded by Steve Jobs in 1976 and has become one of the world's most valuable companies."
+}
