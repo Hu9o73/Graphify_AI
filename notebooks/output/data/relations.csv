@@ -1,0 +1,33 @@
+subject,subject_type,predicate,object,object_type
+Adriana Kugler,PERSON,say on,Friday,DATE
+Adriana Kugler,PERSON,say_on,Friday,DATE
+Nasdaq,ORG,confirm At,255 pm,TIME
+Richmond,GPE,related_to,Virginia,GPE
+Thursday,DATE,related_to,Trump,PERSON
+Nasdaq,ORG,confirm_At,255 pm,TIME
+Reuters - Morgan Stanley,ORG,lower on,Friday,DATE
+Goldman Sachs,ORG,downgrade to,17,CARDINAL
+Reuters - Morgan Stanley,ORG,lower_on,Friday,DATE
+Goldman Sachs,ORG,downgrade_to,17,CARDINAL
+Goldman Sachs,ORG,downgrade_from,22,CARDINAL
+Donald Trump,PERSON,take on,January 20,DATE
+Justin Trudeau,PERSON,say on,Thursday,DATE
+Donald Trump,PERSON,take_on,January 20,DATE
+Siri,PERSON,delay until,2026,DATE
+Siri,PERSON,delay_until,2026,DATE
+The Labor Departments,ORG,watch on,Friday,DATE
+The Labor Departments,ORG,watch_on,Friday,DATE
+The US Trade Representatives Office,ORG,hold on,Tuesday,DATE
+The US Trade Representatives Office,ORG,hold_on,Tuesday,DATE
+Donald Trump,PERSON,enact on,Tuesday,DATE
+Donald Trump,PERSON,enact_on,Tuesday,DATE
+Reuters,ORG,say on,Friday,DATE
+Reuters,ORG,say_on,Friday,DATE
+Starlink,ORG,unit_of,Elon Musks SpaceX,ORG
+500000 square miles 13 million square km,QUANTITY,km_of,US,GPE
+David Sacks,PERSON,tell at,the White House,ORG
+Richardson,PERSON,confirm to,Reuters,ORG
+Tether,PERSON,have in,US,GPE
+David Sacks,PERSON,tell_at,the White House,ORG
+Richardson,PERSON,confirm_to,Reuters,ORG
+Tether,PERSON,have_in,US,GPE
