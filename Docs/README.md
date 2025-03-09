@@ -16,19 +16,17 @@ Graphify_AI is a project that builds knowledge graphs from raw text data using n
 
 ```
 Graphify_AI/
-├── data/                      # Data storage
-├── models/                    # Trained models storage
+├── Docs/                      # Documents
+│   ├── requirements.txt       # Dependencies
 ├── notebooks/                 # Jupyter notebooks for exploration
-├── src/                       # Source code
-│   ├── data_collection/       # Web scraping modules
-│   ├── preprocessing/         # Text cleaning utilities
-│   ├── entity_recognition/    # NER implementations
-│   ├── relation_extraction/   # RE implementations
-│   └── knowledge_graph/       # Graph building utilities
-├── tests/                     # Unit tests
-├── requirements.txt           # Dependencies
-├── setup.py                   # Package setup
-└── README.md                  # Project documentation
+│   ├── *.ipynb                # Exploration notebook
+│   ├── output/                # Exploration's outputs (data, graphs...)
+└── src/                       # Source code
+    ├── data_collection/       # Web scraping modules
+    ├── preprocessing/         # Text cleaning utilities
+    ├── entity_recognition/    # NER implementations
+    ├── relation_extraction/   # RE implementations
+    └── knowledge_graph/       # Graph building utilities
 ```
 
 ### Installation
@@ -46,19 +44,9 @@ pip install -r requirements.txt
 
 ### Usage
 
-1. Collect data through web scraping:
-```
-python src/data_collection/scraper.py
-```
-
-2. Process the data and build knowledge graph:
-```
-python src/main.py
-```
-
-3. Alternatively, you can use the Jupyter notebooks in the `notebooks` directory for step-by-step processing.
+You can use the Jupyter notebooks in the `notebooks` directory for step-by-step processing.
 
 ### Requirements
 
-- Python 3.6+
+- Python 3.6+ (Tested on python 3.12)
 - See requirements.txt for package dependencies
