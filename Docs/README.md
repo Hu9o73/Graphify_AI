@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/f9aca060-53ca-4f52-9264-8bbe5e1594e5)
+
 # Graphify_AI
 
 ## AI-Driven Knowledge Graph Builder
