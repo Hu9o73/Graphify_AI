@@ -78,3 +78,57 @@ Justin Trudeau,PERSON,say_in,August,DATE
 More than half,CARDINAL,go_to,China,GPE
 Reuters,ORG,drop on,Friday,DATE
 Reuters,ORG,drop_on,Friday,DATE
+Chris Wright,PERSON,say on,Monday,DATE
+Chris Wright,PERSON,say_on,Monday,DATE
+Reuters - ArcelorMittal,ORG,announce on,Monday,DATE
+Reuters - ArcelorMittal,ORG,announce_on,Monday,DATE
+Bilibili,ORG,lose,5,CARDINAL
+Sunday,DATE,related_to,Trump,PERSON
+Donald Trumps,PERSON,comment_over,the weekend,DATE
+Assura,ORG,say on,Monday,DATE
+PHP,ORG,have until,April 7,DATE
+Assura,ORG,say_on,Monday,DATE
+PHP,ORG,have_until,April 7,DATE
+Danielle Smith,PERSON,say on,Monday,DATE
+Houston,GPE,related_to,Canada,GPE
+Danielle Smith,PERSON,say_on,Monday,DATE
+Reuters - HSBC,ORG,downgrade on,Monday,DATE
+Morgan Stanleys Wilson,ORG,say on,Monday,DATE
+Global Equity Strategist,ORG,related_to,Alastair Pinder,PERSON
+Reuters - HSBC,ORG,downgrade_on,Monday,DATE
+Morgan Stanleys Wilson,ORG,say_on,Monday,DATE
+thousands,CARDINAL,thousand_in,Germany,GPE
+Trump,PERSON,tell,Fox News,ORG
+Volodymyr Zelenskyy,PERSON,travel to,Saudi Arabia,GPE
+Volodymyr Zelenskyy,PERSON,travel_to,Saudi Arabia,GPE
+China,GPE,related_to,Canada,GPE
+Trump,ORG,impose from,Canada Mexico,GPE
+USDA,ORG,administer,hundreds,CARDINAL
+the White House,ORG,say on,January 22,DATE
+Rollins,PERSON,say on,February 20,DATE
+Walton,PERSON,award through,Agricultural Marketing Service,ORG
+Ed,PERSON,scrimp for,years,DATE
+The West Virginia Food and Farm Coalition,ORG,receive,about 80,CARDINAL
+Belgrade,GPE,related_to,Montana,PERSON
+US,GPE,related_to,Powell-Palm,ORG
+Trump,ORG,impose_from,Canada Mexico,GPE
+Trump,ORG,trump_on,March 6,DATE
+Trump,ORG,trump_in,his first days,DATE
+the White House,ORG,say_on,January 22,DATE
+Rollins,PERSON,say_on,February 20,DATE
+Walton,PERSON,award_through,Agricultural Marketing Service,ORG
+Ed,PERSON,scrimp_for,years,DATE
+Ford,ORG,cut,thousands,CARDINAL
+Ford,ORG,cut_in,Europe,LOC
+Ford,ORG,cut_in,Germany,GPE
+Aramco,ORG,invest,more than 50 billion,MONEY
+Donald Trump,PERSON,say ABOARD,ABOARD AIR FORCE ONE March 9,ORG
+Donald Trump,PERSON,say_ABOARD,ABOARD AIR FORCE ONE March 9,ORG
+Donald Trump,PERSON,say_on,Sunday,DATE
+LONDON,GPE,open on,Monday,DATE
+LzLabs,ORG,develop after,nearly a decade,DATE
+the High Court,ORG,rule with,Finola OFarrell,PERSON
+LzLabs UK,ORG,related_to,Winsopia,PERSON
+LONDON,GPE,open_on,Monday,DATE
+LzLabs,ORG,develop_after,nearly a decade,DATE
+the High Court,ORG,rule_with,Finola OFarrell,PERSON

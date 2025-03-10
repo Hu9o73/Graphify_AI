@@ -1,867 +1,1296 @@
 entity,type
-2023,DATE
-Mexico Canada,ORG
-Commerce,ORG
-Street,ORG
-the University of Illinois,ORG
-World Trade Organization,ORG
-US Federal Communications Commission,ORG
-Chicago,GPE
-MicroStrategy,ORG
-quarterly,DATE
-North America Europe,LOC
-Gemini,PRODUCT
-135,CARDINAL
-16 billion,CARDINAL
-Atlanta Fed,MISC
-JP Richardson,PERSON
-a month,DATE
-Leonie Brinkema,PERSON
-2016,DATE
-Dow,ORG
-Zach Witkoff,PERSON
-Kazuo Ueda,PERSON
-Health and Human Services,ORG
-43,CARDINAL
-Europe,GPE
-Siri,PERSON
-Bernard Baumohl,PERSON
-140,CARDINAL
-Wireless Emergency Alerts,ORG
-Sebastiaan Bock,PERSON
-US Department of Health and Human Services,ORG
-Kuroda,PERSON
-the Alphabet Workers Union-CWA,ORG
-15,CARDINAL
-55,CARDINAL
-Art Hogan,PERSON
-Kuroda,MISC
-Professional,ORG
-About 385000,CARDINAL
-Africa,GPE
-Feds,ORG
-Friday,DATE
-Loulo-Gounkoto,ORG
-Bank of England,ORG
-Ohio,GPE
-Chinas intentional state,ORG
-Exodus EXODA,ORG
-March last year,DATE
-Nutrien NTRTO,ORG
-March 2024,DATE
-737,CARDINAL
-31,CARDINAL
-601,CARDINAL
-a long time ago,DATE
-Manitoba Pork Council,ORG
-Wealthspire Advisors,ORG
-US,GPE
-Wall Street Wall Street,GPE
-41,CARDINAL
-Trivium,GPE
-Oliver Pursche,PERSON
-Apples AAPLO,ORG
-27500,CARDINAL
-Chicago Midway,ORG
-The Bank of England,ORG
-AI,ORG
-thousands,CARDINAL
-Reuters - Blackstone BXN,ORG
-China Risks,ORG
-Elon Musks Department of Government Efficiency,ORG
-West African,MISC
-Cupertino,GPE
-Conference on Monetary Policy Transmission,ORG
-United States,GPE
-Scott Hepworth,PERSON
-March 2019,DATE
-Nasdaq Composite IXIC,MISC
-Chinese,MISC
-8,CARDINAL
-Dan Wang,PERSON
-Wave Digital Assets,ORG
-2024,CARDINAL
-today,DATE
-2024,DATE
-West African,NORP
-just over four months ago,DATE
-Chinese,NORP
-WINNIPEG Manitoba March 6,ORG
-recent years,DATE
-Brussels,GPE
-Singapore,GPE
-Alexa,ORG
-the past couple of months,DATE
-DOJ,ORG
-Starlink,PERSON
-Ottawas,GPE
-19,CARDINAL
-Monday,DATE
-Chicago Midway,GPE
-AI,GPE
-88194,DATE
-Bank of Japan,ORG
-138000 per month,DATE
-Mali,GPE
-first,ORDINAL
-017 to 4250763,CARDINAL
-New York,GPE
-Barricks ABXTO,GPE
-the fourth quarter,DATE
-Julia Pollak,ORG
-January 20,DATE
-as much as,PERCENT
-the Labor Department,ORG
-NYSE,ORG
-Southwest Airlines,ORG
-Ripple,GPE
-US Department of Health and Human Services General Mills,ORG
-Beijing,GPE
-Justin Trudeau,PERSON
-0100 pm ET,TIME
-October 2021,DATE
-last month,DATE
-Paris,GPE
-38,CARDINAL
-Principal Asset Management,ORG
-Salaries,PERSON
-209000,CARDINAL
-NEW YORK,GPE
-March 9,DATE
-Fertilizer,PERSON
-Trump,MISC
-Employment,PRODUCT
-47 billion,CARDINAL
-Apple,ORG
-millions of dollars,MONEY
-Wall Street,GPE
-Americas,MISC
-the coming year,DATE
-Meta METAO,ORG
-Cresset Capital,ORG
-10000,DATE
-4G,GPE
-Reuters - Federal Reserve,ORG
 Elon Musk,PERSON
-50,CARDINAL
-The Federal Reserve,ORG
-Julia Coronado,ORG
-around 20 billion euros 217 billion,MONEY
-Q4Q4,ORG
-Dow Jones Industrial Average DJI,MISC
-One,CARDINAL
-Federal Reserve Chair Jerome Powell,ORG
-mid-July,DATE
-February 25,DATE
-341 hours,TIME
-Saylor,PERSON
-Reuters - Japan,ORG
-Treasury,ORG
-Ardoino,NORP
-Boeing,MISC
-Alaskan Airlines,ORG
-12-month,DATE
-2022,DATE
-last year,DATE
-the Economic Outlook Group Nonfarm,ORG
-Nasdaq Composite,MISC
-2486,DATE
-Africa,LOC
-4,CARDINAL
-76,DATE
-American,NORP
-December 18 at 2487,DATE
-December 16,DATE
-04,CARDINAL
-March 20,DATE
-20,CARDINAL
-Chair Don Kohn,PERSON
-More than half,CARDINAL
-January 8 2024,DATE
-Cupertino California,GPE
-afternoon,TIME
-Earth,LOC
-577020,DATE
-Jack Ablin,PERSON
-Joe Bidens,PERSON
-Scott Anderson,PERSON
-21000,CARDINAL
-Morgan Stanley and Goldman Sachs,ORG
-one-month,DATE
-nearly two years,DATE
-mid-day,DATE
-the Middle East,LOC
-Hewlett Packard Enterprise,ORG
-CEO of Tether Paolo Ardoino,ORG
-Brean Capital,ORG
-Reuters - Wall Streets,ORG
-10492,CARDINAL
-12,CARDINAL
-Blackstone,ORG
-Wednesday,DATE
-Wave Digital,ORG
-Barrick,PERSON
-148 yen,MONEY
-CEO of Coinbase,ORG
-The US Department of Justice,ORG
-Reuters - The Federal Reserve,ORG
-North,GPE
-March 10,DATE
-199 billion,MONEY
-COVID,ORG
-Mali,PERSON
-Ben Bernanke,PERSON
-Robinhood Witkoff,FAC
-Tesla SpaceX,PERSON
-404000,CARDINAL
-Volkswagens,GPE
-Morgan Stanley,ORG
-Japanese,MISC
-AI Google,MISC
-end-2024,DATE
-Anthropic,MISC
-Japanese,NORP
-Ripple,PERSON
-Brendan Carr,PERSON
-Googles,PERSON
-SPLRCI,ORG
-9941,CARDINAL
-Reuters - Morgan Stanley,ORG
-Phosphate,ORG
-General Mills GISN,ORG
-Rosa Wang,PERSON
-3168,CARDINAL
-Anthropic,NORP
-spring,DATE
-the Great Recession Economists,FAC
-the Banco de Portugal,ORG
-California,GPE
-2013-2023,DATE
-Alexa,PERSON
-this year,DATE
-52000,CARDINAL
-80,CARDINAL
-Canada,GPE
-8860 million,CARDINAL
-17,CARDINAL
-400 million pounds,MONEY
-Nasdaq,MISC
-Cam Dahl General Manager,PERSON
-Reuters - China,ORG
-Securities and Exchange Commission,ORG
-14,CARDINAL
-OpenAI,ORG
-Europes,MISC
-annual,DATE
-136,CARDINAL
-US Federal Reserve,ORG
-Bill Sterling,PERSON
-Belarus,GPE
-the White House,ORG
-Europe Eurostar,GPE
-Christopher Waller,PERSON
-LSEG Adding,PERSON
-588000,CARDINAL
-The Atlanta Fed,ORG
-Julia Pollak,PERSON
-7,CARDINAL
-SPNY,ORG
-nearly 4,CARDINAL
-Waller,ORG
-Mills,PERSON
-Talley Leger,PERSON
-Reuters Previous,ORG
-winter,DATE
-May,DATE
-Sacks,ORG
-21,CARDINAL
-the Trump Administration,ORG
-118,CARDINAL
-Republican,MISC
-Gail Slater,PERSON
-March 18-19,DATE
-European,MISC
-Robinhood Markets HOODO,ORG
-055,CARDINAL
-054 to 1816737,CARDINAL
-Kennedy,PERSON
-January Annual,DATE
-Richardson,PERSON
-seven,CARDINAL
-Cetera Investment Management,ORG
-Eurasia,GPE
-OpenAI,GPE
-Republican,NORP
-European,NORP
-052 to 4280172,CARDINAL
-Reserve Bank of New Zealand,ORG
-Meta METAO,PERSON
-early March,DATE
-Canola Council of Canada,ORG
-Conrad,PERSON
-Virgin,PERSON
-2013,DATE
-US Department of Justice,ORG
-Julia Coronado,PERSON
-the US Federal Reserve,ORG
-February 19,DATE
-Apple Meta Platforms,ORG
-March 5,DATE
-earlier this week,DATE
-Middle East,GPE
-Elon Musks,PERSON
-Sacks,GPE
-Germanys,GPE
-zero,CARDINAL
-Wells Fargo,ORG
-13,CARDINAL
-October,DATE
-the Canola Council of Canada,ORG
-80000 to 100000,CARDINAL
-Ottawa,GPE
-159,CARDINAL
-Tether,ORG
-Robert F Kennedy Jr,PERSON
-Wealth Consulting Group,ORG
-132,CARDINAL
-ICIS,GPE
-XRP,ORG
-03,CARDINAL
-Les Borsai,PERSON
-Brian Jacobsen,PERSON
-Malian,MISC
-The Reserve Bank of New Zealand,ORG
-the US Department of Agriculture,ORG
-five-year,DATE
-2025,CARDINAL
-three,CARDINAL
-1976,DATE
-White Houses,ORG
-Eurasia Group,ORG
-2025,DATE
-Reuters - Seesaw,ORG
-two months,DATE
-US Secretary of Health and Human Services Robert F Kennedy Jr,ORG
-Malian,NORP
-Thursday,DATE
-Barrick Gold,ORG
-Brinkema,ORG
-Equities,ORG
-the commerce ministry,ORG
-Trumps,GPE
-Crypto,PERSON
-Goldman Sachs GSN,ORG
-Reuters - Porsche,ORG
-more than 100,CARDINAL
-34 billion,CARDINAL
-05,CARDINAL
-Porsche SE,ORG
-Reuters - Barrick Gold,ORG
-6,CARDINAL
-August,DATE
-BOJ,ORG
-Big Tech,PERSON
-the end of summer,DATE
-Jamie Cox,PERSON
-Blackstone,PERSON
-Porsche AG,ORG
-86,DATE
-Reuters - US Federal Reserve,ORG
-Scott Bessent,PERSON
-5,CARDINAL
-SpaceXs Falcon,ORG
-the US Department of Health and Human Services,ORG
-nearly three,CARDINAL
-Fed,ORG
-White Houses,GPE
-Eurostar,ORG
-Nonfarm,ORG
-January 2024,DATE
-Costco,ORG
-Advancing,NORP
-CBOE Volatility Index,ORG
-1830,DATE
-Clearnomics For,ORG
-Retail,PERSON
+Stephen Jen,PERSON
+Hong Kongs,GPE
+Russell 2000,MISC
+University of Illinois,ORG
 Michael T Gapen,PERSON
-Gemini,PERSON
-Fed Chair Ben Bernanke,MISC
-Brian Armstrong,PERSON
-Tim Cook,PERSON
-Hepworth,GPE
-2026,DATE
-125000,CARDINAL
-later in the year,DATE
-January 13,DATE
-Morocco,GPE
-Europe Eurostar,LOC
-the Federal Reserve,ORG
-overnight,TIME
-Blackstone Real Estate Debt Strategies,ORG
-75,CARDINAL
-White House,ORG
-Saturday,DATE
-Japan,GPE
-22264,CARDINAL
-Saskatchewan Canadian,NORP
-Reuters - The Federal Aviation Administration,ORG
-US Department of Agriculture,ORG
-Microsoft Corporation,ORG
-18000,CARDINAL
-Porsche,ORG
-the BMO Global Metals Mining and Critical Minerals Conference,ORG
-Adam Hetts,PERSON
-Virgin Group,ORG
-10,CARDINAL
+255 pm,TIME
+US Treasury,ORG
+Chinas intentional state,ORG
+January 8 2024,DATE
+345,CARDINAL
+LSEG Adding,ORG
+Richmond Virginia,GPE
+Fed,ORG
+March,DATE
+this weeks,DATE
+Ottawa,GPE
+Fertilizer,ORG
+Wealth Consulting Group,ORG
+Gail Slater,PERSON
+January 19,DATE
+Canadian,MISC
+Cupertino,GPE
+nearly 4,CARDINAL
+4-month,DATE
+January 22,DATE
+October 20,DATE
+Europes,GPE
+North America Europe,LOC
+Wealthspire Advisors At,ORG
+Chris Grisanti,PERSON
+50,CARDINAL
+the months ahead,DATE
+US Federal Communications Commission,ORG
+CBOE Volatility Index,ORG
+earlier this week,DATE
+California,GPE
+German,NORP
+2029,DATE
+the past couple of months,DATE
+Kuroda,PERSON
+Armstrong,PERSON
+Bank of Japan,ORG
+the European Investment Bank,ORG
 Trumps cost-cutting Department of Government Efficiency FCC Chair Brendan Carr,ORG
-Lisbon,GPE
-the Manitoba Pork Council,ORG
-October 2018,DATE
-303,CARDINAL
-Microsoft,ORG
-Canada Mexico,GPE
-Coinbase,ORG
-Josh Linville,PERSON
-624,CARDINAL
-Canberra,GPE
-GMT,MISC
+Cresset Capital,ORG
+six,CARDINAL
+162,CARDINAL
+Hepworth,GPE
+2018,DATE
+NEW YORK March,ORG
+55,CARDINAL
+Harris Financial Group,ORG
+Montana,PERSON
+Loulo-Gounkoto,MISC
+his first days,DATE
+April The February,DATE
+Labor Departments Bureau of Labor Statistics,ORG
+Mexico Canada,ORG
+LSEG Adding,PERSON
+14,CARDINAL
+Robinhood Witkoff,FAC
+Powell-Palm,ORG
+148,CARDINAL
+September Equity,ORG
+about 32 billion pounds,MONEY
+10379,DATE
+SEP,ORG
+Goldman Sachs GSN,ORG
+BMO Capital Markets Trump,ORG
+Washington,GPE
+hourly,TIME
+PepsiCo,ORG
+Rhode Islands,GPE
+Japanese,NORP
+US Secretary of Health and Human Services Robert F Kennedy Jr,ORG
+Ukraine,GPE
 2020,DATE
+Chinese,MISC
+FAA,ORG
+ICIS,GPE
+Mali,GPE
+21000,CARDINAL
+Thursday,DATE
+Google,ORG
+American,NORP
+10 years,DATE
+Rosa Wang,PERSON
+2023,DATE
+148 yen,MONEY
+Ardoino,NORP
+7489,CARDINAL
+Microsoft CEO Satya Nadella,ORG
+Wave Digital Assets,ORG
+the end of 2021,DATE
+Leonie Brinkema,PERSON
+the second half of 2025,DATE
+0950,DATE
+10,CARDINAL
+21 billion,CARDINAL
+Saudi,MISC
+the Labor Departments Bureau of Labor Statistics,ORG
+US West Texas,GPE
+April 7,DATE
+Ken Seitz,PERSON
+CBOE Volatility,ORG
+March 8,DATE
+Powell,PERSON
+around 20 billion euros 217 billion,MONEY
+Kugler,PERSON
+EU,ORG
+Trumps,PERSON
+three,CARDINAL
+CERAWeek,LOC
+USDAs Agricultural Marketing Service,ORG
+Microsoft Corporation,ORG
+Adriana Kugler,PERSON
+the Securities and Exchange Commission,ORG
+some 12 months,DATE
+140,CARDINAL
+046 to 4277616,CARDINAL
+Barrick,PERSON
+Germanys,GPE
+Agricultural Marketing Service,ORG
+Stonepeak,ORG
+Asian,MISC
+Singapore,GPE
+US Department of Justice,ORG
+Oracle Opinions,ORG
+Mexican,MISC
+Conrad DeQuadros,PERSON
+end-2022,DATE
+the United States,GPE
+Porsche AG Porsche SE,ORG
+Stonepeak Partners,ORG
+the Canola Council of Canada,ORG
+Barrick Gold,ORG
+Porsche,ORG
+Fox News,ORG
+Swedens Volvo,ORG
+Multiple,PERSON
+Siri,GPE
+winter,DATE
+December 16,DATE
+2013,DATE
+CERAWeek,PRODUCT
+Dow,ORG
+German-headquartered,MISC
+Federal Reserve Chair Jerome Powell,ORG
+Meanwhile Goldman Sachs,ORG
+more than 10,CARDINAL
+160000,CARDINAL
+the coming months,DATE
+November 5,DATE
+400000,CARDINAL
+hundreds,CARDINAL
+90 days,DATE
+38-year,DATE
+Dan Wang,PERSON
+Tesla SpaceX,PERSON
+Vlad Tenev,PERSON
+2024,CARDINAL
+Even Pay,PERSON
+Chrome,PRODUCT
+44 cents,MONEY
+Eurasia Group,ORG
+World Trade Organization,MISC
+Amazoncom AMZNO,ORG
+Gene Goldman,PERSON
+Saskatchewan,GPE
+European Union,ORG
+Volkswagens,GPE
+BMO Global Metals Mining and Critical Minerals Conference,ORG
+Reuters News,ORG
+Traton,PERSON
+BMC Software,ORG
+April 2,DATE
+Kyle Rodda,PERSON
+Reuters - Porsche,ORG
+Potash,GPE
+about 217 billion,MONEY
+132,CARDINAL
+Reuters - Morgan Stanley,ORG
+Cupertino California,GPE
+Chris Davison,PERSON
+Commerce,ORG
+Labor Departments,ORG
+more than two dozen,CARDINAL
+the week,DATE
+Satya Nadella,PERSON
+425,CARDINAL
+Trump,PERSON
+Canadas,GPE
+Morgan Stanley and Goldman Sachs,ORG
+Belgrade,GPE
+Cboe Volatility Index VIX,MISC
+last month,DATE
+Starlink,PERSON
+Atlanta Fed,MISC
+Alexa,ORG
+Scania,GPE
+Chris Wright,PERSON
+Ottawas,GPE
+Coinbase COINO,ORG
+12-month,DATE
+up to 12,CARDINAL
+Sacks,GPE
+Volodymyr Zelenskyy,PERSON
+Advancing,NORP
+John Moores,PERSON
+Steve Jobs,PERSON
+Bank of England,ORG
+Kennedy,PERSON
+Nasdaq Composite,MISC
+Treasury and Commerce,ORG
+US Energy,GPE
+less than 1,CARDINAL
+Brendan Carr,PERSON
+Friday,DATE
+the Manitoba Pork Council,ORG
+13 months,DATE
+Southwest Airlines,ORG
+2030,DATE
+Winsopia,PERSON
+Oliver Pursche,PERSON
+nearly a decade,DATE
+Morgan Stanley Equity,ORG
+America Europe,ORG
+last fall,DATE
+European Central Bank,ORG
+Florida,GPE
+Amit Mehta,PERSON
+Manitoba Pork Council,ORG
+AXA Investment Managers Chris Iggo,ORG
+Canadas,ORG
+10-year,DATE
+Republican,NORP
+German,MISC
+37 billion,CARDINAL
+Waller,ORG
+February 4,DATE
+Seema Shah,PERSON
+-5 to 5,CARDINAL
+Scania,ORG
+China Reciprocal,ORG
+Apple Meta Platforms METAO,ORG
+Scott Bessent,PERSON
+Reuters - US Federal Reserve,ORG
+16 years,DATE
+AI Google,ORG
+the average workweek,DATE
+Christine Lagarde,PERSON
+Judge Finola,PERSON
+Jack Ablin,PERSON
+Chris Iggo,PERSON
+SPNY,ORG
+100 and 25,CARDINAL
+Costco,ORG
+118,CARDINAL
+Sonu Varghese,PERSON
+88194,DATE
+MAX,ORG
+Ardoino,PERSON
+Kazuo Ueda,PERSON
+2019,DATE
+165,CARDINAL
+the West Virginia Food and Farm Coalition,ORG
+Unites States,GPE
+Walton,PERSON
+the Economic Outlook Group Nonfarm,ORG
+Richardson,PERSON
+the first half of this year,DATE
+T-Mobile Starlink,ORG
+161 billion pound,MONEY
+Steve Tucker,PERSON
+Scott Morrison,PERSON
+about 150,CARDINAL
+United States Court,ORG
+Powells,ORG
+Falcon,ORG
+2021,DATE
+Chinas,PERSON
+Houston,GPE
+3-12-year,TIME
+Ford-Werke German,ORG
+03,CARDINAL
+Apples,NORP
+the Middle East,LOC
+Joe Biden,PERSON
+112,CARDINAL
+Les Borsai,PERSON
+millions of dollars,MONEY
+1 07740 pounds,MONEY
+March 2019,DATE
+40,CARDINAL
+About 385000,CARDINAL
+5G,ORG
+Elon Musks SpaceX,ORG
+USA,GPE
+Japanese,MISC
+MicroStrategy,ORG
+Apple Intelligence,ORG
+Southwest Airlines LUVN,ORG
+Nasdaq The SP,MISC
+7,CARDINAL
+Assura,ORG
+42474,DATE
+Canola Council of Canada,ORG
+West African,NORP
+404000,CARDINAL
+Big Tech,PERSON
+NYSE The SP,MISC
+as much as 50 billion,PERCENT
+05,CARDINAL
+Dave Walton,PERSON
+American,MISC
+English,NORP
+years,DATE
+Porsche AG,ORG
+1055,DATE
+Lawyers for Good Government,WORK_OF_ART
+more than 20 billion,MONEY
+Reuters,ORG
+Saturday,DATE
+the US Federal Reserve,ORG
+Ford-Werke,ORG
+1984 to 1988,DATE
+San Diego Padres,ORG
+fourth-quarter,DATE
+Yesha Yadav,PERSON
+the Conference on Monetary Policy Transmission,ORG
+third,ORDINAL
+December,DATE
+NEW YORK,GPE
+Early last month,DATE
+billions of dollars,MONEY
+Elon Musks,PERSON
+Reuters The Supreme Court,ORG
+Principal Asset Management,ORG
+Australian,NORP
+2026,DATE
+18,CARDINAL
+31,CARDINAL
+Mike Dolan,PERSON
+two months,DATE
+Wall Street,GPE
+Trump Administration,ORG
+the Alphabet Workers Union-CWA,ORG
+125,CARDINAL
+the workweek,DATE
+75,CARDINAL
+just over 1 billion,MONEY
+quarterly,DATE
+CSI300 Index,MISC
+10492,CARDINAL
+500000 square miles 13 million square km,QUANTITY
+Alexandria,GPE
+the weekend,DATE
+US District Judge Amit Mehta,ORG
+Michael Brown,PERSON
+Berlins,ORG
+weekend,DATE
+Spain,GPE
+Gapen,PERSON
+Los Angeles Dodgers,ORG
+Banco de Portugal Going,ORG
+Russias,PERSON
+Robinhood Markets,PERSON
+January 3 to 348,DATE
+Brussels,GPE
+Tokyo,GPE
+Riot RIOTO,PERSON
+26,CARDINAL
+Loulo-Gounkoto,ORG
+European,NORP
+Tim Cook,PERSON
+Blackstone,PERSON
+626,CARDINAL
+319,CARDINAL
+hours,TIME
+Gennadiy Goldberg,PERSON
+GWK Investment Management The CBOE Volatility,ORG
+Blackstones,NORP
+China Risks,GPE
+Europe Eurostar,GPE
+British,NORP
+Jamie Cox,PERSON
+CEO of Tether Paolo Ardoino,ORG
+Universities Superannuation Scheme USS,ORG
+700 million pounds 900 million,MONEY
+Slower,ORG
+Morgan Stanley Equity Strategist,ORG
+Equities,ORG
+LONDON,GPE
+2656,DATE
+Transportation,ORG
+Dow Jones,ORG
+USAID,GPE
+49 million,CARDINAL
+SSEC,ORG
+Apple,ORG
+Triple D Trading China,ORG
+COVID,ORG
+the years,DATE
+4,CARDINAL
+Kuroda,ORG
+Consumer Brands Association,ORG
+Bilibili,ORG
+February 13 a day,DATE
+overnight,TIME
+mid-day,DATE
+648000,CARDINAL
+The Atlanta Fed,ORG
+James Rossiter,PERSON
+Last month,DATE
+June,DATE
+Russias,MISC
+43 pence,MONEY
+National Peoples Congress,ORG
+January 2024,DATE
+March 5,DATE
+8,CARDINAL
+Paolo Ardoino,PERSON
+Reuters - Wall Streets,ORG
+254 million,CARDINAL
+KKR,ORG
+Financial Markets,ORG
+Christopher Waller,PERSON
+Rossiter,PERSON
+Gemini,PERSON
+Dow DJI,MISC
+Assuras,ORG
+494 pence,MONEY
+normal business hours,TIME
+8860 million,CARDINAL
+Fridays,DATE
+Nvidia,GPE
+USAID,ORG
+October 2021,DATE
+Sebastiaan Bock,PERSON
+Virgin,PERSON
+MacroPolicy Perspectives,ORG
+Brian Jacobsen,PERSON
+March 7,DATE
+New York,GPE
+588000,CARDINAL
+577020,DATE
+Reuters - Japan,ORG
+Bank of Canada,ORG
+JP Richardson,PERSON
+The Labor Departments,ORG
+183 million,CARDINAL
+The US Department of Health and Human Services General Mills,ORG
+each March June September,DATE
+Alexandria Virginia,GPE
+86,DATE
+next week,DATE
+North American,NORP
+386 Data,PRODUCT
+34 billion,CARDINAL
+The Bank of England,ORG
+48 billion,CARDINAL
+Trumps,GPE
+58 billion,CARDINAL
+Robert F Kennedy Jr,PERSON
+Googles,PERSON
+76,DATE
 Porsche AG Porsche,ORG
 Sunday,DATE
-British,MISC
-DOGE,ORG
-Federal Open Market Committee,ORG
-University of Illinois,ORG
-America Europe,ORG
-China,GPE
-December,DATE
-June 2023,DATE
-148,CARDINAL
-Broadcom AVGOO,ORG
-British,NORP
-Mexican Canadian,MISC
-100 per ton,QUANTITY
-Sacks,PERSON
-Economic Outlook Group Nonfarm,ORG
-CEO Tim Cook,ORG
-White House,GPE
-February 1,DATE
-Richard Bransons Virgin Group,ORG
-Make America Healthy Again,WORK_OF_ART
-the Conference on Monetary Policy Transmission,ORG
-X Brad Garlinghouse CEO of Ripple,ORG
-52-week,DATE
-Joe Biden,PERSON
-FRANKFURT,GPE
-World Trade Organization,MISC
-Last year,DATE
-American,MISC
-SEP,ORG
-iPhone,ORG
-Federal Reserve,ORG
-54,CARDINAL
-SP,ORG
-four-week,DATE
-19 earlier,DATE
-months,DATE
-the previous month,DATE
-Europes,GPE
-Amazon AMZNO,ORG
-39,CARDINAL
-BMO Capital Markets Trump,ORG
-100,CARDINAL
-Verizon VZN,ORG
-NEW YORK March,ORG
-Dow DJI,MISC
-Dow,MISC
-the Consumer Brands Association,ORG
-2007,DATE
-JP Richardson,ORG
-28,CARDINAL
-Wealthspire Advisors At,ORG
-Steve Jobs,PERSON
-Michael Saylor,PERSON
-Americas,LOC
-Banco de Portugal,ORG
-460000,CARDINAL
-Tether,PERSON
-Apollo Global Management,ORG
-The European Central Bank,ORG
-Loulo-Gounkoto,MISC
-Google,ORG
-less than 2,CARDINAL
-Kuroda,ORG
-North American,NORP
-B Riley A,ORG
-92,CARDINAL
-T-Mobile,ORG
-Armstrong,PERSON
-Feds,NORP
-Ablin,PERSON
-Attendees,ORG
-ZipRecruiter Healthcare,ORG
-hours,TIME
-Donald Trump,PERSON
-Cam Dahl,ORG
-this year to June,DATE
-Apple Intelligence,ORG
-1623 billion,CARDINAL
-37 billion,CARDINAL
-Australian,MISC
-Even Pay,PERSON
-Blackstones,NORP
-Britain,GPE
-Gene Goldman,PERSON
-around three metric tons,QUANTITY
-Gapen,PERSON
-Labor Department,ORG
-China Reciprocal,ORG
-Consumer Brands Association,ORG
-Apple Meta Platforms METAO,ORG
-Australian,NORP
-40,CARDINAL
-09231,DATE
-last Friday,DATE
-the months ahead,DATE
-Siri,GPE
-Yesha Yadav,PERSON
-Tesla,ORG
-Fed Governor Christopher Waller,PERSON
-MAX,ORG
-The Wealth Consulting Group,ORG
-Washington,GPE
-Courts,ORG
-ZipRecruiter Healthcare,GPE
-25,CARDINAL
-more than 3,CARDINAL
-The Labor Departments,ORG
-mid-December,DATE
-CEO of Nutrien NTRTO,ORG
-Eurostar,PERSON
-The US Federal Communications Commission,ORG
-Labor Market,ORG
-Falcon,ORG
-March,DATE
-Amazon,GPE
-1999,DATE
-Federal Aviation Administration,ORG
-World Liberty,MISC
-038,CARDINAL
-billions of dollars,MONEY
-160000,CARDINAL
-September Equity,ORG
-6000,CARDINAL
-Amsterdam,GPE
-3-week,DATE
-David Sacks,PERSON
-Lindsey Bell,PERSON
-hourly,TIME
-Tuesday,DATE
-Since Trumps,ORG
-the Banco de Portugal Going,ORG
-The US Department of Health and Human Services General Mills,ORG
-decades,DATE
-043 to 576338,CARDINAL
-Apples,NORP
-Microsoft MSFTO,ORG
-State University Farmers,ORG
-Alphabets Google,PERSON
-the average workweek,DATE
-Trump,ORG
-Chris Grisanti,PERSON
-Vanderbilt University,ORG
-38-year,DATE
-Anthony Albanese,PERSON
-Americas,ORG
-Saskatchewan,GPE
-Politico,ORG
-about three,CARDINAL
-February 4,DATE
-Labor Departments,ORG
-Department of Government Efficiency,ORG
-162,CARDINAL
-Richard Bransons Virgin Group,PERSON
-Alexandria Virginia,GPE
-9,CARDINAL
-the end of 2021,DATE
-Senate,ORG
-one,CARDINAL
-1 07740 pounds,MONEY
-2023 one year,DATE
-2191,CARDINAL
-FCC,ORG
-Harris Financial Group,ORG
-Gennadiy Goldberg,PERSON
-Kugler,PERSON
-319,CARDINAL
-April,DATE
-four weeks,DATE
-two,CARDINAL
-Haruhiko Kuroda,PERSON
-Scott Morrison,PERSON
-Torsten Slok,PERSON
-GWK Investment Management The CBOE Volatility,ORG
-700 million pounds 900 million,MONEY
-Boeing,ORG
-America Healthy Again,ORG
-Kennedy Jr,PERSON
-more than 60,CARDINAL
-the Canadian Crops Convention,ORG
-Eurostars,MISC
-346,CARDINAL
-Rhode Islands,GPE
-February 28,DATE
-second-quarter,DATE
-26,CARDINAL
-49 million,CARDINAL
-January 3 to 348,DATE
-July,DATE
-Alphabet Workers,ORG
-Volkswagens,MISC
-March 26,DATE
-Participants,ORG
-February,DATE
-425,CARDINAL
-Eurostars 30-year-old,LAW
-Fridays,DATE
-US Ive,GPE
-between 425 and 45,CARDINAL
-Google,PERSON
-European Central Bank,ORG
-599,CARDINAL
-yesterday,DATE
-2021,DATE
-2,CARDINAL
-Ukraine,GPE
-Robinhood Markets,PERSON
-Big Tech,MISC
-the next several years,DATE
-525,CARDINAL
-Mark Milam,PERSON
-Richmond Virginia,GPE
-386 Data,PRODUCT
-Seema Shah,PERSON
-just over 1 billion,MONEY
-Russia,GPE
-Riley,PERSON
-Barrick,ORG
-November,DATE
-Donald Trumps,PERSON
-12697,CARDINAL
-158,CARDINAL
-NYSE The SP,MISC
-TD Securities,ORG
-the White House,FAC
-MAI Capital Management,ORG
-8764 million,CARDINAL
-European Union Canada,ORG
-AI Google,ORG
-About 1692 billion,MONEY
-Cryptocurrency,PERSON
-European Union,ORG
-this month,DATE
-US District Judge Amit Mehta,ORG
-35000,CARDINAL
-500000 square miles 13 million square km,QUANTITY
-Multiple,PERSON
 Great Recession Economists,ORG
-Last month,DATE
-FRANKFURT,ORG
-Chair Jerome Powell,PERSON
-345,CARDINAL
-March 7,DATE
-Virginia,GPE
-Goldman Sachs,ORG
-the first quarter,DATE
-Financial Times,ORG
-end-2022,DATE
-Potash,GPE
-multi-year,DATE
-Boeing BAN,MISC
-Nasdaq,ORG
-third straight week,DATE
-Amazoncom AMZNO,ORG
-Conrad DeQuadros,PERSON
-the coming months,DATE
-Wall Streets,GPE
-Waller,PERSON
-only weeks,DATE
-GWK Investment Management,ORG
-Cabinet,ORG
-China Risks,GPE
-Chinas,ORG
-130 pm ET,TIME
-Jan 1,DATE
-LSEG Adding,ORG
-121,CARDINAL
-20-day,DATE
-Germanys,PERSON
-23,CARDINAL
-Florida,GPE
-Anthropic,GPE
-Chris Davison,PERSON
-September,DATE
-Janus Henderson Investors,ORG
-Mexican,NORP
-second,ORDINAL
-April 2009,DATE
-Amit Mehta,PERSON
-Chrome,PRODUCT
-Nasdaq The SP,MISC
-Powell,ORG
-Powells,ORG
-Trump Administration,ORG
-four,CARDINAL
-the months,DATE
-Trump,PERSON
-52 billion,CARDINAL
-this quarter,DATE
-Tenev,GPE
-the workweek,DATE
-March 8,DATE
-London,GPE
-US Trade Representatives Office,ORG
-Vlad Tenev,PERSON
-T-Mobile Starlink,ORG
-Trumps,PERSON
-Chinas,GPE
-Southwest Airlines LUVN,ORG
-2029,DATE
-22,CARDINAL
-two-year,DATE
-100 and 25,CARDINAL
-Wells Fargo,PERSON
-Hewlett Packard,PERSON
-six-month,DATE
-this week,DATE
-Ardoino,PERSON
-World Liberty Financial,ORG
-Triple D Trading China,ORG
-500 11,DATE
-Reuters - US,ORG
-Meanwhile Goldman Sachs,ORG
-Utilities SPLRCU,ORG
-Enterprise HPEN,MISC
-2018,DATE
-300 million pounds,MONEY
-6700,CARDINAL
-Sonu Varghese,PERSON
-Europe,LOC
-Canadian,MISC
-third,ORDINAL
-7145,CARDINAL
-The US Trade Representatives Office,ORG
-Satya Nadella,PERSON
-Virgins,ORG
-Canadian,NORP
-3-12-year,TIME
-China Powell,GPE
-125,CARDINAL
-Brinkema,PERSON
-Early last month,DATE
-Carson Group,ORG
-April The February,DATE
-Porsche AG Porsche SE,ORG
-237,CARDINAL
-15 billion,CARDINAL
-hundreds,CARDINAL
-Hepworth,PERSON
-8 billion,MONEY
-Australia,GPE
-Microsoft CEO Satya Nadella,ORG
-Elon Musks SpaceX,ORG
-Treasury and Commerce,ORG
-2656,DATE
-April 2,DATE
-143000,CARDINAL
-24,CARDINAL
-early November,DATE
-2019,DATE
+Vanderbilt University,ORG
+303,CARDINAL
+Republican,MISC
+Justin Trudeau,PERSON
+thousands,CARDINAL
+Cryptocurrency,PERSON
 Fed Vice,ORG
-June,DATE
-Fed Chair Jerome Powell,MISC
-U-6,ORG
-October 20,DATE
-Transportation,ORG
-Apple Inc,ORG
-151000,CARDINAL
-Richmond,GPE
-626,CARDINAL
-BMO Global Metals Mining and Critical Minerals Conference,ORG
-the Securities and Exchange Commission,ORG
-FAA,ORG
-CFTCs,ORG
-January,DATE
-the Labor Departments Bureau of Labor Statistics,ORG
-Big Tech,ORG
-weekly,DATE
-ATT and Verizon VZN,ORG
-Reuters,ORG
-Jerome Powell,PERSON
-the day,DATE
-Mexico,GPE
-90,CARDINAL
-19708,DATE
-070 to 1819622,CARDINAL
-500,CARDINAL
-Democratic,MISC
-Labor Departments Bureau of Labor Statistics,ORG
-Starlink,ORG
-the past year,DATE
-Supporters,PERSON
-less than 1,CARDINAL
-Tokyo,GPE
-the week,DATE
-Yen,PERSON
-between January 7 2021,DATE
-Democratic,NORP
-255 pm,TIME
-18,CARDINAL
-ATT,ORG
-Canadas,ORG
-Dennis Dick,PERSON
-Ohio State University Farmers,ORG
-US Treasury,ORG
-Feb 25,PRODUCT
-Annex Wealth Management,ORG
-early spring,DATE
-Ken Seitz,PERSON
-Paolo Ardoino,PERSON
-19000,CARDINAL
-monthly,DATE
-each March June September,DATE
-six months,DATE
-Adriana Kugler,PERSON
-PepsiCo,ORG
-over 26 billion,MONEY
-Costco COSTO,ORG
+Health and Human Services,ORG
+May,DATE
+mid-year before ending the year,DATE
+World Liberty Financial,ORG
+Reuters - Policymakers,ORG
+Participants,ORG
+About 1692 billion,MONEY
+Julia Pollak,PERSON
+737,CARDINAL
+first-quarter,DATE
+about three,CARDINAL
+10000,DATE
+Alibaba,ORG
+about 80,CARDINAL
+Bank of Canada and Bank of England,ORG
+Goldman Sachs,ORG
+Fos-sur-mer,LOC
+Alphabets Google,PERSON
+AI,ORG
+Powell,ORG
+later this week,DATE
+Reuters - Wall Street,ORG
+one,CARDINAL
+Switzerland,GPE
+Germany,GPE
+Nasser,PERSON
+Conrad,PERSON
+Labor Department,ORG
+France,GPE
+Europe,GPE
+one-month,DATE
+92,CARDINAL
+Hewlett Packard Enterprise,ORG
+the fourth quarter,DATE
+17,CARDINAL
+LzLabs,ORG
+Barrick,ORG
+09249,DATE
+500 11,DATE
+HSBC,ORG
+30775,CARDINAL
+OpenAI,ORG
+the Shanghai Composite Index,ORG
+Reuters - Alberta,ORG
+One,CARDINAL
+Tesla,GPE
+Canada Mexico,GPE
+Riley Wealth,PERSON
+four weeks,DATE
+Britain,GPE
+The Federal Open Market Committee,ORG
+the BMO Global Metals Mining and Critical Minerals Conference,ORG
+Smith,PERSON
+Editor-At-Large Financial Industry and Financial Markets If,ORG
+Cam Dahl General Manager,PERSON
+35000,CARDINAL
+HOUSTON,GPE
+Banco de Portugal,ORG
+Nutrien NTRTO,ORG
+1 07747 pounds,QUANTITY
+Charleston West Virginia,GPE
+The US Federal Communications Commission,ORG
+West African,MISC
+135,CARDINAL
+Porsche SE,ORG
+055,CARDINAL
+460000,CARDINAL
+English,MISC
+Cabinet,ORG
+the start of the week-long,DATE
+Courts,ORG
 WASHINGTON,GPE
-Banco de Portugal Going,ORG
-Salaries,ORG
-Don Kohn,PERSON
-Robinhood Witkoff,PERSON
-the week ended on March 5,DATE
-2000,CARDINAL
-the United States,GPE
-WINNIPEG Manitoba March,ORG
-MacroPolicy Perspectives,ORG
-Fertilizer,ORG
-GMT,ORG
-Apple AAPLO,ORG
-Chinas,PERSON
-Alexandria,GPE
-early August last year,DATE
-Volkswagen,ORG
+Malian,NORP
+Japan,GPE
+Fos,ORG
+2191,CARDINAL
+Art Hogan,PERSON
+more than 100,CARDINAL
+Meet the Press,WORK_OF_ART
+Trump,GPE
 1,CARDINAL
-5G,ORG
-Canadian Crops Convention,MISC
+Apple Inc,ORG
+Tesla,ORG
+Julia Coronado,PERSON
+Reuters Previous,ORG
+March 2024,DATE
+more than 270 million,MONEY
+Monday,DATE
+5,CARDINAL
+Since Trumps,ORG
+Australian,MISC
+341 hours,TIME
+China Powell,GPE
+UK,GPE
+2025,DATE
+HOUSTON,ORG
+about 100,CARDINAL
+four,CARDINAL
+Pepperstone,GPE
+just over half,CARDINAL
+Retail,PERSON
+six months,DATE
+Congressional,NORP
+Global Equity Strategist,ORG
+US Trade Representatives Office,ORG
+Richmond,GPE
+Robinhood Witkoff,PERSON
+Yen,PERSON
+The US Department of Justice,ORG
+Winsopia,GPE
+Bill Sterling,PERSON
+Zach Witkoff,PERSON
+Volkswagen,ORG
+130 pm ET,TIME
+nearly two years,DATE
+Reuters - The Federal Aviation Administration,ORG
+38,CARDINAL
+more than 50 billion,MONEY
+multi-year,DATE
+Trump,ORG
+75 days,DATE
+US Department of Health and Human Services,ORG
+Tuesday,DATE
+Wave Digital,ORG
+Starlink,ORG
+28,CARDINAL
+52,CARDINAL
 the coming years,DATE
-046 to 4277616,CARDINAL
-Cboe Volatility Index VIX,MISC
-Canadas,GPE
-11000,CARDINAL
+Albertas,MISC
+19000,CARDINAL
+541 billion,CARDINAL
+Eurostar,PERSON
+Microsoft,ORG
+the White House,ORG
+2007,DATE
+third straight week,DATE
+Howard Lutnick,PERSON
+High Court,GPE
+283,CARDINAL
+Mexican Canadian,MISC
+the months,DATE
+Pepperstone,ORG
+European,MISC
+27500,CARDINAL
+General Mills GISN,ORG
+Fords Lawler,PERSON
+early spring,DATE
+500,CARDINAL
+last year,DATE
+Morgan Stanley,ORG
+Jillian Blanchard,MISC
+Major League Baseballs,MISC
+237,CARDINAL
+British,MISC
+65,CARDINAL
+054 to 1816737,CARDINAL
+Winsopia,ORG
+22,CARDINAL
+Boeing BAN,MISC
+2016,DATE
+Wednesday,DATE
+ATT,ORG
+159,CARDINAL
+between January 7 2021,DATE
+US Ive,GPE
+Russia,GPE
+Feds,NORP
+West Virginia Food,GPE
+1999,DATE
+Canada Trump,GPE
+the University of Illinois,ORG
+Donald Trumps,PERSON
+CEO of Nutrien NTRTO,ORG
+Chinas,GPE
+Barricks ABXTO,GPE
+nearly three,CARDINAL
+March 6,DATE
+February 20,DATE
+NYSE,ORG
+3168,CARDINAL
+May 2021,DATE
+Crypto,PRODUCT
+Anthropic,GPE
+LzLabs Limited,ORG
+Truth Social,ORG
+five-year,DATE
+070 to 1819622,CARDINAL
+Good Government,PERSON
+052 to 4280172,CARDINAL
+06,CARDINAL
+Mondays,DATE
+ATT and Verizon VZN,ORG
+the first quarter,DATE
+19708,DATE
+Ukrainian,NORP
+SPLRCI,ORG
+December 18 at 2487,DATE
+BOJ,ORG
+Attendees,ORG
+March 20,DATE
+LSEG US,PERSON
+the Canadian Crops Convention,ORG
+afternoon,TIME
+Morning Bid,PERSON
+Daimler Truck,PERSON
+LzLabs UK,ORG
+Chinas,ORG
+Anthony Albanese,PERSON
+Kennedy Jr,PERSON
+B Riley Wealth,ORG
+America,GPE
+Dunkirk,GPE
+Robinhood Markets HOODO,ORG
+24,CARDINAL
+second,ORDINAL
+Frank McCourt,PERSON
+Todays Market Minute Central,ORG
+500 billion,MONEY
+Virginia,GPE
+Salaries,PERSON
+United States Court,GPE
+Washington DC,GPE
+Microsoft MSFTO,ORG
+between 425 and 45,CARDINAL
+the State Department,ORG
+the US Government Accountability Office,ORG
+Beijing,GPE
+151000,CARDINAL
+March 3,DATE
+Big Tech,ORG
+Britains National Health Service,ORG
+Europe Eurostar,LOC
+Costco COSTO,ORG
+Morgan Stanleys,ORG
+mid-December,DATE
+Meta METAO,PERSON
+Today Ill,PERSON
+Amsterdam,GPE
+Transatlantic,MISC
+Dow,MISC
+FRANKFURT,GPE
+Dow Jones Industrial Average DJI,MISC
+4G,GPE
+Q4Q4,ORG
+America Agriculture,ORG
+Dunkirk,ORG
+Bernard Baumohl,PERSON
+Ohio,GPE
+Chicago,GPE
+Department of Government Efficiency,ORG
+400 million pounds,MONEY
+Tenev,GPE
+February 1,DATE
+Germanys,MISC
+7145,CARDINAL
+Ford-Werke,GPE
+2023 one year,DATE
+Muscatine County Iowa,GPE
+Apples AAPLO,ORG
+Americas,ORG
+10841,DATE
+IG Metall,ORG
+GMT,MISC
+B Riley A,ORG
+United States,GPE
+Exodus EXODA,ORG
+TD Securities,ORG
+roughly 40 billion,MONEY
+this quarter,DATE
+last months,DATE
+the end of the first quarter,DATE
+52 billion,CARDINAL
+FRANKFURT,ORG
+199 billion,MONEY
+19,CARDINAL
+Elvis,MISC
+April 15,DATE
+David Sacks,PERSON
+US Department of Agriculture,ORG
+the Federal Reserve,ORG
+Treasury,ORG
+25,CARDINAL
+18000,CARDINAL
+Trivium,GPE
+Blackstone,ORG
+Morgans,NORP
+Boeing,MISC
+Deregulation,ORG
+2006,DATE
+Malian,MISC
+170,CARDINAL
+later in the year,DATE
+Eurasia,GPE
+ByteDance,ORG
+Charleston,GPE
+ZipRecruiter Healthcare,GPE
+Richard Bransons Virgin Group,PERSON
+early March,DATE
+161 billion,MONEY
+Donald Trump,PERSON
+around three metric tons,QUANTITY
+Fiscal,ORG
+Morgan Stanleys Wilson,ORG
+August,DATE
+Farmers,ORG
+the Trump Administration,ORG
+Haruhiko Kuroda,PERSON
+last weeks,DATE
+Unlike,PERSON
+Phosphate,ORG
+Africa,LOC
+Mills,PERSON
+Brinkema,ORG
+Riley,PERSON
+Reuters - ArcelorMittal,ORG
+IBM,ORG
+20,CARDINAL
+the coming year,DATE
+second-quarter,DATE
+100 per ton,QUANTITY
+later in the week,DATE
+October,DATE
+Joe Bidens,PERSON
+04,CARDINAL
+America Healthy Again,ORG
+CFTCs,ORG
+ABOARD AIR FORCE ONE March 9,ORG
+Panmure Liberum,PERSON
+Major League Baseballs San Diego Padres,ORG
+Europe,LOC
+T-Mobile,ORG
+Nasdaq,MISC
+The Reserve Bank of New Zealand,ORG
+January Annual,DATE
+Nebraska,GPE
+Saudi Crown Prince Mohammed Bin Salman US,MISC
+yesterday,DATE
+the end of the decade,DATE
+several months,DATE
+ZipRecruiter Healthcare,ORG
+the year,DATE
+this week,DATE
+Trump Administrations,ORG
+3945,DATE
+JP Richardson,ORG
+6,CARDINAL
+Australia,GPE
+Primary Health Properties,ORG
+Aramco,PERSON
+Janus Henderson Investors,ORG
+Wells Fargo,PERSON
+15,CARDINAL
+Central,ORG
+Josh Linville,PERSON
+Nonfarm,ORG
+850 million,CARDINAL
+8 billion,MONEY
+November,DATE
+Verizon VZN,ORG
+Annex Wealth Management,ORG
+Canada,GPE
+Amazon,GPE
+Chicago Midway,GPE
+Euro,PERSON
+Limited,GPE
+19 earlier,DATE
+Brinkema,PERSON
+this years,DATE
+191 billion,CARDINAL
+Mr Moores,PERSON
+Two,CARDINAL
+March last year,DATE
+130 to 569531,CARDINAL
+about 61,CARDINAL
+Democratic,NORP
+Julia Pollak,ORG
+Utilities SPLRCU,ORG
+Senate,ORG
+TikTok,ORG
+the day,DATE
+Wilson,PERSON
+13,CARDINAL
+1980,DATE
 Amazoncom,ORG
-Russell 2000 Small Cap,MISC
+the Banco de Portugal,ORG
+Tether,PERSON
+Aramco,MISC
+41,CARDINAL
+almost 90,CARDINAL
+Ukrainian,MISC
+Tratons,PRODUCT
+88 pence,MONEY
+Saylor,PERSON
+the Great Recession Economists,FAC
+52-week,DATE
+Reuters - China,ORG
+Alibaba,GPE
+weeks,DATE
+Reuters - HSBC,ORG
+Chicago Midway,ORG
+Traton 8TRADE,ORG
+mid-July,DATE
+Earth,LOC
+AI,GPE
+September,DATE
+Jan 1,DATE
+WINNIPEG Manitoba March 6,ORG
+as much as,PERCENT
+SP,ORG
+about 465 pence,MONEY
+Blackstone Real Estate Debt Strategies,ORG
+2 million barrels,QUANTITY
+038,CARDINAL
+Brooke Rollins,PERSON
+23,CARDINAL
+Euro,MISC
+Finola OFarrell,PERSON
+More than half,CARDINAL
+less than two months,DATE
+last Friday,DATE
+Shanghai Composite Index,MISC
+CHICAGOWASHINGTON,ORG
+Smith,ORG
+16 billion,CARDINAL
+OpenAI,GPE
+spring,DATE
+2013-2023,DATE
+the US Department of Health and Human Services,ORG
+Farm Coalition,ORG
+346,CARDINAL
+37178,CARDINAL
+last week,DATE
+the week ended on March 5,DATE
+India,GPE
+the next quarters,DATE
+Federal Aviation Administration,ORG
+New York Federal Reserve,ORG
+Wright,PERSON
+Africa,GPE
+Rossiter added European Union,ORG
+Wireless Emergency Alerts,ORG
+early August last year,DATE
+about 500 tons,QUANTITY
+Talley Leger,PERSON
+Albertas,ORG
+as much as,CARDINAL
+2486,DATE
+John Lawler,PERSON
+China,GPE
+today,DATE
+July,DATE
+Nasdaq Composite IXIC,MISC
+Chair Don Kohn,PERSON
+Julia Coronado,ORG
+April,DATE
+MAN,GPE
+Dennis Dick,PERSON
+54,CARDINAL
+annually,DATE
+GWK Investment Management,ORG
+6000,CARDINAL
+11000,CARDINAL
+this year,DATE
+US Government Accountability Office,ORG
+125000,CARDINAL
+Fertilizer,PERSON
+World Trade Organization,ORG
+Fed Chair Jerome Powell,MISC
+State University Farmers,ORG
+Ed,PERSON
+four-week,DATE
+Dow Jones,MISC
+Ripple,PERSON
+The Federal Reserve,ORG
+Morocco,GPE
+8008542,DATE
+2754 million,CARDINAL
+March 18-19,DATE
+Lindsey Bell,PERSON
+Paris,GPE
+monthly,DATE
+US Department of Health and Human Services General Mills,ORG
+Feb 25,PRODUCT
+The European Central Bank,ORG
+Kuroda,MISC
+the Banco de Portugal Going,ORG
+Jerome Powells,PERSON
+January,DATE
+Alastair Pinder,PERSON
+Traton,GPE
+only weeks,DATE
+five-month,DATE
+90,CARDINAL
+Federal Reserve,ORG
+ECB,ORG
+Moores,PERSON
+MAN,ORG
+CEO of Coinbase,ORG
+October 2018,DATE
+213,CARDINAL
+Eurostar,ORG
+six-month,DATE
+Make America Healthy Again,WORK_OF_ART
+the past year,DATE
+82982,DATE
+between fiscal years 2019 through 2023,DATE
+136,CARDINAL
 Alphabets Google GOOGLO,ORG
-Powell,PERSON
+Enterprise HPEN,MISC
+12926,DATE
+Europes,PERSON
+Russian,NORP
+Colorado,GPE
+Morgans,MISC
+Employment,PRODUCT
+Last year,DATE
+Primary Health Properties PHPL,ORG
+DOGE,ORG
+Professional,ORG
+Americas,LOC
+Securities and Exchange Commission,ORG
+Jillian Blanchard,PERSON
+just over four months ago,DATE
+White House,GPE
+the Air Force,ORG
+Reuters - Blackstone BXN,ORG
+DOJ,ORG
+Reuters - Assura,ORG
+Ablin,PERSON
+Ford,ORG
+Its Ford-Werke,PERSON
+Apple Meta Platforms,ORG
+Anthropic,NORP
+Economic Outlook Group Nonfarm,ORG
+2024,DATE
+February,DATE
+Elon Musks Department of Government Efficiency,ORG
+47 billion,CARDINAL
+Eurostars 30-year-old,LAW
+1623 billion,CARDINAL
+Hepworth,PERSON
+Houston The Trump,ORG
+Brean Capital,ORG
+Becky Morgan,PERSON
+Belgrade Montana,GPE
+The Wealth Consulting Group,ORG
+Hong Kongs,MISC
+the White House,FAC
+12 trillion,MONEY
+February 25,DATE
+2000,DATE
+Cetera Investment Management,ORG
+Google,PERSON
+Russell 2000 Small Cap,MISC
+02,CARDINAL
+Fed Chair Jerome Powells,ORG
+Reuters - Seesaw,ORG
+White House,ORG
+Spencer Moss,PERSON
+the US Department of Agriculture,ORG
+Transatlantic,ORG
+91,CARDINAL
+April 2009,DATE
+MIWD00000PUS,ORG
+Europes,MISC
+Middle East,GPE
+Last week,DATE
+Alphabet Workers,ORG
+West Virginia Food and Farm Coalition,ORG
+a big week,DATE
+Lutnick,PERSON
+February 28,DATE
+Apple AAPLO,ORG
+2025,CARDINAL
+AXA Investment,ORG
+Nate Powell-Palm,PERSON
+March 26,DATE
+Weve,PERSON
+Moss,PERSON
+the High Court,ORG
+15 billion,CARDINAL
+Daimler Truck,ORG
+PHP,ORG
+599,CARDINAL
+two,CARDINAL
+1 09222,CARDINAL
+decades-old,DATE
+IRA,GPE
+Conference on Monetary Policy Transmission,ORG
+51 cents,MONEY
+between 75 and 85,DATE
+Apollo Global Management,ORG
+June 2023,DATE
+March 10 - Morning Bid US,DATE
+Mali,PERSON
+Salaries,ORG
+the Consumer Brands Association,ORG
+7070,DATE
+Houston Canada,ORG
+GMT,ORG
+Scott Hepworth,PERSON
+February 19,DATE
+Piero Cipollone,PERSON
+017 to 4250763,CARDINAL
+48 pence,MONEY
+143000,CARDINAL
+9941,CARDINAL
+seven,CARDINAL
+Wall Streets,GPE
+Stonepeak,PERSON
+the Trump Administrations,WORK_OF_ART
+Capitalcom,ORG
+XRP,ORG
+Reserve Bank of New Zealand,ORG
+121,CARDINAL
+2000,CARDINAL
+Virgins,ORG
+State Department the Trump,ORG
+Canadian Crops Convention,MISC
+21,CARDINAL
+209000,CARDINAL
+FCC,ORG
+the next several years,DATE
+Meta METAO,ORG
+January 20,DATE
+Virgin Group,ORG
+US Farm Belt,GPE
+3-week,DATE
+less than 100 million,MONEY
+a long time ago,DATE
+Fox News,PERSON
+Democratic,MISC
+Reuters - Ford,ORG
+Coinbase,ORG
+1976,DATE
+end-2024,DATE
+601,CARDINAL
+almost a fifth,CARDINAL
+127 upside,MONEY
+Michael Wilson,PERSON
+WINNIPEG Manitoba March,ORG
 058,CARDINAL
+iPhone,ORG
+Cam Dahl,ORG
+6700,CARDINAL
+8764 million,CARDINAL
+Boeing,ORG
+decades,DATE
+Mohammed Bin Salman,PERSON
+first,ORDINAL
+Alberta,GPE
+Saudi Arabia,GPE
+more than 600,CARDINAL
+Wall Street Wall Street,GPE
+Canadian,NORP
+the Unites States,GPE
+Germanys,PERSON
+Gemini,PRODUCT
+Adam Hetts,PERSON
+less than 2,CARDINAL
+43,CARDINAL
+US Federal Reserve,ORG
+North,GPE
+the previous month,DATE
+12,CARDINAL
+Canberra,GPE
+CEO Tim Cook,ORG
+22264,CARDINAL
+more than 3,CARDINAL
+043 to 576338,CARDINAL
+over 26 billion,MONEY
+Siri,PERSON
+Broadcom AVGOO,ORG
+2,CARDINAL
+80000 to 100000,CARDINAL
+KKR-USS,ORG
+The US Trade Representatives Office,ORG
+US Powell-Palm,ORG
+Wall Street Caught,GPE
+Elvis,PERSON
+Reuters - US Energy,ORG
+1830,DATE
+Eurostars,MISC
+more than 60,CARDINAL
+SpaceXs Falcon,ORG
+Trump,MISC
+Nasdaq,ORG
+203,CARDINAL
+Reuters - US,ORG
+European Union Canada,ORG
+31 last week,DATE
+U-6,ORG
+298,CARDINAL
+Carson Group,ORG
+Sacks,ORG
+Reuters - Barrick Gold,ORG
+Alexa,PERSON
+137,CARDINAL
+March 9,DATE
+Mark Carney,PERSON
+This week,DATE
+Torsten Slok,PERSON
+80,CARDINAL
+USDA,ORG
+138000 per month,DATE
+Richard Bransons Virgin Group,ORG
+World Liberty,MISC
+Federal Open Market Committee,ORG
+39,CARDINAL
+44 billion,CARDINAL
+09231,DATE
+Wall Street Caught,ORG
+Saskatchewan Canadian,NORP
+Rollins,PERSON
+recent years,DATE
+Chinese,NORP
+this year to June,DATE
+zero,CARDINAL
+158,CARDINAL
+White Houses,GPE
+07 to 146975,DATE
+Reuters - The Federal Reserve,ORG
+March 10,DATE
+9,CARDINAL
+Amin Nasser,PERSON
+Trust Principles,MISC
+Feds,ORG
+EV,ORG
+Reuters - Federal Reserve,ORG
+Supporters,PERSON
+European Investment Bank,ORG
+Waller,PERSON
+Air Force,ORG
+US,GPE
+100,CARDINAL
+London,GPE
+Street,ORG
+0100 pm ET,TIME
+Saudi,NORP
+Fed Chair Ben Bernanke,MISC
+Chart,ORG
+Sacks,PERSON
+Wealthspire Advisors,ORG
+annual,DATE
+Lisbon,GPE
+Aramco,ORG
+the commerce ministry,ORG
+Wells Fargo,ORG
+Volkswagens,MISC
+12697,CARDINAL
+072 to 4249247,CARDINAL
+Scott Anderson,PERSON
+almost two months,DATE
+Russian,MISC
+White Houses,ORG
+weekly,DATE
+this month,DATE
+Hewlett Packard,PERSON
+Asian,NORP
+UBS,ORG
+Mexican,NORP
+Alaskan Airlines,ORG
+Don Kohn,PERSON
+Ford Motor Company,ORG
+Anthropic,MISC
+Fed Governor Christopher Waller,PERSON
+Saudi Aramco,ORG
+Financial Times,ORG
+Jerome Powell,PERSON
+a month,DATE
+Big Tech,MISC
+AI Google,MISC
+Labor Market,ORG
+Assura,PERSON
+early November,DATE
+two-year,DATE
+Mark Milam,PERSON
+the Labor Department,ORG
+February Mondays,DATE
+Anna Kelly,PERSON
+Tether,ORG
+X Brad Garlinghouse CEO of Ripple,ORG
+Hang Seng,PERSON
+52000,CARDINAL
+Ohio State University Farmers,ORG
+Chair Jerome Powell,PERSON
+Danielle Smith,PERSON
+Michael Saylor,PERSON
+300 million pounds,MONEY
+2022,DATE
+January 13,DATE
+Volvo,ORG
+Crypto,PERSON
+Americas,MISC
+a year earlier,DATE
+Ben Bernanke,PERSON
+four-year,DATE
+Tesla TSLAO,ORG
+Amazon AMZNO,ORG
+525,CARDINAL
+Clearnomics For,ORG
+MAI Capital Management,ORG
+Brian Armstrong,PERSON
+Belarus,GPE
+Politico,ORG
+Ripple,GPE
+Bond,ORG
+Berlins,PERSON
+CHICAGOWASHINGTON,GPE
+Mexico,GPE
+1933,DATE
+Fords German,PERSON
+20-day,DATE
+months,DATE
+China Risks,ORG
+the end of summer,DATE
+624,CARDINAL
+Ukraine Crude,GPE
