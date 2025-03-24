@@ -78,3 +78,108 @@ Justin Trudeau,PERSON,say_in,August,DATE
 More than half,CARDINAL,go_to,China,GPE
 Reuters,ORG,drop on,Friday,DATE
 Reuters,ORG,drop_on,Friday,DATE
+Chris Wright,PERSON,say on,Monday,DATE
+Chris Wright,PERSON,say_on,Monday,DATE
+Reuters - ArcelorMittal,ORG,announce on,Monday,DATE
+Reuters - ArcelorMittal,ORG,announce_on,Monday,DATE
+Bilibili,ORG,lose,5,CARDINAL
+Sunday,DATE,related_to,Trump,PERSON
+Donald Trumps,PERSON,comment_over,the weekend,DATE
+Assura,ORG,say on,Monday,DATE
+PHP,ORG,have until,April 7,DATE
+Assura,ORG,say_on,Monday,DATE
+PHP,ORG,have_until,April 7,DATE
+Danielle Smith,PERSON,say on,Monday,DATE
+Houston,GPE,related_to,Canada,GPE
+Danielle Smith,PERSON,say_on,Monday,DATE
+Reuters - HSBC,ORG,downgrade on,Monday,DATE
+Morgan Stanleys Wilson,ORG,say on,Monday,DATE
+Global Equity Strategist,ORG,related_to,Alastair Pinder,PERSON
+Reuters - HSBC,ORG,downgrade_on,Monday,DATE
+Morgan Stanleys Wilson,ORG,say_on,Monday,DATE
+thousands,CARDINAL,thousand_in,Germany,GPE
+Trump,PERSON,tell,Fox News,ORG
+Volodymyr Zelenskyy,PERSON,travel to,Saudi Arabia,GPE
+Volodymyr Zelenskyy,PERSON,travel_to,Saudi Arabia,GPE
+China,GPE,related_to,Canada,GPE
+Trump,ORG,impose from,Canada Mexico,GPE
+USDA,ORG,administer,hundreds,CARDINAL
+the White House,ORG,say on,January 22,DATE
+Rollins,PERSON,say on,February 20,DATE
+Walton,PERSON,award through,Agricultural Marketing Service,ORG
+Ed,PERSON,scrimp for,years,DATE
+The West Virginia Food and Farm Coalition,ORG,receive,about 80,CARDINAL
+Belgrade,GPE,related_to,Montana,PERSON
+US,GPE,related_to,Powell-Palm,ORG
+Trump,ORG,impose_from,Canada Mexico,GPE
+Trump,ORG,trump_on,March 6,DATE
+Trump,ORG,trump_in,his first days,DATE
+the White House,ORG,say_on,January 22,DATE
+Rollins,PERSON,say_on,February 20,DATE
+Walton,PERSON,award_through,Agricultural Marketing Service,ORG
+Ed,PERSON,scrimp_for,years,DATE
+Ford,ORG,cut,thousands,CARDINAL
+Ford,ORG,cut_in,Europe,LOC
+Ford,ORG,cut_in,Germany,GPE
+Aramco,ORG,invest,more than 50 billion,MONEY
+Donald Trump,PERSON,say ABOARD,ABOARD AIR FORCE ONE March 9,ORG
+Donald Trump,PERSON,say_ABOARD,ABOARD AIR FORCE ONE March 9,ORG
+Donald Trump,PERSON,say_on,Sunday,DATE
+LONDON,GPE,open on,Monday,DATE
+LzLabs,ORG,develop after,nearly a decade,DATE
+the High Court,ORG,rule with,Finola OFarrell,PERSON
+LzLabs UK,ORG,related_to,Winsopia,PERSON
+LONDON,GPE,open_on,Monday,DATE
+LzLabs,ORG,develop_after,nearly a decade,DATE
+the High Court,ORG,rule_with,Finola OFarrell,PERSON
+US,GPE,restore to,Ukraine,GPE
+Bruce Kasman,PERSON,tell in,Singapore,GPE
+Hong Kong,GPE,related_to,HSI,ORG
+Dicks Sporting Goods,ORG,related_to,DKSN,ORG
+US,GPE,restore_to,Ukraine,GPE
+Bruce Kasman,PERSON,tell_in,Singapore,GPE
+Reuters,ORG,report on,Tuesday,DATE
+Ecarx,GPE,generate,70,CARDINAL
+Half,CARDINAL,come by,2030,DATE
+Wednesday,DATE,related_to,Volkswagen,ORG
+China,GPE,related_to,Shen,PERSON
+Reuters,ORG,report_on,Tuesday,DATE
+Half,CARDINAL,come_by,2030,DATE
+Intel,ORG,report,first,ORDINAL
+YORKTAIPEI,ORG,related_to,Reuters - TSMC 2330TW,ORG
+Intel,ORG,related_to,Gelsinger,PRODUCT
+Cathay,ORG,buy in,2019,DATE
+Cathay,ORG,attribute at,HK Express,ORG
+CFO,ORG,related_to,Rebecca Sharpe,PERSON
+Air China,ORG,related_to,601111SS,CARDINAL
+Cathay,ORG,buy_in,2019,DATE
+Cathay,ORG,attribute_at,HK Express,ORG
+Reuters - The European Union,ORG,impose from,next month,DATE
+the European Commission,ORG,say on,Wednesday,DATE
+von der,PERSON,related_to,Leyen,GPE
+Reuters - The European Union,ORG,impose_from,next month,DATE
+the European Commission,ORG,say_on,Wednesday,DATE
+Goldman Sachs,ORG,hold,19,CARDINAL
+BMW,ORG,cancel in,June of last year,DATE
+STOCKHOLM,GPE,related_to,Reuters - Northvolt,ORG
+BMW,ORG,cancel_in,June of last year,DATE
+Christine Lagarde,PERSON,say on,Wednesday,DATE
+Christine Lagarde,PERSON,say_on,Wednesday,DATE
+the last few weeks,DATE,week_in,Lagarde,GPE
+Rheinmetall,ORG,propose for,2024,DATE
+Rheinmetall,ORG,propose_for,2024,DATE
+Dick Friend,PERSON,buy,Tesla TSLAO,ORG
+Tesla TSLAO,ORG,open in,2015,DATE
+Australian,NORP,related_to,Dick Friend,PERSON
+Tuesday,DATE,related_to,evening,TIME
+Tesla TSLAO,ORG,open_in,2015,DATE
+the same time,DATE,time_over,the last week,DATE
+JLR,ORG,host In,November,DATE
+Tata,ORG,push in,January,DATE
+NEW DELHI,GPE,related_to,Reuters - Jaguar Land Rover,ORG
+Britain,GPE,related_to,Europe,LOC
+JLR,ORG,host_In,November,DATE
+Tata,ORG,push_in,January,DATE
+Tata,ORG,push_to,2026-2027,DATE
+Bershka,ORG,launch in,Sweden,GPE
+China,GPE,related_to,Mexico,GPE
