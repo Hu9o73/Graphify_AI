@@ -18,6 +18,8 @@ from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph, URIRef, Literal
+from pykeen.evaluation.rank_based_evaluator import RankBasedEvaluator
+
 
 # Initialize logging
 logger = logging.getLogger(__name__)
@@ -377,57 +379,52 @@ class KnowledgeGraphEmbedder:
         return predicted_entities
     
     def evaluate_model(self, model_name):
-        """
-        Evaluate a trained model.
-        
-        Args:
-            model_name (str): Name of the model
-            
-        Returns:
-            dict: Dictionary of evaluation metrics
-        """
+        """Evaluate a trained model using PyKEEN's RankBasedEvaluator."""
         if model_name not in self.model_results:
             logger.error(f"Model {model_name} not trained yet")
             return None
-            
+
         result = self.model_results[model_name]
-        
-        # Get metrics from the result
-        metrics = result.metric_results.to_dict()
-        
-        # First, let's inspect the structure of metrics dictionary
-        logger.info(f"Metrics structure for {model_name}: {list(metrics.keys())}")
-        
-        # Handle different metric dictionary structures
-        if 'both' in metrics:
-            side_metrics = metrics['both']
-        else:
-            # If 'both' is not available, try other keys or use the metrics dict directly
-            side_metrics = metrics
-        
-        # Create a safe extraction helper
-        def get_metric(metric_name, default=0.0):
-            if metric_name in side_metrics:
-                return side_metrics[metric_name]
-            logger.warning(f"Metric '{metric_name}' not found in results for {model_name}")
-            return default
-        
-        # Extract metrics safely
+
+        # Initialize metrics
         evaluation = {
-            'mean_rank': get_metric('mean_rank'),
-            'mean_reciprocal_rank': get_metric('mean_reciprocal_rank'),
-            'hits_at_1': get_metric('hits_at_1'),
-            'hits_at_3': get_metric('hits_at_3'),
-            'hits_at_10': get_metric('hits_at_10')
+            'mean_rank': 0.0,
+            'mean_reciprocal_rank': 0.0,
+            'hits_at_1': 0.0,
+            'hits_at_3': 0.0,
+            'hits_at_10': 0.0
         }
-        
+
+        # Get testing data
+        _, _, testing = self.split_dataset()
+
+        if testing and hasattr(result, 'model'):
+            try:
+                model = result.model
+                test_triples = testing.mapped_triples.to(model.device)  # Move to the correct device
+
+                with torch.no_grad():
+                    evaluator = RankBasedEvaluator()
+                    metrics = evaluator.evaluate(model, mapped_triples=test_triples)
+
+                    # Extract relevant metrics
+                    evaluation['mean_rank'] = metrics.get_metric('mean_rank')
+                    evaluation['mean_reciprocal_rank'] = metrics.get_metric('mean_reciprocal_rank')
+                    evaluation['hits_at_1'] = metrics.get_metric('hits_at_1')
+                    evaluation['hits_at_3'] = metrics.get_metric('hits_at_3')
+                    evaluation['hits_at_10'] = metrics.get_metric('hits_at_10')
+
+            except Exception as e:
+                logger.warning(f"Error calculating metrics: {e}")
+
+        # Log results
         logger.info(f"Evaluation results for {model_name}:")
         logger.info(f"Mean Rank: {evaluation['mean_rank']:.2f}")
         logger.info(f"Mean Reciprocal Rank: {evaluation['mean_reciprocal_rank']:.4f}")
         logger.info(f"Hits@1: {evaluation['hits_at_1']:.4f}")
         logger.info(f"Hits@3: {evaluation['hits_at_3']:.4f}")
         logger.info(f"Hits@10: {evaluation['hits_at_10']:.4f}")
-        
+
         return evaluation
     
     def compare_models(self, model_names=None):
