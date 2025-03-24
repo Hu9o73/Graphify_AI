@@ -57,6 +57,9 @@
 <http://example.org/graphify/cardinal/100> a ns:CARDINAL ;
     rdfs:label "100"^^xsd:string .
 
+<http://example.org/graphify/cardinal/100000> a ns:CARDINAL ;
+    rdfs:label "100000"^^xsd:string .
+
 <http://example.org/graphify/cardinal/100_and_25> a ns:CARDINAL ;
     rdfs:label "100 and 25"^^xsd:string .
 
@@ -96,6 +99,9 @@
 <http://example.org/graphify/cardinal/12697> a ns:CARDINAL ;
     rdfs:label "12697"^^xsd:string .
 
+<http://example.org/graphify/cardinal/12_million> a ns:CARDINAL ;
+    rdfs:label "12 million"^^xsd:string .
+
 <http://example.org/graphify/cardinal/13> a ns:CARDINAL ;
     rdfs:label "13"^^xsd:string .
 
@@ -111,6 +117,9 @@
 <http://example.org/graphify/cardinal/136> a ns:CARDINAL ;
     rdfs:label "136"^^xsd:string .
 
+<http://example.org/graphify/cardinal/136_billion> a ns:CARDINAL ;
+    rdfs:label "136 billion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/137> a ns:CARDINAL ;
     rdfs:label "137"^^xsd:string .
 
@@ -119,6 +128,9 @@
 
 <http://example.org/graphify/cardinal/140> a ns:CARDINAL ;
     rdfs:label "140"^^xsd:string .
+
+<http://example.org/graphify/cardinal/142> a ns:CARDINAL ;
+    rdfs:label "142"^^xsd:string .
 
 <http://example.org/graphify/cardinal/143000> a ns:CARDINAL ;
     rdfs:label "143000"^^xsd:string .
@@ -147,6 +159,9 @@
 <http://example.org/graphify/cardinal/15_billion> a ns:CARDINAL ;
     rdfs:label "15 billion"^^xsd:string .
 
+<http://example.org/graphify/cardinal/16> a ns:CARDINAL ;
+    rdfs:label "16"^^xsd:string .
+
 <http://example.org/graphify/cardinal/160000> a ns:CARDINAL ;
     rdfs:label "160000"^^xsd:string .
 
@@ -159,14 +174,23 @@
 <http://example.org/graphify/cardinal/165> a ns:CARDINAL ;
     rdfs:label "165"^^xsd:string .
 
+<http://example.org/graphify/cardinal/165_billion> a ns:CARDINAL ;
+    rdfs:label "165 billion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/168> a ns:CARDINAL ;
     rdfs:label "168"^^xsd:string .
 
 <http://example.org/graphify/cardinal/16_billion> a ns:CARDINAL ;
     rdfs:label "16 billion"^^xsd:string .
 
+<http://example.org/graphify/cardinal/16_trillion> a ns:CARDINAL ;
+    rdfs:label "16 trillion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/170> a ns:CARDINAL ;
     rdfs:label "170"^^xsd:string .
+
+<http://example.org/graphify/cardinal/176> a ns:CARDINAL ;
+    rdfs:label "176"^^xsd:string .
 
 <http://example.org/graphify/cardinal/18> a ns:CARDINAL ;
     rdfs:label "18"^^xsd:string .
@@ -240,6 +264,9 @@
 <http://example.org/graphify/cardinal/22264> a ns:CARDINAL ;
     rdfs:label "22264"^^xsd:string .
 
+<http://example.org/graphify/cardinal/227> a ns:CARDINAL ;
+    rdfs:label "227"^^xsd:string .
+
 <http://example.org/graphify/cardinal/23> a ns:CARDINAL ;
     rdfs:label "23"^^xsd:string .
 
@@ -260,6 +287,9 @@
 
 <http://example.org/graphify/cardinal/254_million> a ns:CARDINAL ;
     rdfs:label "254 million"^^xsd:string .
+
+<http://example.org/graphify/cardinal/255> a ns:CARDINAL ;
+    rdfs:label "255"^^xsd:string .
 
 <http://example.org/graphify/cardinal/25_to_30> a ns:CARDINAL ;
     rdfs:label "25 to 30"^^xsd:string .
@@ -297,11 +327,20 @@
 <http://example.org/graphify/cardinal/30> a ns:CARDINAL ;
     rdfs:label "30"^^xsd:string .
 
+<http://example.org/graphify/cardinal/300000> a ns:CARDINAL ;
+    rdfs:label "300000"^^xsd:string .
+
 <http://example.org/graphify/cardinal/300750SZ> a ns:CARDINAL ;
     rdfs:label "300750SZ"^^xsd:string .
 
+<http://example.org/graphify/cardinal/300_billion> a ns:CARDINAL ;
+    rdfs:label "300 billion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/303> a ns:CARDINAL ;
     rdfs:label "303"^^xsd:string .
+
+<http://example.org/graphify/cardinal/304_billion> a ns:CARDINAL ;
+    rdfs:label "304 billion"^^xsd:string .
 
 <http://example.org/graphify/cardinal/30775> a ns:CARDINAL ;
     rdfs:label "30775"^^xsd:string .
@@ -354,11 +393,20 @@
 <http://example.org/graphify/cardinal/404000> a ns:CARDINAL ;
     rdfs:label "404000"^^xsd:string .
 
+<http://example.org/graphify/cardinal/407> a ns:CARDINAL ;
+    rdfs:label "407"^^xsd:string .
+
+<http://example.org/graphify/cardinal/40_billion> a ns:CARDINAL ;
+    rdfs:label "40 billion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/41> a ns:CARDINAL ;
     rdfs:label "41"^^xsd:string .
 
 <http://example.org/graphify/cardinal/425> a ns:CARDINAL ;
     rdfs:label "425"^^xsd:string .
+
+<http://example.org/graphify/cardinal/4258332> a ns:CARDINAL ;
+    rdfs:label "4258332"^^xsd:string .
 
 <http://example.org/graphify/cardinal/43> a ns:CARDINAL ;
     rdfs:label "43"^^xsd:string .
@@ -366,14 +414,26 @@
 <http://example.org/graphify/cardinal/44_billion> a ns:CARDINAL ;
     rdfs:label "44 billion"^^xsd:string .
 
+<http://example.org/graphify/cardinal/455_million> a ns:CARDINAL ;
+    rdfs:label "455 million"^^xsd:string .
+
+<http://example.org/graphify/cardinal/46> a ns:CARDINAL ;
+    rdfs:label "46"^^xsd:string .
+
 <http://example.org/graphify/cardinal/460000> a ns:CARDINAL ;
     rdfs:label "460000"^^xsd:string .
 
 <http://example.org/graphify/cardinal/47_billion> a ns:CARDINAL ;
     rdfs:label "47 billion"^^xsd:string .
 
+<http://example.org/graphify/cardinal/4872_million> a ns:CARDINAL ;
+    rdfs:label "4872 million"^^xsd:string .
+
 <http://example.org/graphify/cardinal/48_billion> a ns:CARDINAL ;
     rdfs:label "48 billion"^^xsd:string .
+
+<http://example.org/graphify/cardinal/494> a ns:CARDINAL ;
+    rdfs:label "494"^^xsd:string .
 
 <http://example.org/graphify/cardinal/49_million> a ns:CARDINAL ;
     rdfs:label "49 million"^^xsd:string .
@@ -387,11 +447,23 @@
 <http://example.org/graphify/cardinal/500> a ns:CARDINAL ;
     rdfs:label "500"^^xsd:string .
 
+<http://example.org/graphify/cardinal/506> a ns:CARDINAL ;
+    rdfs:label "506"^^xsd:string .
+
+<http://example.org/graphify/cardinal/516> a ns:CARDINAL ;
+    rdfs:label "516"^^xsd:string .
+
+<http://example.org/graphify/cardinal/519> a ns:CARDINAL ;
+    rdfs:label "519"^^xsd:string .
+
 <http://example.org/graphify/cardinal/52> a ns:CARDINAL ;
     rdfs:label "52"^^xsd:string .
 
 <http://example.org/graphify/cardinal/52000> a ns:CARDINAL ;
     rdfs:label "52000"^^xsd:string .
+
+<http://example.org/graphify/cardinal/523> a ns:CARDINAL ;
+    rdfs:label "523"^^xsd:string .
 
 <http://example.org/graphify/cardinal/525> a ns:CARDINAL ;
     rdfs:label "525"^^xsd:string .
@@ -401,6 +473,15 @@
 
 <http://example.org/graphify/cardinal/53> a ns:CARDINAL ;
     rdfs:label "53"^^xsd:string .
+
+<http://example.org/graphify/cardinal/533> a ns:CARDINAL ;
+    rdfs:label "533"^^xsd:string .
+
+<http://example.org/graphify/cardinal/535> a ns:CARDINAL ;
+    rdfs:label "535"^^xsd:string .
+
+<http://example.org/graphify/cardinal/536> a ns:CARDINAL ;
+    rdfs:label "536"^^xsd:string .
 
 <http://example.org/graphify/cardinal/54> a ns:CARDINAL ;
     rdfs:label "54"^^xsd:string .
@@ -416,6 +497,12 @@
 
 <http://example.org/graphify/cardinal/570> a ns:CARDINAL ;
     rdfs:label "570"^^xsd:string .
+
+<http://example.org/graphify/cardinal/581> a ns:CARDINAL ;
+    rdfs:label "581"^^xsd:string .
+
+<http://example.org/graphify/cardinal/584> a ns:CARDINAL ;
+    rdfs:label "584"^^xsd:string .
 
 <http://example.org/graphify/cardinal/588000> a ns:CARDINAL ;
     rdfs:label "588000"^^xsd:string .
@@ -444,6 +531,9 @@
 <http://example.org/graphify/cardinal/601> a ns:CARDINAL ;
     rdfs:label "601"^^xsd:string .
 
+<http://example.org/graphify/cardinal/609> a ns:CARDINAL ;
+    rdfs:label "609"^^xsd:string .
+
 <http://example.org/graphify/cardinal/624> a ns:CARDINAL ;
     rdfs:label "624"^^xsd:string .
 
@@ -456,17 +546,35 @@
 <http://example.org/graphify/cardinal/65> a ns:CARDINAL ;
     rdfs:label "65"^^xsd:string .
 
+<http://example.org/graphify/cardinal/66> a ns:CARDINAL ;
+    rdfs:label "66"^^xsd:string .
+
+<http://example.org/graphify/cardinal/66_billion> a ns:CARDINAL ;
+    rdfs:label "66 billion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/6700> a ns:CARDINAL ;
     rdfs:label "6700"^^xsd:string .
+
+<http://example.org/graphify/cardinal/6_billion> a ns:CARDINAL ;
+    rdfs:label "6 billion"^^xsd:string .
 
 <http://example.org/graphify/cardinal/7> a ns:CARDINAL ;
     rdfs:label "7"^^xsd:string .
 
+<http://example.org/graphify/cardinal/700000> a ns:CARDINAL ;
+    rdfs:label "700000"^^xsd:string .
+
 <http://example.org/graphify/cardinal/7145> a ns:CARDINAL ;
     rdfs:label "7145"^^xsd:string .
 
+<http://example.org/graphify/cardinal/73> a ns:CARDINAL ;
+    rdfs:label "73"^^xsd:string .
+
 <http://example.org/graphify/cardinal/737> a ns:CARDINAL ;
     rdfs:label "737"^^xsd:string .
+
+<http://example.org/graphify/cardinal/74> a ns:CARDINAL ;
+    rdfs:label "74"^^xsd:string .
 
 <http://example.org/graphify/cardinal/7489> a ns:CARDINAL ;
     rdfs:label "7489"^^xsd:string .
@@ -474,8 +582,17 @@
 <http://example.org/graphify/cardinal/75> a ns:CARDINAL ;
     rdfs:label "75"^^xsd:string .
 
+<http://example.org/graphify/cardinal/750_million> a ns:CARDINAL ;
+    rdfs:label "750 million"^^xsd:string .
+
+<http://example.org/graphify/cardinal/75_million> a ns:CARDINAL ;
+    rdfs:label "75 million"^^xsd:string .
+
 <http://example.org/graphify/cardinal/777X> a ns:CARDINAL ;
     rdfs:label "777X"^^xsd:string .
+
+<http://example.org/graphify/cardinal/77_billion> a ns:CARDINAL ;
+    rdfs:label "77 billion"^^xsd:string .
 
 <http://example.org/graphify/cardinal/8> a ns:CARDINAL ;
     rdfs:label "8"^^xsd:string .
@@ -486,8 +603,14 @@
 <http://example.org/graphify/cardinal/80000_to_100000> a ns:CARDINAL ;
     rdfs:label "80000 to 100000"^^xsd:string .
 
+<http://example.org/graphify/cardinal/800_million> a ns:CARDINAL ;
+    rdfs:label "800 million"^^xsd:string .
+
 <http://example.org/graphify/cardinal/810> a ns:CARDINAL ;
     rdfs:label "810"^^xsd:string .
+
+<http://example.org/graphify/cardinal/85> a ns:CARDINAL ;
+    rdfs:label "85"^^xsd:string .
 
 <http://example.org/graphify/cardinal/850_million> a ns:CARDINAL ;
     rdfs:label "850 million"^^xsd:string .
@@ -516,6 +639,15 @@
 <http://example.org/graphify/cardinal/96> a ns:CARDINAL ;
     rdfs:label "96"^^xsd:string .
 
+<http://example.org/graphify/cardinal/97> a ns:CARDINAL ;
+    rdfs:label "97"^^xsd:string .
+
+<http://example.org/graphify/cardinal/97_billion> a ns:CARDINAL ;
+    rdfs:label "97 billion"^^xsd:string .
+
+<http://example.org/graphify/cardinal/98_billion> a ns:CARDINAL ;
+    rdfs:label "98 billion"^^xsd:string .
+
 <http://example.org/graphify/cardinal/9941> a ns:CARDINAL ;
     rdfs:label "9941"^^xsd:string .
 
@@ -527,7 +659,9 @@
 
 <http://example.org/graphify/cardinal/Half> a ns:CARDINAL ;
     rdfs:label "Half"^^xsd:string ;
-    ns1:come_by <http://example.org/graphify/date/2030> .
+    ns1:come_by <http://example.org/graphify/date/2030> ;
+    ns1:related_to <http://example.org/graphify/org/Moon_Capital>,
+        <http://example.org/graphify/person/Moon> .
 
 <http://example.org/graphify/cardinal/More_than_half> a ns:CARDINAL ;
     rdfs:label "More than half"^^xsd:string ;
@@ -535,6 +669,9 @@
 
 <http://example.org/graphify/cardinal/One> a ns:CARDINAL ;
     rdfs:label "One"^^xsd:string .
+
+<http://example.org/graphify/cardinal/Ten> a ns:CARDINAL ;
+    rdfs:label "Ten"^^xsd:string .
 
 <http://example.org/graphify/cardinal/Two> a ns:CARDINAL ;
     rdfs:label "Two"^^xsd:string .
@@ -545,6 +682,9 @@
 <http://example.org/graphify/cardinal/about_100> a ns:CARDINAL ;
     rdfs:label "about 100"^^xsd:string .
 
+<http://example.org/graphify/cardinal/about_11_million> a ns:CARDINAL ;
+    rdfs:label "about 11 million"^^xsd:string .
+
 <http://example.org/graphify/cardinal/about_150> a ns:CARDINAL ;
     rdfs:label "about 150"^^xsd:string .
 
@@ -554,6 +694,9 @@
 <http://example.org/graphify/cardinal/about_2> a ns:CARDINAL ;
     rdfs:label "about 2"^^xsd:string .
 
+<http://example.org/graphify/cardinal/about_4> a ns:CARDINAL ;
+    rdfs:label "about 4"^^xsd:string .
+
 <http://example.org/graphify/cardinal/about_61> a ns:CARDINAL ;
     rdfs:label "about 61"^^xsd:string .
 
@@ -562,6 +705,9 @@
 
 <http://example.org/graphify/cardinal/about_three> a ns:CARDINAL ;
     rdfs:label "about three"^^xsd:string .
+
+<http://example.org/graphify/cardinal/almost_12> a ns:CARDINAL ;
+    rdfs:label "almost 12"^^xsd:string .
 
 <http://example.org/graphify/cardinal/almost_30> a ns:CARDINAL ;
     rdfs:label "almost 30"^^xsd:string .
@@ -583,6 +729,9 @@
 
 <http://example.org/graphify/cardinal/around_30> a ns:CARDINAL ;
     rdfs:label "around 30"^^xsd:string .
+
+<http://example.org/graphify/cardinal/around_40000> a ns:CARDINAL ;
+    rdfs:label "around 40000"^^xsd:string .
 
 <http://example.org/graphify/cardinal/as_much_as> a ns:CARDINAL ;
     rdfs:label "as much as"^^xsd:string .
@@ -611,11 +760,17 @@
 <http://example.org/graphify/cardinal/less_than_2> a ns:CARDINAL ;
     rdfs:label "less than 2"^^xsd:string .
 
+<http://example.org/graphify/cardinal/more_than_1> a ns:CARDINAL ;
+    rdfs:label "more than 1"^^xsd:string .
+
 <http://example.org/graphify/cardinal/more_than_10> a ns:CARDINAL ;
     rdfs:label "more than 10"^^xsd:string .
 
 <http://example.org/graphify/cardinal/more_than_100> a ns:CARDINAL ;
     rdfs:label "more than 100"^^xsd:string .
+
+<http://example.org/graphify/cardinal/more_than_1400> a ns:CARDINAL ;
+    rdfs:label "more than 1400"^^xsd:string .
 
 <http://example.org/graphify/cardinal/more_than_3> a ns:CARDINAL ;
     rdfs:label "more than 3"^^xsd:string .
@@ -631,6 +786,9 @@
 
 <http://example.org/graphify/cardinal/more_than_70000> a ns:CARDINAL ;
     rdfs:label "more than 70000"^^xsd:string .
+
+<http://example.org/graphify/cardinal/more_than_700_million> a ns:CARDINAL ;
+    rdfs:label "more than 700 million"^^xsd:string .
 
 <http://example.org/graphify/cardinal/more_than_8> a ns:CARDINAL ;
     rdfs:label "more than 8"^^xsd:string .
@@ -658,11 +816,17 @@
     ns1:tell <http://example.org/graphify/org/Reuters> ;
     ns1:tell_in <http://example.org/graphify/date/early_March> .
 
+<http://example.org/graphify/cardinal/over_20> a ns:CARDINAL ;
+    rdfs:label "over 20"^^xsd:string .
+
 <http://example.org/graphify/cardinal/over_5000> a ns:CARDINAL ;
     rdfs:label "over 5000"^^xsd:string .
 
 <http://example.org/graphify/cardinal/roughly_40> a ns:CARDINAL ;
     rdfs:label "roughly 40"^^xsd:string .
+
+<http://example.org/graphify/cardinal/roughly_77> a ns:CARDINAL ;
+    rdfs:label "roughly 77"^^xsd:string .
 
 <http://example.org/graphify/cardinal/seven> a ns:CARDINAL ;
     rdfs:label "seven"^^xsd:string .
@@ -745,6 +909,9 @@
 <http://example.org/graphify/date/16_years> a ns:DATE ;
     rdfs:label "16 years"^^xsd:string .
 
+<http://example.org/graphify/date/1818859> a ns:DATE ;
+    rdfs:label "1818859"^^xsd:string .
+
 <http://example.org/graphify/date/1830> a ns:DATE ;
     rdfs:label "1830"^^xsd:string .
 
@@ -753,6 +920,9 @@
 
 <http://example.org/graphify/date/1933> a ns:DATE ;
     rdfs:label "1933"^^xsd:string .
+
+<http://example.org/graphify/date/1945> a ns:DATE ;
+    rdfs:label "1945"^^xsd:string .
 
 <http://example.org/graphify/date/19708> a ns:DATE ;
     rdfs:label "19708"^^xsd:string .
@@ -808,6 +978,9 @@
 <http://example.org/graphify/date/2024_17> a ns:DATE ;
     rdfs:label "2024 17"^^xsd:string .
 
+<http://example.org/graphify/date/2028> a ns:DATE ;
+    rdfs:label "2028"^^xsd:string .
+
 <http://example.org/graphify/date/2029> a ns:DATE ;
     rdfs:label "2029"^^xsd:string .
 
@@ -852,6 +1025,9 @@
 
 <http://example.org/graphify/date/52yearold> a ns:DATE ;
     rdfs:label "52-year-old"^^xsd:string .
+
+<http://example.org/graphify/date/576757> a ns:DATE ;
+    rdfs:label "576757"^^xsd:string .
 
 <http://example.org/graphify/date/577020> a ns:DATE ;
     rdfs:label "577020"^^xsd:string .
@@ -898,8 +1074,14 @@
 <http://example.org/graphify/date/April_2009> a ns:DATE ;
     rdfs:label "April 2009"^^xsd:string .
 
+<http://example.org/graphify/date/April_2023> a ns:DATE ;
+    rdfs:label "April 2023"^^xsd:string .
+
 <http://example.org/graphify/date/April_The_February> a ns:DATE ;
     rdfs:label "April The February"^^xsd:string .
+
+<http://example.org/graphify/date/August_2022> a ns:DATE ;
+    rdfs:label "August 2022"^^xsd:string .
 
 <http://example.org/graphify/date/December> a ns:DATE ;
     rdfs:label "December"^^xsd:string .
@@ -915,9 +1097,6 @@
 
 <http://example.org/graphify/date/Early_last_month> a ns:DATE ;
     rdfs:label "Early last month"^^xsd:string .
-
-<http://example.org/graphify/date/February> a ns:DATE ;
-    rdfs:label "February"^^xsd:string .
 
 <http://example.org/graphify/date/February_1> a ns:DATE ;
     rdfs:label "February 1"^^xsd:string .
@@ -952,20 +1131,26 @@
 <http://example.org/graphify/date/January_3_to_348> a ns:DATE ;
     rdfs:label "January 3 to 348"^^xsd:string .
 
+<http://example.org/graphify/date/January_5_2024> a ns:DATE ;
+    rdfs:label "January 5 2024"^^xsd:string .
+
 <http://example.org/graphify/date/January_8_2024> a ns:DATE ;
     rdfs:label "January 8 2024"^^xsd:string .
 
 <http://example.org/graphify/date/January_Annual> a ns:DATE ;
     rdfs:label "January Annual"^^xsd:string .
 
-<http://example.org/graphify/date/July> a ns:DATE ;
-    rdfs:label "July"^^xsd:string .
-
 <http://example.org/graphify/date/June> a ns:DATE ;
     rdfs:label "June"^^xsd:string .
 
+<http://example.org/graphify/date/June_15> a ns:DATE ;
+    rdfs:label "June 15"^^xsd:string .
+
 <http://example.org/graphify/date/June_2023> a ns:DATE ;
     rdfs:label "June 2023"^^xsd:string .
+
+<http://example.org/graphify/date/Last_Thursday> a ns:DATE ;
+    rdfs:label "Last Thursday"^^xsd:string .
 
 <http://example.org/graphify/date/Last_month> a ns:DATE ;
     rdfs:label "Last month"^^xsd:string .
@@ -991,6 +1176,16 @@
 <http://example.org/graphify/date/March_12> a ns:DATE ;
     rdfs:label "March 12"^^xsd:string .
 
+<http://example.org/graphify/date/March_1221> a ns:DATE ;
+    rdfs:label "March 12-21"^^xsd:string .
+
+<http://example.org/graphify/date/March_13> a ns:DATE ;
+    rdfs:label "March 13"^^xsd:string .
+
+<http://example.org/graphify/date/March_17_came_a_month> a ns:DATE ;
+    rdfs:label "March 17 came a month"^^xsd:string ;
+    ns1:come_after <http://example.org/graphify/product/Robinhood> .
+
 <http://example.org/graphify/date/March_1819> a ns:DATE ;
     rdfs:label "March 18-19"^^xsd:string .
 
@@ -1002,6 +1197,12 @@
 
 <http://example.org/graphify/date/March_2024> a ns:DATE ;
     rdfs:label "March 2024"^^xsd:string .
+
+<http://example.org/graphify/date/March_24> a ns:DATE ;
+    rdfs:label "March 24"^^xsd:string .
+
+<http://example.org/graphify/date/March_25> a ns:DATE ;
+    rdfs:label "March 25"^^xsd:string .
 
 <http://example.org/graphify/date/March_26> a ns:DATE ;
     rdfs:label "March 26"^^xsd:string .
@@ -1033,14 +1234,26 @@
 <http://example.org/graphify/date/May_2021> a ns:DATE ;
     rdfs:label "May 2021"^^xsd:string .
 
+<http://example.org/graphify/date/Monday_1_77742> a ns:DATE ;
+    rdfs:label "Monday 1 77742"^^xsd:string .
+
 <http://example.org/graphify/date/Monday_Last_week> a ns:DATE ;
     rdfs:label "Monday Last week"^^xsd:string .
 
 <http://example.org/graphify/date/Mondays> a ns:DATE ;
     rdfs:label "Mondays"^^xsd:string .
 
+<http://example.org/graphify/date/November_2022> a ns:DATE ;
+    rdfs:label "November 2022"^^xsd:string .
+
 <http://example.org/graphify/date/November_5> a ns:DATE ;
     rdfs:label "November 5"^^xsd:string .
+
+<http://example.org/graphify/date/November_6> a ns:DATE ;
+    rdfs:label "November 6"^^xsd:string .
+
+<http://example.org/graphify/date/OctoberDecember_quarter> a ns:DATE ;
+    rdfs:label "October-December quarter"^^xsd:string .
 
 <http://example.org/graphify/date/October_20> a ns:DATE ;
     rdfs:label "October 20"^^xsd:string .
@@ -1051,14 +1264,26 @@
 <http://example.org/graphify/date/October_2021> a ns:DATE ;
     rdfs:label "October 2021"^^xsd:string .
 
+<http://example.org/graphify/date/October_2024> a ns:DATE ;
+    rdfs:label "October 2024"^^xsd:string .
+
 <http://example.org/graphify/date/September> a ns:DATE ;
     rdfs:label "September"^^xsd:string .
 
 <http://example.org/graphify/date/The_key_holiday_shopping_quarter> a ns:DATE ;
     rdfs:label "The key holiday shopping quarter"^^xsd:string .
 
+<http://example.org/graphify/date/The_next_few_months> a ns:DATE ;
+    rdfs:label "The next few months"^^xsd:string .
+
 <http://example.org/graphify/date/This_week> a ns:DATE ;
     rdfs:label "This week"^^xsd:string .
+
+<http://example.org/graphify/date/This_year> a ns:DATE ;
+    rdfs:label "This year"^^xsd:string .
+
+<http://example.org/graphify/date/Trading_Day> a ns:DATE ;
+    rdfs:label "Trading Day"^^xsd:string .
 
 <http://example.org/graphify/date/a_big_week> a ns:DATE ;
     rdfs:label "a big week"^^xsd:string .
@@ -1077,6 +1302,15 @@
 
 <http://example.org/graphify/date/a_month> a ns:DATE ;
     rdfs:label "a month"^^xsd:string .
+
+<http://example.org/graphify/date/a_single_month> a ns:DATE ;
+    rdfs:label "a single month"^^xsd:string .
+
+<http://example.org/graphify/date/a_third_day> a ns:DATE ;
+    rdfs:label "a third day"^^xsd:string .
+
+<http://example.org/graphify/date/a_year> a ns:DATE ;
+    rdfs:label "a year"^^xsd:string .
 
 <http://example.org/graphify/date/a_year_ago> a ns:DATE ;
     rdfs:label "a year ago"^^xsd:string .
@@ -1111,6 +1345,9 @@
 <http://example.org/graphify/date/coming_years> a ns:DATE ;
     rdfs:label "coming years"^^xsd:string .
 
+<http://example.org/graphify/date/daily> a ns:DATE ;
+    rdfs:label "daily"^^xsd:string .
+
 <http://example.org/graphify/date/day> a ns:DATE ;
     rdfs:label "day"^^xsd:string .
 
@@ -1122,6 +1359,9 @@
 
 <http://example.org/graphify/date/each_March_June_September> a ns:DATE ;
     rdfs:label "each March June September"^^xsd:string .
+
+<http://example.org/graphify/date/earlier_this_month> a ns:DATE ;
+    rdfs:label "earlier this month"^^xsd:string .
 
 <http://example.org/graphify/date/earlier_this_week> a ns:DATE ;
     rdfs:label "earlier this week"^^xsd:string .
@@ -1135,6 +1375,9 @@
 <http://example.org/graphify/date/early_November> a ns:DATE ;
     rdfs:label "early November"^^xsd:string ;
     ns1:related_to <http://example.org/graphify/org/Reuters> .
+
+<http://example.org/graphify/date/early_October> a ns:DATE ;
+    rdfs:label "early October"^^xsd:string .
 
 <http://example.org/graphify/date/early_last_year> a ns:DATE ;
     rdfs:label "early last year"^^xsd:string .
@@ -1214,6 +1457,12 @@
 <http://example.org/graphify/date/less_than_two_months> a ns:DATE ;
     rdfs:label "less than two months"^^xsd:string .
 
+<http://example.org/graphify/date/many_more_months> a ns:DATE ;
+    rdfs:label "many more months"^^xsd:string .
+
+<http://example.org/graphify/date/midApril> a ns:DATE ;
+    rdfs:label "mid-April"^^xsd:string .
+
 <http://example.org/graphify/date/midDecember> a ns:DATE ;
     rdfs:label "mid-December"^^xsd:string .
 
@@ -1247,6 +1496,15 @@
 <http://example.org/graphify/date/next_week> a ns:DATE ;
     rdfs:label "next week"^^xsd:string .
 
+<http://example.org/graphify/date/one_month> a ns:DATE ;
+    rdfs:label "one month"^^xsd:string .
+
+<http://example.org/graphify/date/one_quarter> a ns:DATE ;
+    rdfs:label "one quarter"^^xsd:string .
+
+<http://example.org/graphify/date/oneday> a ns:DATE ;
+    rdfs:label "one-day"^^xsd:string .
+
 <http://example.org/graphify/date/onemonth> a ns:DATE ;
     rdfs:label "one-month"^^xsd:string .
 
@@ -1259,6 +1517,9 @@
 <http://example.org/graphify/date/only_weeks> a ns:DATE ;
     rdfs:label "only weeks"^^xsd:string .
 
+<http://example.org/graphify/date/over_two_weeks> a ns:DATE ;
+    rdfs:label "over two weeks"^^xsd:string .
+
 <http://example.org/graphify/date/quarterly> a ns:DATE ;
     rdfs:label "quarterly"^^xsd:string .
 
@@ -1267,6 +1528,9 @@
 
 <http://example.org/graphify/date/recent_months> a ns:DATE ;
     rdfs:label "recent months"^^xsd:string .
+
+<http://example.org/graphify/date/recent_weeks> a ns:DATE ;
+    rdfs:label "recent weeks"^^xsd:string .
 
 <http://example.org/graphify/date/recent_years> a ns:DATE ;
     rdfs:label "recent years"^^xsd:string .
@@ -1298,6 +1562,9 @@
 <http://example.org/graphify/date/the_average_workweek> a ns:DATE ;
     rdfs:label "the average workweek"^^xsd:string .
 
+<http://example.org/graphify/date/the_beginning_of_the_year> a ns:DATE ;
+    rdfs:label "the beginning of the year"^^xsd:string .
+
 <http://example.org/graphify/date/the_coming_months> a ns:DATE ;
     rdfs:label "the coming months"^^xsd:string .
 
@@ -1319,6 +1586,9 @@
 <http://example.org/graphify/date/the_end_of_January> a ns:DATE ;
     rdfs:label "the end of January"^^xsd:string .
 
+<http://example.org/graphify/date/the_end_of_last_year> a ns:DATE ;
+    rdfs:label "the end of last year"^^xsd:string .
+
 <http://example.org/graphify/date/the_end_of_summer> a ns:DATE ;
     rdfs:label "the end of summer"^^xsd:string .
 
@@ -1337,11 +1607,17 @@
 <http://example.org/graphify/date/the_first_quarter> a ns:DATE ;
     rdfs:label "the first quarter"^^xsd:string .
 
+<http://example.org/graphify/date/the_first_quarter_of_the_year> a ns:DATE ;
+    rdfs:label "the first quarter of the year"^^xsd:string .
+
 <http://example.org/graphify/date/the_four_months> a ns:DATE ;
     rdfs:label "the four months"^^xsd:string .
 
 <http://example.org/graphify/date/the_fourth_quarter> a ns:DATE ;
     rdfs:label "the fourth quarter"^^xsd:string .
+
+<http://example.org/graphify/date/the_last_few_months> a ns:DATE ;
+    rdfs:label "the last few months"^^xsd:string .
 
 <http://example.org/graphify/date/the_last_few_weeks> a ns:DATE ;
     rdfs:label "the last few weeks"^^xsd:string ;
@@ -1349,6 +1625,9 @@
 
 <http://example.org/graphify/date/the_last_few_years> a ns:DATE ;
     rdfs:label "the last few years"^^xsd:string .
+
+<http://example.org/graphify/date/the_last_three_calendar_years> a ns:DATE ;
+    rdfs:label "the last three calendar years"^^xsd:string .
 
 <http://example.org/graphify/date/the_last_year> a ns:DATE ;
     rdfs:label "the last year"^^xsd:string .
@@ -1359,14 +1638,26 @@
 <http://example.org/graphify/date/the_months_ahead> a ns:DATE ;
     rdfs:label "the months ahead"^^xsd:string .
 
+<http://example.org/graphify/date/the_next_few_days> a ns:DATE ;
+    rdfs:label "the next few days"^^xsd:string .
+
+<http://example.org/graphify/date/the_next_four_months> a ns:DATE ;
+    rdfs:label "the next four months"^^xsd:string .
+
 <http://example.org/graphify/date/the_next_quarters> a ns:DATE ;
     rdfs:label "the next quarters"^^xsd:string .
 
 <http://example.org/graphify/date/the_next_several_years> a ns:DATE ;
     rdfs:label "the next several years"^^xsd:string .
 
+<http://example.org/graphify/date/the_next_year> a ns:DATE ;
+    rdfs:label "the next year"^^xsd:string .
+
 <http://example.org/graphify/date/the_past_couple_of_months> a ns:DATE ;
     rdfs:label "the past couple of months"^^xsd:string .
+
+<http://example.org/graphify/date/the_past_few_weeks> a ns:DATE ;
+    rdfs:label "the past few weeks"^^xsd:string .
 
 <http://example.org/graphify/date/the_past_six_months> a ns:DATE ;
     rdfs:label "the past six months"^^xsd:string .
@@ -1385,6 +1676,15 @@
 
 <http://example.org/graphify/date/the_previous_month> a ns:DATE ;
     rdfs:label "the previous month"^^xsd:string .
+
+<http://example.org/graphify/date/the_previous_year> a ns:DATE ;
+    rdfs:label "the previous year"^^xsd:string .
+
+<http://example.org/graphify/date/the_quarter> a ns:DATE ;
+    rdfs:label "the quarter"^^xsd:string .
+
+<http://example.org/graphify/date/the_same_period_a_year_earlier> a ns:DATE ;
+    rdfs:label "the same period a year earlier"^^xsd:string .
 
 <http://example.org/graphify/date/the_same_time> a ns:DATE ;
     rdfs:label "the same time"^^xsd:string ;
@@ -1417,8 +1717,14 @@
 <http://example.org/graphify/date/the_year_ahead> a ns:DATE ;
     rdfs:label "the year ahead"^^xsd:string .
 
+<http://example.org/graphify/date/the_year_before> a ns:DATE ;
+    rdfs:label "the year before"^^xsd:string .
+
 <http://example.org/graphify/date/the_year_ended_December_31> a ns:DATE ;
     rdfs:label "the year ended December 31"^^xsd:string .
+
+<http://example.org/graphify/date/the_yearago> a ns:DATE ;
+    rdfs:label "the year-ago"^^xsd:string .
 
 <http://example.org/graphify/date/the_years> a ns:DATE ;
     rdfs:label "the years"^^xsd:string .
@@ -1444,23 +1750,38 @@
 <http://example.org/graphify/date/this_years> a ns:DATE ;
     rdfs:label "this years"^^xsd:string .
 
+<http://example.org/graphify/date/three_weeks> a ns:DATE ;
+    rdfs:label "three weeks"^^xsd:string .
+
 <http://example.org/graphify/date/three_years> a ns:DATE ;
     rdfs:label "three years"^^xsd:string .
 
 <http://example.org/graphify/date/today> a ns:DATE ;
     rdfs:label "today"^^xsd:string .
 
+<http://example.org/graphify/date/tomorrow> a ns:DATE ;
+    rdfs:label "tomorrow"^^xsd:string .
+
 <http://example.org/graphify/date/two_months> a ns:DATE ;
     rdfs:label "two months"^^xsd:string .
 
+<http://example.org/graphify/date/two_straight_months> a ns:DATE ;
+    rdfs:label "two straight months"^^xsd:string .
+
 <http://example.org/graphify/date/two_weeks_ago> a ns:DATE ;
     rdfs:label "two weeks ago"^^xsd:string .
+
+<http://example.org/graphify/date/twoday> a ns:DATE ;
+    rdfs:label "two-day"^^xsd:string .
 
 <http://example.org/graphify/date/twoweek> a ns:DATE ;
     rdfs:label "two-week"^^xsd:string .
 
 <http://example.org/graphify/date/twoyear> a ns:DATE ;
     rdfs:label "two-year"^^xsd:string .
+
+<http://example.org/graphify/date/week_of_the_quarter> a ns:DATE ;
+    rdfs:label "week of the quarter"^^xsd:string .
 
 <http://example.org/graphify/date/weekend> a ns:DATE ;
     rdfs:label "weekend"^^xsd:string .
@@ -1483,8 +1804,14 @@
 <http://example.org/graphify/event/the_February_1_to_March_10> a ns:EVENT ;
     rdfs:label "the February 1 to March 10"^^xsd:string .
 
+<http://example.org/graphify/event/the_Super_Bowl> a ns:EVENT ;
+    rdfs:label "the Super Bowl"^^xsd:string .
+
 <http://example.org/graphify/fac/Asia_Shen> a ns:FAC ;
     rdfs:label "Asia Shen"^^xsd:string .
+
+<http://example.org/graphify/fac/HK5325> a ns:FAC ;
+    rdfs:label "HK5325"^^xsd:string .
 
 <http://example.org/graphify/fac/Israels_Tower_Semiconductor> a ns:FAC ;
     rdfs:label "Israels Tower Semiconductor"^^xsd:string .
@@ -1504,8 +1831,14 @@
 <http://example.org/graphify/gpe/AI> a ns:GPE ;
     rdfs:label "AI"^^xsd:string .
 
+<http://example.org/graphify/gpe/AJ_Bell> a ns:GPE ;
+    rdfs:label "AJ Bell"^^xsd:string .
+
 <http://example.org/graphify/gpe/Africa> a ns:GPE ;
     rdfs:label "Africa"^^xsd:string .
+
+<http://example.org/graphify/gpe/Alabama> a ns:GPE ;
+    rdfs:label "Alabama"^^xsd:string .
 
 <http://example.org/graphify/gpe/Alberta> a ns:GPE ;
     rdfs:label "Alberta"^^xsd:string .
@@ -1519,6 +1852,9 @@
 
 <http://example.org/graphify/gpe/Alibaba> a ns:GPE ;
     rdfs:label "Alibaba"^^xsd:string .
+
+<http://example.org/graphify/gpe/Altman> a ns:GPE ;
+    rdfs:label "Altman"^^xsd:string .
 
 <http://example.org/graphify/gpe/Amazon> a ns:GPE ;
     rdfs:label "Amazon"^^xsd:string .
@@ -1556,6 +1892,10 @@
 <http://example.org/graphify/gpe/Australia> a ns:GPE ;
     rdfs:label "Australia"^^xsd:string .
 
+<http://example.org/graphify/gpe/Automakers> a ns:GPE ;
+    rdfs:label "Automakers"^^xsd:string ;
+    ns1:lobby <http://example.org/graphify/org/the_White_House> .
+
 <http://example.org/graphify/gpe/Avinya> a ns:GPE ;
     rdfs:label "Avinya"^^xsd:string .
 
@@ -1571,6 +1911,9 @@
 <http://example.org/graphify/gpe/Beijing> a ns:GPE ;
     rdfs:label "Beijing"^^xsd:string .
 
+<http://example.org/graphify/gpe/Beijings> a ns:GPE ;
+    rdfs:label "Beijings"^^xsd:string .
+
 <http://example.org/graphify/gpe/Belarus> a ns:GPE ;
     rdfs:label "Belarus"^^xsd:string .
 
@@ -1583,6 +1926,9 @@
 
 <http://example.org/graphify/gpe/Bershka> a ns:GPE ;
     rdfs:label "Bershka"^^xsd:string .
+
+<http://example.org/graphify/gpe/Boeing_Judge_Reed> a ns:GPE ;
+    rdfs:label "Boeing Judge Reed"^^xsd:string .
 
 <http://example.org/graphify/gpe/Boeings_BAN> a ns:GPE ;
     rdfs:label "Boeings BAN"^^xsd:string .
@@ -1614,6 +1960,9 @@
 
 <http://example.org/graphify/gpe/Canberra> a ns:GPE ;
     rdfs:label "Canberra"^^xsd:string .
+
+<http://example.org/graphify/gpe/Canon_7751T> a ns:GPE ;
+    rdfs:label "Canon 7751T"^^xsd:string .
 
 <http://example.org/graphify/gpe/Cariad> a ns:GPE ;
     rdfs:label "Cariad"^^xsd:string .
@@ -1689,11 +2038,30 @@
 <http://example.org/graphify/gpe/FordWerke> a ns:GPE ;
     rdfs:label "Ford-Werke"^^xsd:string .
 
+<http://example.org/graphify/gpe/Fort_Worth> a ns:GPE ;
+    rdfs:label "Fort Worth"^^xsd:string ;
+    ns1:related_to <http://example.org/graphify/gpe/Texas> .
+
+<http://example.org/graphify/gpe/Fort_Worth_Texas> a ns:GPE ;
+    rdfs:label "Fort Worth Texas"^^xsd:string .
+
 <http://example.org/graphify/gpe/France> a ns:GPE ;
     rdfs:label "France"^^xsd:string .
 
 <http://example.org/graphify/gpe/Frankfurt> a ns:GPE ;
     rdfs:label "Frankfurt"^^xsd:string .
+
+<http://example.org/graphify/gpe/G10> a ns:GPE ;
+    rdfs:label "G10"^^xsd:string .
+
+<http://example.org/graphify/gpe/Galvin> a ns:GPE ;
+    rdfs:label "Galvin"^^xsd:string .
+
+<http://example.org/graphify/gpe/Galvins> a ns:GPE ;
+    rdfs:label "Galvins"^^xsd:string .
+
+<http://example.org/graphify/gpe/Georgia> a ns:GPE ;
+    rdfs:label "Georgia"^^xsd:string .
 
 <http://example.org/graphify/gpe/Germany_Inditex> a ns:GPE ;
     rdfs:label "Germany Inditex"^^xsd:string .
@@ -1754,6 +2122,9 @@
 <http://example.org/graphify/gpe/Japan> a ns:GPE ;
     rdfs:label "Japan"^^xsd:string .
 
+<http://example.org/graphify/gpe/Kia> a ns:GPE ;
+    rdfs:label "Kia"^^xsd:string .
+
 <http://example.org/graphify/gpe/LONDON> a ns:GPE ;
     rdfs:label "LONDON"^^xsd:string ;
     ns1:open_on <http://example.org/graphify/date/Monday> .
@@ -1767,6 +2138,9 @@
 <http://example.org/graphify/gpe/London> a ns:GPE ;
     rdfs:label "London"^^xsd:string .
 
+<http://example.org/graphify/gpe/Louisiana> a ns:GPE ;
+    rdfs:label "Louisiana"^^xsd:string .
+
 <http://example.org/graphify/gpe/MAN> a ns:GPE ;
     rdfs:label "MAN"^^xsd:string .
 
@@ -1776,11 +2150,27 @@
 <http://example.org/graphify/gpe/Mali> a ns:GPE ;
     rdfs:label "Mali"^^xsd:string .
 
+<http://example.org/graphify/gpe/Massachusetts> a ns:GPE ;
+    rdfs:label "Massachusetts"^^xsd:string .
+
 <http://example.org/graphify/gpe/Melbourne_Tesla> a ns:GPE ;
     rdfs:label "Melbourne Tesla"^^xsd:string .
 
+<http://example.org/graphify/gpe/Menlo_Park> a ns:GPE ;
+    rdfs:label "Menlo Park"^^xsd:string .
+
+<http://example.org/graphify/gpe/Menlo_Park_California> a ns:GPE ;
+    rdfs:label "Menlo Park California"^^xsd:string ;
+    ns1:related_to <http://example.org/graphify/org/Robinhood> .
+
 <http://example.org/graphify/gpe/Middle_East> a ns:GPE ;
     rdfs:label "Middle East"^^xsd:string .
+
+<http://example.org/graphify/gpe/Mondays> a ns:GPE ;
+    rdfs:label "Mondays"^^xsd:string .
+
+<http://example.org/graphify/gpe/Money> a ns:GPE ;
+    rdfs:label "Money"^^xsd:string .
 
 <http://example.org/graphify/gpe/Morocco> a ns:GPE ;
     rdfs:label "Morocco"^^xsd:string .
@@ -1866,6 +2256,9 @@
 <http://example.org/graphify/gpe/Ripple> a ns:GPE ;
     rdfs:label "Ripple"^^xsd:string .
 
+<http://example.org/graphify/gpe/Robinhood> a ns:GPE ;
+    rdfs:label "Robinhood"^^xsd:string .
+
 <http://example.org/graphify/gpe/Russia> a ns:GPE ;
     rdfs:label "Russia"^^xsd:string .
 
@@ -1879,6 +2272,12 @@
 <http://example.org/graphify/gpe/Sacks> a ns:GPE ;
     rdfs:label "Sacks"^^xsd:string .
 
+<http://example.org/graphify/gpe/San_Francisco> a ns:GPE ;
+    rdfs:label "San Francisco"^^xsd:string .
+
+<http://example.org/graphify/gpe/San_Franciscobased> a ns:GPE ;
+    rdfs:label "San Francisco-based"^^xsd:string .
+
 <http://example.org/graphify/gpe/Saskatchewan> a ns:GPE ;
     rdfs:label "Saskatchewan"^^xsd:string .
 
@@ -1887,9 +2286,6 @@
 
 <http://example.org/graphify/gpe/Siri> a ns:GPE ;
     rdfs:label "Siri"^^xsd:string .
-
-<http://example.org/graphify/gpe/South_Korea> a ns:GPE ;
-    rdfs:label "South Korea"^^xsd:string .
 
 <http://example.org/graphify/gpe/Spain> a ns:GPE ;
     rdfs:label "Spain"^^xsd:string .
@@ -1981,6 +2377,9 @@
 <http://example.org/graphify/gpe/Unites_States> a ns:GPE ;
     rdfs:label "Unites States"^^xsd:string .
 
+<http://example.org/graphify/gpe/Venezuela> a ns:GPE ;
+    rdfs:label "Venezuela"^^xsd:string .
+
 <http://example.org/graphify/gpe/Volkswagens> a ns:GPE ;
     rdfs:label "Volkswagens"^^xsd:string .
 
@@ -2042,6 +2441,9 @@
 <http://example.org/graphify/gpe/the_Unites_States> a ns:GPE ;
     rdfs:label "the Unites States"^^xsd:string .
 
+<http://example.org/graphify/law/Canon> a ns:LAW ;
+    rdfs:label "Canon"^^xsd:string .
+
 <http://example.org/graphify/law/Chapter_11> a ns:LAW ;
     rdfs:label "Chapter 11"^^xsd:string .
 
@@ -2068,6 +2470,9 @@
 
 <http://example.org/graphify/loc/Australias> a ns:LOC ;
     rdfs:label "Australias"^^xsd:string .
+
+<http://example.org/graphify/loc/BPC> a ns:LOC ;
+    rdfs:label "BPC"^^xsd:string .
 
 <http://example.org/graphify/loc/CERAWeek> a ns:LOC ;
     rdfs:label "CERAWeek"^^xsd:string .
@@ -2104,6 +2509,9 @@
 
 <http://example.org/graphify/misc/American> a ns:MISC ;
     rdfs:label "American"^^xsd:string .
+
+<http://example.org/graphify/misc/Americans> a ns:MISC ;
+    rdfs:label "Americans"^^xsd:string .
 
 <http://example.org/graphify/misc/Americas> a ns:MISC ;
     rdfs:label "Americas"^^xsd:string .
@@ -2150,6 +2558,9 @@
 <http://example.org/graphify/misc/Canadian_Crops_Convention> a ns:MISC ;
     rdfs:label "Canadian Crops Convention"^^xsd:string .
 
+<http://example.org/graphify/misc/Caterpillar> a ns:MISC ;
+    rdfs:label "Caterpillar"^^xsd:string .
+
 <http://example.org/graphify/misc/Cboe_Volatility_Index_VIX> a ns:MISC ;
     rdfs:label "Cboe Volatility Index VIX"^^xsd:string .
 
@@ -2158,6 +2569,9 @@
 
 <http://example.org/graphify/misc/Chinese> a ns:MISC ;
     rdfs:label "Chinese"^^xsd:string .
+
+<http://example.org/graphify/misc/Democrat> a ns:MISC ;
+    rdfs:label "Democrat"^^xsd:string .
 
 <http://example.org/graphify/misc/Democratic> a ns:MISC ;
     rdfs:label "Democratic"^^xsd:string .
@@ -2171,8 +2585,14 @@
 <http://example.org/graphify/misc/Dow_Jones> a ns:MISC ;
     rdfs:label "Dow Jones"^^xsd:string .
 
+<http://example.org/graphify/misc/Dow_Jones_Industrial_Average> a ns:MISC ;
+    rdfs:label "Dow Jones Industrial Average"^^xsd:string .
+
 <http://example.org/graphify/misc/Dow_Jones_Industrial_Average_DJI> a ns:MISC ;
     rdfs:label "Dow Jones Industrial Average DJI"^^xsd:string .
+
+<http://example.org/graphify/misc/ELFA_CapEx_Finance_Index> a ns:MISC ;
+    rdfs:label "ELFA CapEx Finance Index"^^xsd:string .
 
 <http://example.org/graphify/misc/Elvis> a ns:MISC ;
     rdfs:label "Elvis"^^xsd:string .
@@ -2249,8 +2669,14 @@
 <http://example.org/graphify/misc/Jillian_Blanchard> a ns:MISC ;
     rdfs:label "Jillian Blanchard"^^xsd:string .
 
+<http://example.org/graphify/misc/Kalshi> a ns:MISC ;
+    rdfs:label "Kalshi"^^xsd:string .
+
 <http://example.org/graphify/misc/Kuroda> a ns:MISC ;
     rdfs:label "Kuroda"^^xsd:string .
+
+<http://example.org/graphify/misc/LSEG_Teslas> a ns:MISC ;
+    rdfs:label "LSEG Teslas"^^xsd:string .
 
 <http://example.org/graphify/misc/LouloGounkoto> a ns:MISC ;
     rdfs:label "Loulo-Gounkoto"^^xsd:string .
@@ -2297,6 +2723,12 @@
 <http://example.org/graphify/misc/Republican> a ns:MISC ;
     rdfs:label "Republican"^^xsd:string .
 
+<http://example.org/graphify/misc/Robinhood> a ns:MISC ;
+    rdfs:label "Robinhood"^^xsd:string .
+
+<http://example.org/graphify/misc/Robinhoods> a ns:MISC ;
+    rdfs:label "Robinhoods"^^xsd:string .
+
 <http://example.org/graphify/misc/Russell_2000> a ns:MISC ;
     rdfs:label "Russell 2000"^^xsd:string .
 
@@ -2324,6 +2756,12 @@
 <http://example.org/graphify/misc/South_Korean> a ns:MISC ;
     rdfs:label "South Korean"^^xsd:string .
 
+<http://example.org/graphify/misc/South_Koreas> a ns:MISC ;
+    rdfs:label "South Koreas"^^xsd:string .
+
+<http://example.org/graphify/misc/Super_Bowl> a ns:MISC ;
+    rdfs:label "Super Bowl"^^xsd:string .
+
 <http://example.org/graphify/misc/Swedish> a ns:MISC ;
     rdfs:label "Swedish"^^xsd:string .
 
@@ -2335,6 +2773,9 @@
 
 <http://example.org/graphify/misc/Tasmanias> a ns:MISC ;
     rdfs:label "Tasmanias"^^xsd:string .
+
+<http://example.org/graphify/misc/Trading_Day> a ns:MISC ;
+    rdfs:label "Trading Day"^^xsd:string .
 
 <http://example.org/graphify/misc/Transatlantic> a ns:MISC ;
     rdfs:label "Transatlantic"^^xsd:string .
@@ -2348,6 +2789,9 @@
 <http://example.org/graphify/misc/US_Chapter_11> a ns:MISC ;
     rdfs:label "US Chapter 11"^^xsd:string .
 
+<http://example.org/graphify/misc/US_Composite_PMI_Output_Index> a ns:MISC ;
+    rdfs:label "US Composite PMI Output Index"^^xsd:string .
+
 <http://example.org/graphify/misc/Ukrainian> a ns:MISC ;
     rdfs:label "Ukrainian"^^xsd:string .
 
@@ -2356,6 +2800,9 @@
 
 <http://example.org/graphify/misc/Volkswagens> a ns:MISC ;
     rdfs:label "Volkswagens"^^xsd:string .
+
+<http://example.org/graphify/misc/Washingtonbased> a ns:MISC ;
+    rdfs:label "Washington-based"^^xsd:string .
 
 <http://example.org/graphify/misc/West_African> a ns:MISC ;
     rdfs:label "West African"^^xsd:string .
@@ -2371,6 +2818,9 @@
 
 <http://example.org/graphify/misc/Yuyuantantian> a ns:MISC ;
     rdfs:label "Yuyuantantian"^^xsd:string .
+
+<http://example.org/graphify/money/100_billion_mark> a ns:MONEY ;
+    rdfs:label "100 billion mark"^^xsd:string .
 
 <http://example.org/graphify/money/108_billion> a ns:MONEY ;
     rdfs:label "108 billion"^^xsd:string .
@@ -2389,6 +2839,9 @@
 
 <http://example.org/graphify/money/148_yen> a ns:MONEY ;
     rdfs:label "148 yen"^^xsd:string .
+
+<http://example.org/graphify/money/154_trillion> a ns:MONEY ;
+    rdfs:label "154 trillion"^^xsd:string .
 
 <http://example.org/graphify/money/161_billion> a ns:MONEY ;
     rdfs:label "161 billion"^^xsd:string .
@@ -2411,8 +2864,17 @@
 <http://example.org/graphify/money/300_million_pounds> a ns:MONEY ;
     rdfs:label "300 million pounds"^^xsd:string .
 
+<http://example.org/graphify/money/325_trillion> a ns:MONEY ;
+    rdfs:label "325 trillion"^^xsd:string .
+
+<http://example.org/graphify/money/366_trillion> a ns:MONEY ;
+    rdfs:label "366 trillion"^^xsd:string .
+
 <http://example.org/graphify/money/386_billion> a ns:MONEY ;
     rdfs:label "386 billion"^^xsd:string .
+
+<http://example.org/graphify/money/3_billion> a ns:MONEY ;
+    rdfs:label "3 billion"^^xsd:string .
 
 <http://example.org/graphify/money/400_million_pounds> a ns:MONEY ;
     rdfs:label "400 million pounds"^^xsd:string .
@@ -2432,14 +2894,35 @@
 <http://example.org/graphify/money/500_billion> a ns:MONEY ;
     rdfs:label "500 billion"^^xsd:string .
 
+<http://example.org/graphify/money/500billion> a ns:MONEY ;
+    rdfs:label "500-billion"^^xsd:string .
+
 <http://example.org/graphify/money/51_cents> a ns:MONEY ;
     rdfs:label "51 cents"^^xsd:string .
+
+<http://example.org/graphify/money/55_billion> a ns:MONEY ;
+    rdfs:label "55 billion"^^xsd:string .
+
+<http://example.org/graphify/money/58_billion> a ns:MONEY ;
+    rdfs:label "58 billion"^^xsd:string .
+
+<http://example.org/graphify/money/60_billion> a ns:MONEY ;
+    rdfs:label "60 billion"^^xsd:string .
 
 <http://example.org/graphify/money/63_US_cents> a ns:MONEY ;
     rdfs:label "63 US cents"^^xsd:string .
 
+<http://example.org/graphify/money/668_billion> a ns:MONEY ;
+    rdfs:label "668 billion"^^xsd:string .
+
 <http://example.org/graphify/money/700_million_pounds_900_million> a ns:MONEY ;
     rdfs:label "700 million pounds 900 million"^^xsd:string .
+
+<http://example.org/graphify/money/748_billion> a ns:MONEY ;
+    rdfs:label "748 billion"^^xsd:string .
+
+<http://example.org/graphify/money/759_billion> a ns:MONEY ;
+    rdfs:label "759 billion"^^xsd:string .
 
 <http://example.org/graphify/money/863_billion> a ns:MONEY ;
     rdfs:label "863 billion"^^xsd:string .
@@ -2453,6 +2936,12 @@
 <http://example.org/graphify/money/975_billion> a ns:MONEY ;
     rdfs:label "975 billion"^^xsd:string .
 
+<http://example.org/graphify/money/980_billion> a ns:MONEY ;
+    rdfs:label "980 billion"^^xsd:string .
+
+<http://example.org/graphify/money/9_billion> a ns:MONEY ;
+    rdfs:label "9 billion"^^xsd:string .
+
 <http://example.org/graphify/money/About_1692_billion> a ns:MONEY ;
     rdfs:label "About 1692 billion"^^xsd:string .
 
@@ -2465,6 +2954,12 @@
 <http://example.org/graphify/money/HK989_billion_127_billion> a ns:MONEY ;
     rdfs:label "HK989 billion 127 billion"^^xsd:string .
 
+<http://example.org/graphify/money/More_than_2_trillion> a ns:MONEY ;
+    rdfs:label "More than 2 trillion"^^xsd:string .
+
+<http://example.org/graphify/money/about_10_billion> a ns:MONEY ;
+    rdfs:label "about 10 billion"^^xsd:string .
+
 <http://example.org/graphify/money/about_217_billion> a ns:MONEY ;
     rdfs:label "about 217 billion"^^xsd:string .
 
@@ -2473,6 +2968,9 @@
 
 <http://example.org/graphify/money/about_465_pence> a ns:MONEY ;
     rdfs:label "about 465 pence"^^xsd:string .
+
+<http://example.org/graphify/money/about_870_billion> a ns:MONEY ;
+    rdfs:label "about 870 billion"^^xsd:string .
 
 <http://example.org/graphify/money/around_18_billion> a ns:MONEY ;
     rdfs:label "around 18 billion"^^xsd:string .
@@ -2491,6 +2989,9 @@
 
 <http://example.org/graphify/money/more_than_10_billion> a ns:MONEY ;
     rdfs:label "more than 10 billion"^^xsd:string .
+
+<http://example.org/graphify/money/more_than_1_trillion> a ns:MONEY ;
+    rdfs:label "more than 1 trillion"^^xsd:string .
 
 <http://example.org/graphify/money/more_than_20_billion> a ns:MONEY ;
     rdfs:label "more than 20 billion"^^xsd:string .
@@ -2521,6 +3022,9 @@
 
 <http://example.org/graphify/norp/American> a ns:NORP ;
     rdfs:label "American"^^xsd:string .
+
+<http://example.org/graphify/norp/Americans> a ns:NORP ;
+    rdfs:label "Americans"^^xsd:string .
 
 <http://example.org/graphify/norp/Anthropic> a ns:NORP ;
     rdfs:label "Anthropic"^^xsd:string .
@@ -2559,6 +3063,12 @@
 <http://example.org/graphify/norp/Congressional> a ns:NORP ;
     rdfs:label "Congressional"^^xsd:string .
 
+<http://example.org/graphify/norp/Congresss> a ns:NORP ;
+    rdfs:label "Congresss"^^xsd:string .
+
+<http://example.org/graphify/norp/Democrat> a ns:NORP ;
+    rdfs:label "Democrat"^^xsd:string .
+
 <http://example.org/graphify/norp/Democratic> a ns:NORP ;
     rdfs:label "Democratic"^^xsd:string .
 
@@ -2579,6 +3089,9 @@
 
 <http://example.org/graphify/norp/Japanese> a ns:NORP ;
     rdfs:label "Japanese"^^xsd:string .
+
+<http://example.org/graphify/norp/Kalshis> a ns:NORP ;
+    rdfs:label "Kalshis"^^xsd:string .
 
 <http://example.org/graphify/norp/Malian> a ns:NORP ;
     rdfs:label "Malian"^^xsd:string .
@@ -2619,9 +3132,6 @@
 <http://example.org/graphify/norp/Taiwanese> a ns:NORP ;
     rdfs:label "Taiwanese"^^xsd:string .
 
-<http://example.org/graphify/norp/Tesla> a ns:NORP ;
-    rdfs:label "Tesla"^^xsd:string .
-
 <http://example.org/graphify/norp/Ukrainian> a ns:NORP ;
     rdfs:label "Ukrainian"^^xsd:string .
 
@@ -2631,8 +3141,14 @@
 <http://example.org/graphify/norp/Western> a ns:NORP ;
     rdfs:label "Western"^^xsd:string .
 
+<http://example.org/graphify/norp/Xiaomis> a ns:NORP ;
+    rdfs:label "Xiaomis"^^xsd:string .
+
 <http://example.org/graphify/norp/Zacaffe> a ns:NORP ;
     rdfs:label "Zacaffe"^^xsd:string .
+
+<http://example.org/graphify/ordinal/fourth> a ns:ORDINAL ;
+    rdfs:label "fourth"^^xsd:string .
 
 <http://example.org/graphify/ordinal/second> a ns:ORDINAL ;
     rdfs:label "second"^^xsd:string .
@@ -2660,6 +3176,12 @@
 
 <http://example.org/graphify/org/AI_Google> a ns:ORG ;
     rdfs:label "AI Google"^^xsd:string .
+
+<http://example.org/graphify/org/AI_industry_Altman> a ns:ORG ;
+    rdfs:label "AI industry Altman"^^xsd:string .
+
+<http://example.org/graphify/org/AJ_Bell> a ns:ORG ;
+    rdfs:label "AJ Bell"^^xsd:string .
 
 <http://example.org/graphify/org/AMD> a ns:ORG ;
     rdfs:label "AMD"^^xsd:string .
@@ -2697,6 +3219,12 @@
 
 <http://example.org/graphify/org/Airbus> a ns:ORG ;
     rdfs:label "Airbus"^^xsd:string .
+
+<http://example.org/graphify/org/Alaska_Airlines> a ns:ORG ;
+    rdfs:label "Alaska Airlines"^^xsd:string .
+
+<http://example.org/graphify/org/Alaska_Airlines_ALKN> a ns:ORG ;
+    rdfs:label "Alaska Airlines ALKN"^^xsd:string .
 
 <http://example.org/graphify/org/Alaskan_Airlines> a ns:ORG ;
     rdfs:label "Alaskan Airlines"^^xsd:string .
@@ -2765,6 +3293,9 @@
 <http://example.org/graphify/org/Apple_Meta_Platforms_METAO> a ns:ORG ;
     rdfs:label "Apple Meta Platforms METAO"^^xsd:string .
 
+<http://example.org/graphify/org/Apple_Pfizer_Mastercard_Cargill> a ns:ORG ;
+    rdfs:label "Apple Pfizer Mastercard Cargill"^^xsd:string .
+
 <http://example.org/graphify/org/Apples_AAPLO> a ns:ORG ;
     rdfs:label "Apples AAPLO"^^xsd:string .
 
@@ -2778,6 +3309,9 @@
 
 <http://example.org/graphify/org/Assuras> a ns:ORG ;
     rdfs:label "Assuras"^^xsd:string .
+
+<http://example.org/graphify/org/Atlanta_Federal_Reserve> a ns:ORG ;
+    rdfs:label "Atlanta Federal Reserve"^^xsd:string .
 
 <http://example.org/graphify/org/Attendees> a ns:ORG ;
     rdfs:label "Attendees"^^xsd:string .
@@ -2804,6 +3338,12 @@
     rdfs:label "BMW"^^xsd:string ;
     ns1:cancel_in <http://example.org/graphify/date/June_of_last_year> .
 
+<http://example.org/graphify/org/BOSTON_March> a ns:ORG ;
+    rdfs:label "BOSTON March"^^xsd:string .
+
+<http://example.org/graphify/org/BPC> a ns:ORG ;
+    rdfs:label "BPC"^^xsd:string .
+
 <http://example.org/graphify/org/BRUSSELS> a ns:ORG ;
     rdfs:label "BRUSSELS"^^xsd:string .
 
@@ -2821,6 +3361,12 @@
 
 <http://example.org/graphify/org/Banco_de_Portugal_Going> a ns:ORG ;
     rdfs:label "Banco de Portugal Going"^^xsd:string .
+
+<http://example.org/graphify/org/Bank_of_America> a ns:ORG ;
+    rdfs:label "Bank of America"^^xsd:string .
+
+<http://example.org/graphify/org/Bank_of_America_BACN> a ns:ORG ;
+    rdfs:label "Bank of America BACN"^^xsd:string .
 
 <http://example.org/graphify/org/Bank_of_Canada> a ns:ORG ;
     rdfs:label "Bank of Canada"^^xsd:string .
@@ -2840,6 +3386,9 @@
 <http://example.org/graphify/org/Barrick_Gold> a ns:ORG ;
     rdfs:label "Barrick Gold"^^xsd:string .
 
+<http://example.org/graphify/org/Beijings> a ns:ORG ;
+    rdfs:label "Beijings"^^xsd:string .
+
 <http://example.org/graphify/org/Berlins> a ns:ORG ;
     rdfs:label "Berlins"^^xsd:string .
 
@@ -2850,9 +3399,15 @@
 <http://example.org/graphify/org/Big_Tech> a ns:ORG ;
     rdfs:label "Big Tech"^^xsd:string .
 
+<http://example.org/graphify/org/Big_Tech_Europe> a ns:ORG ;
+    rdfs:label "Big Tech Europe"^^xsd:string .
+
 <http://example.org/graphify/org/Bilibili> a ns:ORG ;
     rdfs:label "Bilibili"^^xsd:string ;
     ns1:lose <http://example.org/graphify/cardinal/5> .
+
+<http://example.org/graphify/org/Bipartisan_Policy_Center> a ns:ORG ;
+    rdfs:label "Bipartisan Policy Center"^^xsd:string .
 
 <http://example.org/graphify/org/Blackstone> a ns:ORG ;
     rdfs:label "Blackstone"^^xsd:string .
@@ -2864,13 +3419,18 @@
     rdfs:label "Bloomberg News"^^xsd:string .
 
 <http://example.org/graphify/org/Boeing> a ns:ORG ;
-    rdfs:label "Boeing"^^xsd:string .
+    rdfs:label "Boeing"^^xsd:string ;
+    ns1:agree_In <http://example.org/graphify/date/July> ;
+    ns1:win_on <http://example.org/graphify/date/Friday> .
 
 <http://example.org/graphify/org/Boeings> a ns:ORG ;
     rdfs:label "Boeings"^^xsd:string .
 
 <http://example.org/graphify/org/Bond> a ns:ORG ;
     rdfs:label "Bond"^^xsd:string .
+
+<http://example.org/graphify/org/Bostic> a ns:ORG ;
+    rdfs:label "Bostic"^^xsd:string .
 
 <http://example.org/graphify/org/Brean_Capital> a ns:ORG ;
     rdfs:label "Brean Capital"^^xsd:string .
@@ -2896,6 +3456,9 @@
 <http://example.org/graphify/org/ByteDance> a ns:ORG ;
     rdfs:label "ByteDance"^^xsd:string .
 
+<http://example.org/graphify/org/CBOE> a ns:ORG ;
+    rdfs:label "CBOE"^^xsd:string .
+
 <http://example.org/graphify/org/CBOE_Volatility> a ns:ORG ;
     rdfs:label "CBOE Volatility"^^xsd:string .
 
@@ -2904,6 +3467,9 @@
 
 <http://example.org/graphify/org/CCTV> a ns:ORG ;
     rdfs:label "CCTV"^^xsd:string .
+
+<http://example.org/graphify/org/CEO_Leigh_Lytle> a ns:ORG ;
+    rdfs:label "CEO Leigh Lytle"^^xsd:string .
 
 <http://example.org/graphify/org/CEO_Pat_Gelsingers> a ns:ORG ;
     rdfs:label "CEO Pat Gelsingers"^^xsd:string .
@@ -2927,6 +3493,16 @@
 <http://example.org/graphify/org/CFO_Sharpe> a ns:ORG ;
     rdfs:label "CFO Sharpe"^^xsd:string .
 
+<http://example.org/graphify/org/CFRA_Research> a ns:ORG ;
+    rdfs:label "CFRA Research"^^xsd:string .
+
+<http://example.org/graphify/org/CFTC> a ns:ORG ;
+    rdfs:label "CFTC"^^xsd:string ;
+    ns1:related_to <http://example.org/graphify/person/Brian_Quintenz> .
+
+<http://example.org/graphify/org/CFTC_Brian_Quintenz> a ns:ORG ;
+    rdfs:label "CFTC Brian Quintenz"^^xsd:string .
+
 <http://example.org/graphify/org/CFTCs> a ns:ORG ;
     rdfs:label "CFTCs"^^xsd:string .
 
@@ -2948,6 +3524,9 @@
 <http://example.org/graphify/org/Canola_Council_of_Canada> a ns:ORG ;
     rdfs:label "Canola Council of Canada"^^xsd:string .
 
+<http://example.org/graphify/org/Cao> a ns:ORG ;
+    rdfs:label "Cao"^^xsd:string .
+
 <http://example.org/graphify/org/Capitalcom> a ns:ORG ;
     rdfs:label "Capitalcom"^^xsd:string .
 
@@ -2956,6 +3535,9 @@
 
 <http://example.org/graphify/org/Carson_Group> a ns:ORG ;
     rdfs:label "Carson Group"^^xsd:string .
+
+<http://example.org/graphify/org/Caterpillar> a ns:ORG ;
+    rdfs:label "Caterpillar"^^xsd:string .
 
 <http://example.org/graphify/org/Cathay> a ns:ORG ;
     rdfs:label "Cathay"^^xsd:string ;
@@ -2995,11 +3577,20 @@
 <http://example.org/graphify/org/Chinas> a ns:ORG ;
     rdfs:label "Chinas"^^xsd:string .
 
+<http://example.org/graphify/org/Chinas_DeepSeek> a ns:ORG ;
+    rdfs:label "Chinas DeepSeek"^^xsd:string .
+
+<http://example.org/graphify/org/Chinas_Xiaomi_Corp_1810HK> a ns:ORG ;
+    rdfs:label "Chinas Xiaomi Corp 1810HK"^^xsd:string .
+
 <http://example.org/graphify/org/Chinas_commerce_ministry> a ns:ORG ;
     rdfs:label "Chinas commerce ministry"^^xsd:string .
 
 <http://example.org/graphify/org/Chinas_intentional_state> a ns:ORG ;
     rdfs:label "Chinas intentional state"^^xsd:string .
+
+<http://example.org/graphify/org/Clearlake_Capital> a ns:ORG ;
+    rdfs:label "Clearlake Capital"^^xsd:string .
 
 <http://example.org/graphify/org/Clearnomics_For> a ns:ORG ;
     rdfs:label "Clearnomics For"^^xsd:string .
@@ -3013,8 +3604,17 @@
 <http://example.org/graphify/org/Commerce> a ns:ORG ;
     rdfs:label "Commerce"^^xsd:string .
 
+<http://example.org/graphify/org/Companies> a ns:ORG ;
+    rdfs:label "Companies"^^xsd:string .
+
 <http://example.org/graphify/org/Conference_on_Monetary_Policy_Transmission> a ns:ORG ;
     rdfs:label "Conference on Monetary Policy Transmission"^^xsd:string .
+
+<http://example.org/graphify/org/Congress> a ns:ORG ;
+    rdfs:label "Congress"^^xsd:string .
+
+<http://example.org/graphify/org/Congressional_Budget_Office> a ns:ORG ;
+    rdfs:label "Congressional Budget Office"^^xsd:string .
 
 <http://example.org/graphify/org/Consumer_Brands_Association> a ns:ORG ;
     rdfs:label "Consumer Brands Association"^^xsd:string .
@@ -3043,6 +3643,9 @@
 <http://example.org/graphify/org/Daimler_Truck> a ns:ORG ;
     rdfs:label "Daimler Truck"^^xsd:string .
 
+<http://example.org/graphify/org/Dell_Technologies_DELLN> a ns:ORG ;
+    rdfs:label "Dell Technologies DELLN"^^xsd:string .
+
 <http://example.org/graphify/org/Delta_Air_Lines> a ns:ORG ;
     rdfs:label "Delta Air Lines"^^xsd:string .
 
@@ -3061,6 +3664,18 @@
 
 <http://example.org/graphify/org/Dow_Jones> a ns:ORG ;
     rdfs:label "Dow Jones"^^xsd:string .
+
+<http://example.org/graphify/org/Dropbox> a ns:ORG ;
+    rdfs:label "Dropbox"^^xsd:string .
+
+<http://example.org/graphify/org/Dropboxs> a ns:ORG ;
+    rdfs:label "Dropboxs"^^xsd:string .
+
+<http://example.org/graphify/org/Dun_Bradstreet> a ns:ORG ;
+    rdfs:label "Dun Bradstreet"^^xsd:string .
+
+<http://example.org/graphify/org/Dun_Bradstreet_DNBN> a ns:ORG ;
+    rdfs:label "Dun Bradstreet DNBN"^^xsd:string .
 
 <http://example.org/graphify/org/Dunkirk> a ns:ORG ;
     rdfs:label "Dunkirk"^^xsd:string .
@@ -3085,6 +3700,12 @@
 
 <http://example.org/graphify/org/Elon_Musks_Department_of_Government_Efficiency> a ns:ORG ;
     rdfs:label "Elon Musks Department of Government Efficiency"^^xsd:string .
+
+<http://example.org/graphify/org/Equipment_Leasing_Finance_Foundation> a ns:ORG ;
+    rdfs:label "Equipment Leasing Finance Foundation"^^xsd:string .
+
+<http://example.org/graphify/org/Equipment_Leasing_and_Finance_Association_ELFA> a ns:ORG ;
+    rdfs:label "Equipment Leasing and Finance Association ELFA"^^xsd:string .
 
 <http://example.org/graphify/org/Equities> a ns:ORG ;
     rdfs:label "Equities"^^xsd:string .
@@ -3156,6 +3777,9 @@
 <http://example.org/graphify/org/Federal_Reserve_Chair_Jerome_Powell> a ns:ORG ;
     rdfs:label "Federal Reserve Chair Jerome Powell"^^xsd:string .
 
+<http://example.org/graphify/org/Federal_Reserves> a ns:ORG ;
+    rdfs:label "Federal Reserves"^^xsd:string .
+
 <http://example.org/graphify/org/Feds> a ns:ORG ;
     rdfs:label "Feds"^^xsd:string .
 
@@ -3189,6 +3813,12 @@
 <http://example.org/graphify/org/Fos> a ns:ORG ;
     rdfs:label "Fos"^^xsd:string .
 
+<http://example.org/graphify/org/G10_FX> a ns:ORG ;
+    rdfs:label "G10 FX"^^xsd:string .
+
+<http://example.org/graphify/org/GM> a ns:ORG ;
+    rdfs:label "GM"^^xsd:string .
+
 <http://example.org/graphify/org/GMT> a ns:ORG ;
     rdfs:label "GMT"^^xsd:string .
 
@@ -3198,8 +3828,14 @@
 <http://example.org/graphify/org/GWK_Investment_Management_The_CBOE_Volatility> a ns:ORG ;
     rdfs:label "GWK Investment Management The CBOE Volatility"^^xsd:string .
 
+<http://example.org/graphify/org/Galvin_and_Robinhood> a ns:ORG ;
+    rdfs:label "Galvin and Robinhood"^^xsd:string .
+
 <http://example.org/graphify/org/General_Mills_GISN> a ns:ORG ;
     rdfs:label "General Mills GISN"^^xsd:string .
+
+<http://example.org/graphify/org/General_Motors_GMN> a ns:ORG ;
+    rdfs:label "General Motors GMN"^^xsd:string .
 
 <http://example.org/graphify/org/Germany_Inditex> a ns:ORG ;
     rdfs:label "Germany Inditex"^^xsd:string .
@@ -3207,6 +3843,9 @@
 <http://example.org/graphify/org/Global_Equity_Strategist> a ns:ORG ;
     rdfs:label "Global Equity Strategist"^^xsd:string ;
     ns1:related_to <http://example.org/graphify/person/Alastair_Pinder> .
+
+<http://example.org/graphify/org/Global_Research> a ns:ORG ;
+    rdfs:label "Global Research"^^xsd:string .
 
 <http://example.org/graphify/org/Goldman_Sachs> a ns:ORG ;
     rdfs:label "Goldman Sachs"^^xsd:string ;
@@ -3216,6 +3855,9 @@
 
 <http://example.org/graphify/org/Goldman_Sachs_GSN> a ns:ORG ;
     rdfs:label "Goldman Sachs GSN"^^xsd:string .
+
+<http://example.org/graphify/org/Goldman_Sachs_Thats> a ns:ORG ;
+    rdfs:label "Goldman Sachs Thats"^^xsd:string .
 
 <http://example.org/graphify/org/Google> a ns:ORG ;
     rdfs:label "Google"^^xsd:string .
@@ -3235,6 +3877,9 @@
 <http://example.org/graphify/org/HSBC> a ns:ORG ;
     rdfs:label "HSBC"^^xsd:string .
 
+<http://example.org/graphify/org/Half_Moon_Capital> a ns:ORG ;
+    rdfs:label "Half Moon Capital"^^xsd:string .
+
 <http://example.org/graphify/org/Handelsblatt> a ns:ORG ;
     rdfs:label "Handelsblatt"^^xsd:string .
 
@@ -3250,14 +3895,35 @@
 <http://example.org/graphify/org/Hewlett_Packard_Enterprise> a ns:ORG ;
     rdfs:label "Hewlett Packard Enterprise"^^xsd:string .
 
+<http://example.org/graphify/org/Hong_Kong_Stock_Exchange_Xiaomi> a ns:ORG ;
+    rdfs:label "Hong Kong Stock Exchange Xiaomi"^^xsd:string .
+
 <http://example.org/graphify/org/Hong_Kongs> a ns:ORG ;
     rdfs:label "Hong Kongs"^^xsd:string .
+
+<http://example.org/graphify/org/Houston> a ns:ORG ;
+    rdfs:label "Houston"^^xsd:string .
 
 <http://example.org/graphify/org/Houston_Canada> a ns:ORG ;
     rdfs:label "Houston Canada"^^xsd:string .
 
 <http://example.org/graphify/org/Houston_The_Trump> a ns:ORG ;
     rdfs:label "Houston The Trump"^^xsd:string .
+
+<http://example.org/graphify/org/Hyundai> a ns:ORG ;
+    rdfs:label "Hyundai"^^xsd:string .
+
+<http://example.org/graphify/org/Hyundai_Motor> a ns:ORG ;
+    rdfs:label "Hyundai Motor"^^xsd:string .
+
+<http://example.org/graphify/org/Hyundai_Motor_Group_005380KS> a ns:ORG ;
+    rdfs:label "Hyundai Motor Group 005380KS"^^xsd:string .
+
+<http://example.org/graphify/org/Hyundai_Steel> a ns:ORG ;
+    rdfs:label "Hyundai Steel"^^xsd:string .
+
+<http://example.org/graphify/org/Hyundai_Steel_004020KS> a ns:ORG ;
+    rdfs:label "Hyundai Steel 004020KS"^^xsd:string .
 
 <http://example.org/graphify/org/IBM> a ns:ORG ;
     rdfs:label "IBM"^^xsd:string .
@@ -3298,8 +3964,14 @@
 <http://example.org/graphify/org/JP> a ns:ORG ;
     rdfs:label "JP"^^xsd:string .
 
+<http://example.org/graphify/org/JPMorgan> a ns:ORG ;
+    rdfs:label "JPMorgan"^^xsd:string .
+
 <http://example.org/graphify/org/JPMorgan_Chase_JPMN> a ns:ORG ;
     rdfs:label "JPMorgan Chase JPMN"^^xsd:string .
+
+<http://example.org/graphify/org/JPMorgans> a ns:ORG ;
+    rdfs:label "JPMorgans"^^xsd:string .
 
 <http://example.org/graphify/org/JP_Morgan> a ns:ORG ;
     rdfs:label "JP Morgan"^^xsd:string .
@@ -3325,6 +3997,9 @@
 <http://example.org/graphify/org/Julia_Pollak> a ns:ORG ;
     rdfs:label "Julia Pollak"^^xsd:string .
 
+<http://example.org/graphify/org/Justice_Department> a ns:ORG ;
+    rdfs:label "Justice Department"^^xsd:string .
+
 <http://example.org/graphify/org/KKR> a ns:ORG ;
     rdfs:label "KKR"^^xsd:string .
 
@@ -3334,6 +4009,9 @@
 <http://example.org/graphify/org/Kasman> a ns:ORG ;
     rdfs:label "Kasman"^^xsd:string .
 
+<http://example.org/graphify/org/Kia> a ns:ORG ;
+    rdfs:label "Kia"^^xsd:string .
+
 <http://example.org/graphify/org/Kohls_Corp_KSSN> a ns:ORG ;
     rdfs:label "Kohls Corp KSSN"^^xsd:string .
 
@@ -3342,6 +4020,9 @@
 
 <http://example.org/graphify/org/LG> a ns:ORG ;
     rdfs:label "LG"^^xsd:string .
+
+<http://example.org/graphify/org/LNG> a ns:ORG ;
+    rdfs:label "LNG"^^xsd:string .
 
 <http://example.org/graphify/org/LSEG_Adding> a ns:ORG ;
     rdfs:label "LSEG Adding"^^xsd:string .
@@ -3357,6 +4038,9 @@
 
 <http://example.org/graphify/org/Labor_Market> a ns:ORG ;
     rdfs:label "Labor Market"^^xsd:string .
+
+<http://example.org/graphify/org/Lockheed> a ns:ORG ;
+    rdfs:label "Lockheed"^^xsd:string .
 
 <http://example.org/graphify/org/Los_Angeles_Dodgers> a ns:ORG ;
     rdfs:label "Los Angeles Dodgers"^^xsd:string .
@@ -3410,6 +4094,12 @@
 
 <http://example.org/graphify/org/Manitoba_Pork_Council> a ns:ORG ;
     rdfs:label "Manitoba Pork Council"^^xsd:string .
+
+<http://example.org/graphify/org/March_Madness> a ns:ORG ;
+    rdfs:label "March Madness"^^xsd:string .
+
+<http://example.org/graphify/org/Marketplace> a ns:ORG ;
+    rdfs:label "Marketplace"^^xsd:string .
 
 <http://example.org/graphify/org/Meanwhile_Goldman_Sachs> a ns:ORG ;
     rdfs:label "Meanwhile Goldman Sachs"^^xsd:string .
@@ -3466,6 +4156,9 @@
 <http://example.org/graphify/org/Motor_Industry> a ns:ORG ;
     rdfs:label "Motor Industry"^^xsd:string .
 
+<http://example.org/graphify/org/NCAA> a ns:ORG ;
+    rdfs:label "NCAA"^^xsd:string .
+
 <http://example.org/graphify/org/NEW_YORK_March> a ns:ORG ;
     rdfs:label "NEW YORK March"^^xsd:string .
 
@@ -3491,21 +4184,39 @@
 <http://example.org/graphify/org/Nutrien_NTRTO> a ns:ORG ;
     rdfs:label "Nutrien NTRTO"^^xsd:string .
 
+<http://example.org/graphify/org/Nvidia_NVDAO> a ns:ORG ;
+    rdfs:label "Nvidia NVDAO"^^xsd:string .
+
 <http://example.org/graphify/org/OAG> a ns:ORG ;
     rdfs:label "OAG"^^xsd:string .
+
+<http://example.org/graphify/org/ORLANDO_Florida_March> a ns:ORG ;
+    rdfs:label "ORLANDO Florida March"^^xsd:string .
 
 <http://example.org/graphify/org/Ohio_State_University_Farmers> a ns:ORG ;
     rdfs:label "Ohio State University Farmers"^^xsd:string .
 
-<http://example.org/graphify/org/OpenAI> a ns:ORG ;
-    rdfs:label "OpenAI"^^xsd:string .
+<http://example.org/graphify/org/Oracle_ORCLN> a ns:ORG ;
+    rdfs:label "Oracle ORCLN"^^xsd:string .
 
 <http://example.org/graphify/org/Oracle_Opinions> a ns:ORG ;
     rdfs:label "Oracle Opinions"^^xsd:string .
 
+<http://example.org/graphify/org/PHLX> a ns:ORG ;
+    rdfs:label "PHLX"^^xsd:string .
+
 <http://example.org/graphify/org/PHP> a ns:ORG ;
     rdfs:label "PHP"^^xsd:string ;
     ns1:have_until <http://example.org/graphify/date/April_7> .
+
+<http://example.org/graphify/org/PMI> a ns:ORG ;
+    rdfs:label "PMI"^^xsd:string ;
+    ns1:drop_from <http://example.org/graphify/cardinal/527> ;
+    ns1:drop_to <http://example.org/graphify/cardinal/498> ;
+    ns1:fall_to <http://example.org/graphify/cardinal/508> ;
+    ns1:rise_from <http://example.org/graphify/cardinal/510> ;
+    ns1:rise_to <http://example.org/graphify/cardinal/543> ;
+    ns1:slip_to <http://example.org/graphify/cardinal/517> .
 
 <http://example.org/graphify/org/Participants> a ns:ORG ;
     rdfs:label "Participants"^^xsd:string .
@@ -3515,6 +4226,12 @@
 
 <http://example.org/graphify/org/PepsiCo> a ns:ORG ;
     rdfs:label "PepsiCo"^^xsd:string .
+
+<http://example.org/graphify/org/Personal_Consumption_Expenditure> a ns:ORG ;
+    rdfs:label "Personal Consumption Expenditure"^^xsd:string .
+
+<http://example.org/graphify/org/Personal_Consumption_Expenditures> a ns:ORG ;
+    rdfs:label "Personal Consumption Expenditures"^^xsd:string .
 
 <http://example.org/graphify/org/Phosphate> a ns:ORG ;
     rdfs:label "Phosphate"^^xsd:string .
@@ -3564,6 +4281,9 @@
 <http://example.org/graphify/org/Reserve_Bank_of_New_Zealand> a ns:ORG ;
     rdfs:label "Reserve Bank of New Zealand"^^xsd:string .
 
+<http://example.org/graphify/org/ReutersJamie> a ns:ORG ;
+    rdfs:label "ReutersJamie"^^xsd:string .
+
 <http://example.org/graphify/org/Reuters_Alberta> a ns:ORG ;
     rdfs:label "Reuters - Alberta"^^xsd:string .
 
@@ -3580,6 +4300,9 @@
 <http://example.org/graphify/org/Reuters_Blackstone_BXN> a ns:ORG ;
     rdfs:label "Reuters - Blackstone BXN"^^xsd:string .
 
+<http://example.org/graphify/org/Reuters_Boeing> a ns:ORG ;
+    rdfs:label "Reuters - Boeing"^^xsd:string .
+
 <http://example.org/graphify/org/Reuters_Cathay_Pacific_Airways_0293HK> a ns:ORG ;
     rdfs:label "Reuters - Cathay Pacific Airways 0293HK"^^xsd:string .
 
@@ -3587,8 +4310,14 @@
     rdfs:label "Reuters - China"^^xsd:string ;
     ns1:announce_on <http://example.org/graphify/date/Saturday> .
 
+<http://example.org/graphify/org/Reuters_Chinas_Xiaomi_Corp> a ns:ORG ;
+    rdfs:label "Reuters - Chinas Xiaomi Corp"^^xsd:string .
+
 <http://example.org/graphify/org/Reuters_Chinese> a ns:ORG ;
     rdfs:label "Reuters - Chinese"^^xsd:string .
+
+<http://example.org/graphify/org/Reuters_Cloud> a ns:ORG ;
+    rdfs:label "Reuters - Cloud"^^xsd:string .
 
 <http://example.org/graphify/org/Reuters_Federal_Reserve> a ns:ORG ;
     rdfs:label "Reuters - Federal Reserve"^^xsd:string .
@@ -3600,8 +4329,14 @@
     rdfs:label "Reuters - HSBC"^^xsd:string ;
     ns1:downgrade_on <http://example.org/graphify/date/Monday> .
 
+<http://example.org/graphify/org/Reuters_JPMorgan_Chase> a ns:ORG ;
+    rdfs:label "Reuters - JPMorgan Chase"^^xsd:string .
+
 <http://example.org/graphify/org/Reuters_Japan> a ns:ORG ;
     rdfs:label "Reuters - Japan"^^xsd:string .
+
+<http://example.org/graphify/org/Reuters_Massachusetts> a ns:ORG ;
+    rdfs:label "Reuters - Massachusetts"^^xsd:string .
 
 <http://example.org/graphify/org/Reuters_Morgan_Stanley> a ns:ORG ;
     rdfs:label "Reuters - Morgan Stanley"^^xsd:string ;
@@ -3625,6 +4360,15 @@
 <http://example.org/graphify/org/Reuters_Seesaw> a ns:ORG ;
     rdfs:label "Reuters - Seesaw"^^xsd:string .
 
+<http://example.org/graphify/org/Reuters_Social> a ns:ORG ;
+    rdfs:label "Reuters - Social"^^xsd:string .
+
+<http://example.org/graphify/org/Reuters_South_Koreas_Hyundai_Motor_Group> a ns:ORG ;
+    rdfs:label "Reuters - South Koreas Hyundai Motor Group"^^xsd:string .
+
+<http://example.org/graphify/org/Reuters_Tesla> a ns:ORG ;
+    rdfs:label "Reuters - Tesla"^^xsd:string .
+
 <http://example.org/graphify/org/Reuters_The_European_Union> a ns:ORG ;
     rdfs:label "Reuters - The European Union"^^xsd:string ;
     ns1:impose_from <http://example.org/graphify/date/next_month> .
@@ -3634,6 +4378,9 @@
 
 <http://example.org/graphify/org/Reuters_The_Federal_Reserve> a ns:ORG ;
     rdfs:label "Reuters - The Federal Reserve"^^xsd:string .
+
+<http://example.org/graphify/org/Reuters_The_SP_500> a ns:ORG ;
+    rdfs:label "Reuters - The SP 500"^^xsd:string .
 
 <http://example.org/graphify/org/Reuters_The_Supreme_Court> a ns:ORG ;
     rdfs:label "Reuters The Supreme Court"^^xsd:string .
@@ -3684,6 +4431,9 @@
 <http://example.org/graphify/org/SINGAPORENEW_YORKTAIPEI> a ns:ORG ;
     rdfs:label "SINGAPORENEW YORKTAIPEI"^^xsd:string .
 
+<http://example.org/graphify/org/SOX> a ns:ORG ;
+    rdfs:label "SOX"^^xsd:string .
+
 <http://example.org/graphify/org/SP> a ns:ORG ;
     rdfs:label "SP"^^xsd:string .
 
@@ -3692,6 +4442,18 @@
 
 <http://example.org/graphify/org/SPNY> a ns:ORG ;
     rdfs:label "SPNY"^^xsd:string .
+
+<http://example.org/graphify/org/SP_Global> a ns:ORG ;
+    rdfs:label "SP Global"^^xsd:string .
+
+<http://example.org/graphify/org/SP_Global_Market_Intelligence> a ns:ORG ;
+    rdfs:label "SP Global Market Intelligence"^^xsd:string .
+
+<http://example.org/graphify/org/SP_Global_Market_Intelligence_Most> a ns:ORG ;
+    rdfs:label "SP Global Market Intelligence Most"^^xsd:string .
+
+<http://example.org/graphify/org/SP_Globals> a ns:ORG ;
+    rdfs:label "SP Globals"^^xsd:string .
 
 <http://example.org/graphify/org/SSEC> a ns:ORG ;
     rdfs:label "SSEC"^^xsd:string .
@@ -3726,8 +4488,14 @@
 <http://example.org/graphify/org/September_Equity> a ns:ORG ;
     rdfs:label "September Equity"^^xsd:string .
 
+<http://example.org/graphify/org/Services> a ns:ORG ;
+    rdfs:label "Services"^^xsd:string .
+
 <http://example.org/graphify/org/Shen> a ns:ORG ;
     rdfs:label "Shen"^^xsd:string .
+
+<http://example.org/graphify/org/Siemens_AG> a ns:ORG ;
+    rdfs:label "Siemens AG"^^xsd:string .
 
 <http://example.org/graphify/org/Since_Trumps> a ns:ORG ;
     rdfs:label "Since Trumps"^^xsd:string .
@@ -3737,6 +4505,12 @@
 
 <http://example.org/graphify/org/Smith> a ns:ORG ;
     rdfs:label "Smith"^^xsd:string .
+
+<http://example.org/graphify/org/SoftBank_Group_9984> a ns:ORG ;
+    rdfs:label "SoftBank Group 9984"^^xsd:string .
+
+<http://example.org/graphify/org/SoftBank_Group_9984T> a ns:ORG ;
+    rdfs:label "SoftBank Group 9984T"^^xsd:string .
 
 <http://example.org/graphify/org/Southwest_Airlines> a ns:ORG ;
     rdfs:label "Southwest Airlines"^^xsd:string .
@@ -3750,6 +4524,12 @@
 <http://example.org/graphify/org/Starlink> a ns:ORG ;
     rdfs:label "Starlink"^^xsd:string ;
     ns1:unit_of <http://example.org/graphify/org/Elon_Musks_SpaceX> .
+
+<http://example.org/graphify/org/State> a ns:ORG ;
+    rdfs:label "State"^^xsd:string .
+
+<http://example.org/graphify/org/State_Bill_Galvin> a ns:ORG ;
+    rdfs:label "State Bill Galvin"^^xsd:string .
 
 <http://example.org/graphify/org/State_Department_the_Trump> a ns:ORG ;
     rdfs:label "State Department the Trump"^^xsd:string .
@@ -3771,6 +4551,9 @@
 
 <http://example.org/graphify/org/TD_Securities> a ns:ORG ;
     rdfs:label "TD Securities"^^xsd:string .
+
+<http://example.org/graphify/org/TIC> a ns:ORG ;
+    rdfs:label "TIC"^^xsd:string .
 
 <http://example.org/graphify/org/TMobile> a ns:ORG ;
     rdfs:label "T-Mobile"^^xsd:string .
@@ -3812,6 +4595,9 @@
 
 <http://example.org/graphify/org/The_Bank_of_England> a ns:ORG ;
     rdfs:label "The Bank of England"^^xsd:string .
+
+<http://example.org/graphify/org/The_Equipment_Leasing_Finance_Foundation> a ns:ORG ;
+    rdfs:label "The Equipment Leasing Finance Foundation"^^xsd:string .
 
 <http://example.org/graphify/org/The_European_Central_Bank> a ns:ORG ;
     rdfs:label "The European Central Bank"^^xsd:string .
@@ -3858,6 +4644,9 @@
 <http://example.org/graphify/org/TikTok> a ns:ORG ;
     rdfs:label "TikTok"^^xsd:string .
 
+<http://example.org/graphify/org/Todays_Key_Market_Moves_Trade> a ns:ORG ;
+    rdfs:label "Todays Key Market Moves Trade"^^xsd:string .
+
 <http://example.org/graphify/org/Todays_Market_Minute_Central> a ns:ORG ;
     rdfs:label "Todays Market Minute Central"^^xsd:string .
 
@@ -3882,17 +4671,20 @@
 <http://example.org/graphify/org/Treasury> a ns:ORG ;
     rdfs:label "Treasury"^^xsd:string .
 
+<http://example.org/graphify/org/Treasury_Department> a ns:ORG ;
+    rdfs:label "Treasury Department"^^xsd:string .
+
+<http://example.org/graphify/org/Treasury_International_Capital> a ns:ORG ;
+    rdfs:label "Treasury International Capital"^^xsd:string .
+
 <http://example.org/graphify/org/Treasury_and_Commerce> a ns:ORG ;
     rdfs:label "Treasury and Commerce"^^xsd:string .
 
+<http://example.org/graphify/org/Triple_D_Trading> a ns:ORG ;
+    rdfs:label "Triple D Trading"^^xsd:string .
+
 <http://example.org/graphify/org/Triple_D_Trading_China> a ns:ORG ;
     rdfs:label "Triple D Trading China"^^xsd:string .
-
-<http://example.org/graphify/org/Trump> a ns:ORG ;
-    rdfs:label "Trump"^^xsd:string ;
-    ns1:impose_from <http://example.org/graphify/gpe/Canada_Mexico> ;
-    ns1:trump_in <http://example.org/graphify/date/his_first_days> ;
-    ns1:trump_on <http://example.org/graphify/date/March_6> .
 
 <http://example.org/graphify/org/Trump_Administration> a ns:ORG ;
     rdfs:label "Trump Administration"^^xsd:string .
@@ -3922,6 +4714,12 @@
 <http://example.org/graphify/org/USDAs_Agricultural_Marketing_Service> a ns:ORG ;
     rdfs:label "USDAs Agricultural Marketing Service"^^xsd:string .
 
+<http://example.org/graphify/org/US_Air_Forces> a ns:ORG ;
+    rdfs:label "US Air Forces"^^xsd:string .
+
+<http://example.org/graphify/org/US_Commodity_Futures_Trading_Commission> a ns:ORG ;
+    rdfs:label "US Commodity Futures Trading Commission"^^xsd:string .
+
 <http://example.org/graphify/org/US_Department_of_Agriculture> a ns:ORG ;
     rdfs:label "US Department of Agriculture"^^xsd:string .
 
@@ -3936,6 +4734,9 @@
 
 <http://example.org/graphify/org/US_District_Judge_Amit_Mehta> a ns:ORG ;
     rdfs:label "US District Judge Amit Mehta"^^xsd:string .
+
+<http://example.org/graphify/org/US_Federal_Aviation_Administration> a ns:ORG ;
+    rdfs:label "US Federal Aviation Administration"^^xsd:string .
 
 <http://example.org/graphify/org/US_Federal_Communications_Commission> a ns:ORG ;
     rdfs:label "US Federal Communications Commission"^^xsd:string .
@@ -3991,6 +4792,9 @@
 <http://example.org/graphify/org/Vara_Research_While> a ns:ORG ;
     rdfs:label "Vara Research While"^^xsd:string .
 
+<http://example.org/graphify/org/Verge> a ns:ORG ;
+    rdfs:label "Verge"^^xsd:string .
+
 <http://example.org/graphify/org/Verizon_VZN> a ns:ORG ;
     rdfs:label "Verizon VZN"^^xsd:string .
 
@@ -4003,20 +4807,44 @@
 <http://example.org/graphify/org/Volvo> a ns:ORG ;
     rdfs:label "Volvo"^^xsd:string .
 
+<http://example.org/graphify/org/Volvo_AB> a ns:ORG ;
+    rdfs:label "Volvo AB"^^xsd:string .
+
+<http://example.org/graphify/org/WASHINGTONSEOUL_March> a ns:ORG ;
+    rdfs:label "WASHINGTONSEOUL March"^^xsd:string .
+
 <http://example.org/graphify/org/WINNIPEG_Manitoba_March> a ns:ORG ;
     rdfs:label "WINNIPEG Manitoba March"^^xsd:string .
 
 <http://example.org/graphify/org/WINNIPEG_Manitoba_March_6> a ns:ORG ;
     rdfs:label "WINNIPEG Manitoba March 6"^^xsd:string .
 
+<http://example.org/graphify/org/WSJ> a ns:ORG ;
+    rdfs:label "WSJ"^^xsd:string .
+
+<http://example.org/graphify/org/WTI> a ns:ORG ;
+    rdfs:label "WTI"^^xsd:string .
+
 <http://example.org/graphify/org/Wall_Street_Caught> a ns:ORG ;
     rdfs:label "Wall Street Caught"^^xsd:string .
+
+<http://example.org/graphify/org/Wall_Street_Journal> a ns:ORG ;
+    rdfs:label "Wall Street Journal"^^xsd:string .
+
+<http://example.org/graphify/org/Wall_Streets> a ns:ORG ;
+    rdfs:label "Wall Streets"^^xsd:string .
 
 <http://example.org/graphify/org/Waller> a ns:ORG ;
     rdfs:label "Waller"^^xsd:string .
 
 <http://example.org/graphify/org/Walmart> a ns:ORG ;
     rdfs:label "Walmart"^^xsd:string .
+
+<http://example.org/graphify/org/Walmarts> a ns:ORG ;
+    rdfs:label "Walmarts"^^xsd:string .
+
+<http://example.org/graphify/org/Washingtons> a ns:ORG ;
+    rdfs:label "Washingtons"^^xsd:string .
 
 <http://example.org/graphify/org/Wave_Digital> a ns:ORG ;
     rdfs:label "Wave Digital"^^xsd:string .
@@ -4070,11 +4898,21 @@
     rdfs:label "YORKTAIPEI"^^xsd:string ;
     ns1:related_to <http://example.org/graphify/org/Reuters_TSMC_2330TW> .
 
+<http://example.org/graphify/org/Y_Combinator> a ns:ORG ;
+    rdfs:label "Y Combinator"^^xsd:string .
+
 <http://example.org/graphify/org/ZipRecruiter_Healthcare> a ns:ORG ;
     rdfs:label "ZipRecruiter Healthcare"^^xsd:string .
 
 <http://example.org/graphify/org/iPhone> a ns:ORG ;
     rdfs:label "iPhone"^^xsd:string .
+
+<http://example.org/graphify/org/nonpartisan_Congressional_Budget_Office> a ns:ORG ;
+    rdfs:label "non-partisan Congressional Budget Office"^^xsd:string .
+
+<http://example.org/graphify/org/post_Altman> a ns:ORG ;
+    rdfs:label "post Altman"^^xsd:string ;
+    ns1:say_in <http://example.org/graphify/date/February> .
 
 <http://example.org/graphify/org/the_Air_Force> a ns:ORG ;
     rdfs:label "the Air Force"^^xsd:string .
@@ -4094,6 +4932,9 @@
 <http://example.org/graphify/org/the_Bershka_PullBear_Massimo_Dutti_Stradivarius> a ns:ORG ;
     rdfs:label "the Bershka PullBear Massimo Dutti Stradivarius"^^xsd:string .
 
+<http://example.org/graphify/org/the_Bipartisan_Policy_Center> a ns:ORG ;
+    rdfs:label "the Bipartisan Policy Center"^^xsd:string .
+
 <http://example.org/graphify/org/the_Business_Roundtable> a ns:ORG ;
     rdfs:label "the Business Roundtable"^^xsd:string .
 
@@ -4112,6 +4953,9 @@
 <http://example.org/graphify/org/the_Economic_Outlook_Group_Nonfarm> a ns:ORG ;
     rdfs:label "the Economic Outlook Group Nonfarm"^^xsd:string .
 
+<http://example.org/graphify/org/the_Equipment_Leasing_and_Finance_Association> a ns:ORG ;
+    rdfs:label "the Equipment Leasing and Finance Association"^^xsd:string .
+
 <http://example.org/graphify/org/the_European_Commission> a ns:ORG ;
     rdfs:label "the European Commission"^^xsd:string ;
     ns1:say_on <http://example.org/graphify/date/Wednesday> .
@@ -4126,8 +4970,14 @@
     rdfs:label "the High Court"^^xsd:string ;
     ns1:rule_with <http://example.org/graphify/person/Finola_OFarrell> .
 
+<http://example.org/graphify/org/the_Hong_Kong_Stock_Exchange> a ns:ORG ;
+    rdfs:label "the Hong Kong Stock Exchange"^^xsd:string .
+
 <http://example.org/graphify/org/the_IF_Metall_union> a ns:ORG ;
     rdfs:label "the IF Metall union"^^xsd:string .
+
+<http://example.org/graphify/org/the_Justice_Department> a ns:ORG ;
+    rdfs:label "the Justice Department"^^xsd:string .
 
 <http://example.org/graphify/org/the_Labor_Department> a ns:ORG ;
     rdfs:label "the Labor Department"^^xsd:string ;
@@ -4142,6 +4992,12 @@
 <http://example.org/graphify/org/the_Motor_Industry_of_New_Zealand> a ns:ORG ;
     rdfs:label "the Motor Industry of New Zealand"^^xsd:string .
 
+<http://example.org/graphify/org/the_Personal_Consumption_Expenditure> a ns:ORG ;
+    rdfs:label "the Personal Consumption Expenditure"^^xsd:string .
+
+<http://example.org/graphify/org/the_Personal_Consumption_Expenditures> a ns:ORG ;
+    rdfs:label "the Personal Consumption Expenditures"^^xsd:string .
+
 <http://example.org/graphify/org/the_Securities_and_Exchange_Commission> a ns:ORG ;
     rdfs:label "the Securities and Exchange Commission"^^xsd:string .
 
@@ -4151,14 +5007,26 @@
 <http://example.org/graphify/org/the_State_Department> a ns:ORG ;
     rdfs:label "the State Department"^^xsd:string .
 
+<http://example.org/graphify/org/the_Treasury_Department> a ns:ORG ;
+    rdfs:label "the Treasury Department"^^xsd:string .
+
 <http://example.org/graphify/org/the_Trump_Administration> a ns:ORG ;
     rdfs:label "the Trump Administration"^^xsd:string .
+
+<http://example.org/graphify/org/the_US_Air_Forces> a ns:ORG ;
+    rdfs:label "the US Air Forces"^^xsd:string .
+
+<http://example.org/graphify/org/the_US_Commodity_Futures_Trading_Commission> a ns:ORG ;
+    rdfs:label "the US Commodity Futures Trading Commission"^^xsd:string .
 
 <http://example.org/graphify/org/the_US_Department_of_Agriculture> a ns:ORG ;
     rdfs:label "the US Department of Agriculture"^^xsd:string .
 
 <http://example.org/graphify/org/the_US_Department_of_Health_and_Human_Services> a ns:ORG ;
     rdfs:label "the US Department of Health and Human Services"^^xsd:string .
+
+<http://example.org/graphify/org/the_US_Federal_Aviation_Administration> a ns:ORG ;
+    rdfs:label "the US Federal Aviation Administration"^^xsd:string .
 
 <http://example.org/graphify/org/the_US_Federal_Reserve> a ns:ORG ;
     rdfs:label "the US Federal Reserve"^^xsd:string .
@@ -4172,8 +5040,15 @@
 <http://example.org/graphify/org/the_University_of_Illinois> a ns:ORG ;
     rdfs:label "the University of Illinois"^^xsd:string .
 
+<http://example.org/graphify/org/the_Wall_Street_Journal> a ns:ORG ;
+    rdfs:label "the Wall Street Journal"^^xsd:string ;
+    ns1:report_on <http://example.org/graphify/date/Monday> .
+
 <http://example.org/graphify/org/the_West_Virginia_Food_and_Farm_Coalition> a ns:ORG ;
     rdfs:label "the West Virginia Food and Farm Coalition"^^xsd:string .
+
+<http://example.org/graphify/org/the_X_Date> a ns:ORG ;
+    rdfs:label "the X Date"^^xsd:string .
 
 <http://example.org/graphify/org/the_commerce_ministry> a ns:ORG ;
     rdfs:label "the commerce ministry"^^xsd:string .
@@ -4209,6 +5084,9 @@
 <http://example.org/graphify/person/Alphabets_Google> a ns:PERSON ;
     rdfs:label "Alphabets Google"^^xsd:string .
 
+<http://example.org/graphify/person/Altman> a ns:PERSON ;
+    rdfs:label "Altman"^^xsd:string .
+
 <http://example.org/graphify/person/Amin_Nasser> a ns:PERSON ;
     rdfs:label "Amin Nasser"^^xsd:string .
 
@@ -4243,6 +5121,9 @@
 <http://example.org/graphify/person/Assura> a ns:PERSON ;
     rdfs:label "Assura"^^xsd:string .
 
+<http://example.org/graphify/person/BYD> a ns:PERSON ;
+    rdfs:label "BYD"^^xsd:string .
+
 <http://example.org/graphify/person/Barrick> a ns:PERSON ;
     rdfs:label "Barrick"^^xsd:string ;
     ns1:say_on <http://example.org/graphify/date/January_13> .
@@ -4271,11 +5152,26 @@
 <http://example.org/graphify/person/Big_Tech> a ns:PERSON ;
     rdfs:label "Big Tech"^^xsd:string .
 
+<http://example.org/graphify/person/Bill_Galvin> a ns:PERSON ;
+    rdfs:label "Bill Galvin"^^xsd:string .
+
 <http://example.org/graphify/person/Bill_Sterling> a ns:PERSON ;
     rdfs:label "Bill Sterling"^^xsd:string .
 
 <http://example.org/graphify/person/Blackstone> a ns:PERSON ;
     rdfs:label "Blackstone"^^xsd:string .
+
+<http://example.org/graphify/person/Boeings> a ns:PERSON ;
+    rdfs:label "Boeings"^^xsd:string .
+
+<http://example.org/graphify/person/Bostic> a ns:PERSON ;
+    rdfs:label "Bostic"^^xsd:string .
+
+<http://example.org/graphify/person/Brad> a ns:PERSON ;
+    rdfs:label "Brad"^^xsd:string .
+
+<http://example.org/graphify/person/Brad_Lightcap> a ns:PERSON ;
+    rdfs:label "Brad Lightcap"^^xsd:string .
 
 <http://example.org/graphify/person/Brendan_Carr> a ns:PERSON ;
     rdfs:label "Brendan Carr"^^xsd:string .
@@ -4302,6 +5198,9 @@
 <http://example.org/graphify/person/Cam_Dahl_General_Manager> a ns:PERSON ;
     rdfs:label "Cam Dahl General Manager"^^xsd:string .
 
+<http://example.org/graphify/person/Cao> a ns:PERSON ;
+    rdfs:label "Cao"^^xsd:string .
+
 <http://example.org/graphify/person/Chair_Don_Kohn> a ns:PERSON ;
     rdfs:label "Chair Don Kohn"^^xsd:string .
 
@@ -4320,6 +5219,9 @@
 <http://example.org/graphify/person/Chris_Iggo> a ns:PERSON ;
     rdfs:label "Chris Iggo"^^xsd:string .
 
+<http://example.org/graphify/person/Chris_Williamson> a ns:PERSON ;
+    rdfs:label "Chris Williamson"^^xsd:string .
+
 <http://example.org/graphify/person/Chris_Wright> a ns:PERSON ;
     rdfs:label "Chris Wright"^^xsd:string ;
     ns1:say_on <http://example.org/graphify/date/Monday> .
@@ -4331,6 +5233,9 @@
 <http://example.org/graphify/person/Christopher_Waller> a ns:PERSON ;
     rdfs:label "Christopher Waller"^^xsd:string ;
     ns1:say_on <http://example.org/graphify/date/Thursday> .
+
+<http://example.org/graphify/person/Cloud> a ns:PERSON ;
+    rdfs:label "Cloud"^^xsd:string .
 
 <http://example.org/graphify/person/Conrad> a ns:PERSON ;
     rdfs:label "Conrad"^^xsd:string .
@@ -4354,8 +5259,14 @@
     rdfs:label "Danielle Smith"^^xsd:string ;
     ns1:say_on <http://example.org/graphify/date/Monday> .
 
+<http://example.org/graphify/person/Danni_Hewson> a ns:PERSON ;
+    rdfs:label "Danni Hewson"^^xsd:string .
+
 <http://example.org/graphify/person/Dave_Walton> a ns:PERSON ;
     rdfs:label "Dave Walton"^^xsd:string .
+
+<http://example.org/graphify/person/David_Kostin> a ns:PERSON ;
+    rdfs:label "David Kostin"^^xsd:string .
 
 <http://example.org/graphify/person/David_Sacks> a ns:PERSON ;
     rdfs:label "David Sacks"^^xsd:string ;
@@ -4366,6 +5277,9 @@
 
 <http://example.org/graphify/person/Dennis_Dick> a ns:PERSON ;
     rdfs:label "Dennis Dick"^^xsd:string .
+
+<http://example.org/graphify/person/Dick> a ns:PERSON ;
+    rdfs:label "Dick"^^xsd:string .
 
 <http://example.org/graphify/person/Dicks_Sporting_Goods> a ns:PERSON ;
     rdfs:label "Dicks Sporting Goods"^^xsd:string .
@@ -4380,12 +5294,24 @@
     ns1:say_on <http://example.org/graphify/date/Sunday> ;
     ns1:take_on <http://example.org/graphify/date/January_20> .
 
+<http://example.org/graphify/person/Donald_Trump_Jr> a ns:PERSON ;
+    rdfs:label "Donald Trump Jr"^^xsd:string .
+
 <http://example.org/graphify/person/Donald_Trump_Neither_Walmart> a ns:PERSON ;
     rdfs:label "Donald Trump Neither Walmart"^^xsd:string .
 
 <http://example.org/graphify/person/Donald_Trumps> a ns:PERSON ;
     rdfs:label "Donald Trumps"^^xsd:string ;
     ns1:comment_over <http://example.org/graphify/date/the_weekend> .
+
+<http://example.org/graphify/person/Drew_Houston> a ns:PERSON ;
+    rdfs:label "Drew Houston"^^xsd:string .
+
+<http://example.org/graphify/person/Dropbox> a ns:PERSON ;
+    rdfs:label "Dropbox"^^xsd:string .
+
+<http://example.org/graphify/person/Dropbox_DBXO> a ns:PERSON ;
+    rdfs:label "Dropbox DBXO"^^xsd:string .
 
 <http://example.org/graphify/person/Ecarx> a ns:PERSON ;
     rdfs:label "Ecarx"^^xsd:string .
@@ -4421,6 +5347,9 @@
 <http://example.org/graphify/person/Fed_Governor_Christopher_Waller> a ns:PERSON ;
     rdfs:label "Fed Governor Christopher Waller"^^xsd:string .
 
+<http://example.org/graphify/person/Feds> a ns:PERSON ;
+    rdfs:label "Feds"^^xsd:string .
+
 <http://example.org/graphify/person/Fertilizer> a ns:PERSON ;
     rdfs:label "Fertilizer"^^xsd:string .
 
@@ -4441,6 +5370,15 @@
 
 <http://example.org/graphify/person/Gail_Slater> a ns:PERSON ;
     rdfs:label "Gail Slater"^^xsd:string .
+
+<http://example.org/graphify/person/Galvin> a ns:PERSON ;
+    rdfs:label "Galvin"^^xsd:string .
+
+<http://example.org/graphify/person/Galvin_a> a ns:PERSON ;
+    rdfs:label "Galvin a"^^xsd:string .
+
+<http://example.org/graphify/person/Galvins> a ns:PERSON ;
+    rdfs:label "Galvins"^^xsd:string .
 
 <http://example.org/graphify/person/Gapen> a ns:PERSON ;
     rdfs:label "Gapen"^^xsd:string .
@@ -4466,11 +5404,17 @@
 <http://example.org/graphify/person/Googles> a ns:PERSON ;
     rdfs:label "Googles"^^xsd:string .
 
+<http://example.org/graphify/person/Gross> a ns:PERSON ;
+    rdfs:label "Gross"^^xsd:string .
+
 <http://example.org/graphify/person/HK049> a ns:PERSON ;
     rdfs:label "HK049"^^xsd:string .
 
 <http://example.org/graphify/person/Half> a ns:PERSON ;
     rdfs:label "Half"^^xsd:string .
+
+<http://example.org/graphify/person/Half_Moon> a ns:PERSON ;
+    rdfs:label "Half Moon"^^xsd:string .
 
 <http://example.org/graphify/person/Handelsblatt> a ns:PERSON ;
     rdfs:label "Handelsblatt"^^xsd:string .
@@ -4478,8 +5422,15 @@
 <http://example.org/graphify/person/Hang_Seng> a ns:PERSON ;
     rdfs:label "Hang Seng"^^xsd:string .
 
+<http://example.org/graphify/person/Haofei_Wang> a ns:PERSON ;
+    rdfs:label "Haofei Wang"^^xsd:string .
+
 <http://example.org/graphify/person/Haruhiko_Kuroda> a ns:PERSON ;
     rdfs:label "Haruhiko Kuroda"^^xsd:string .
+
+<http://example.org/graphify/person/He_Lifeng> a ns:PERSON ;
+    rdfs:label "He Lifeng"^^xsd:string ;
+    ns1:meet_on <http://example.org/graphify/date/Sunday> .
 
 <http://example.org/graphify/person/Hepworth> a ns:PERSON ;
     rdfs:label "Hepworth"^^xsd:string .
@@ -4492,6 +5443,9 @@
 
 <http://example.org/graphify/person/Howard_Lutnick> a ns:PERSON ;
     rdfs:label "Howard Lutnick"^^xsd:string .
+
+<http://example.org/graphify/person/Ill> a ns:PERSON ;
+    rdfs:label "Ill"^^xsd:string .
 
 <http://example.org/graphify/person/Intel_Gelsinger> a ns:PERSON ;
     rdfs:label "Intel Gelsinger"^^xsd:string .
@@ -4510,6 +5464,11 @@
 
 <http://example.org/graphify/person/Jamie_Cox> a ns:PERSON ;
     rdfs:label "Jamie Cox"^^xsd:string .
+
+<http://example.org/graphify/person/Jeff_Landry> a ns:PERSON ;
+    rdfs:label "Jeff Landry"^^xsd:string ;
+    ns1:travel_in <http://example.org/graphify/date/October> ;
+    ns1:travel_to <http://example.org/graphify/gpe/South_Korea> .
 
 <http://example.org/graphify/person/Jerome_Powell> a ns:PERSON ;
     rdfs:label "Jerome Powell"^^xsd:string .
@@ -4549,6 +5508,9 @@
     ns1:say_in <http://example.org/graphify/date/August> ;
     ns1:say_on <http://example.org/graphify/date/Thursday> .
 
+<http://example.org/graphify/person/Kalshi> a ns:PERSON ;
+    rdfs:label "Kalshi"^^xsd:string .
+
 <http://example.org/graphify/person/Kasman> a ns:PERSON ;
     rdfs:label "Kasman"^^xsd:string .
 
@@ -4570,8 +5532,14 @@
 <http://example.org/graphify/person/Kyle_Rodda> a ns:PERSON ;
     rdfs:label "Kyle Rodda"^^xsd:string .
 
+<http://example.org/graphify/person/LSEG> a ns:PERSON ;
+    rdfs:label "LSEG"^^xsd:string .
+
 <http://example.org/graphify/person/LSEG_Adding> a ns:PERSON ;
     rdfs:label "LSEG Adding"^^xsd:string .
+
+<http://example.org/graphify/person/LSEG_Teslas_Chinese> a ns:PERSON ;
+    rdfs:label "LSEG Teslas Chinese"^^xsd:string .
 
 <http://example.org/graphify/person/LSEG_US> a ns:PERSON ;
     rdfs:label "LSEG US"^^xsd:string .
@@ -4585,6 +5553,9 @@
 <http://example.org/graphify/person/Larry_Fink> a ns:PERSON ;
     rdfs:label "Larry Fink"^^xsd:string .
 
+<http://example.org/graphify/person/Leigh_Lytle> a ns:PERSON ;
+    rdfs:label "Leigh Lytle"^^xsd:string .
+
 <http://example.org/graphify/person/Leonie_Brinkema> a ns:PERSON ;
     rdfs:label "Leonie Brinkema"^^xsd:string .
 
@@ -4594,8 +5565,22 @@
 <http://example.org/graphify/person/Leyen> a ns:PERSON ;
     rdfs:label "Leyen"^^xsd:string .
 
+<http://example.org/graphify/person/Lia_Cao> a ns:PERSON ;
+    rdfs:label "Lia Cao"^^xsd:string .
+
+<http://example.org/graphify/person/Lifeng> a ns:PERSON ;
+    rdfs:label "Lifeng"^^xsd:string .
+
+<http://example.org/graphify/person/Lightcap> a ns:PERSON ;
+    rdfs:label "Lightcap"^^xsd:string ;
+    ns1:join <http://example.org/graphify/org/OpenAI> ;
+    ns1:join_in <http://example.org/graphify/date/2018> .
+
 <http://example.org/graphify/person/Lindsey_Bell> a ns:PERSON ;
     rdfs:label "Lindsey Bell"^^xsd:string .
+
+<http://example.org/graphify/person/Little> a ns:PERSON ;
+    rdfs:label "Little"^^xsd:string .
 
 <http://example.org/graphify/person/Lutnick> a ns:PERSON ;
     rdfs:label "Lutnick"^^xsd:string .
@@ -4618,11 +5603,27 @@
 <http://example.org/graphify/person/Mark_Carney> a ns:PERSON ;
     rdfs:label "Mark Carney"^^xsd:string .
 
+<http://example.org/graphify/person/Mark_Chen> a ns:PERSON ;
+    rdfs:label "Mark Chen"^^xsd:string .
+
 <http://example.org/graphify/person/Mark_Milam> a ns:PERSON ;
     rdfs:label "Mark Milam"^^xsd:string .
 
+<http://example.org/graphify/person/Martin> a ns:PERSON ;
+    rdfs:label "Martin"^^xsd:string .
+
+<http://example.org/graphify/person/Mary_Barra> a ns:PERSON ;
+    rdfs:label "Mary Barra"^^xsd:string ;
+    ns1:meet_with <http://example.org/graphify/org/Trump> .
+
 <http://example.org/graphify/person/Massimo_Dutti_Stradivarius> a ns:PERSON ;
     rdfs:label "Massimo Dutti Stradivarius"^^xsd:string .
+
+<http://example.org/graphify/person/Mastercard_Cargill> a ns:PERSON ;
+    rdfs:label "Mastercard Cargill"^^xsd:string .
+
+<http://example.org/graphify/person/McKinsey> a ns:PERSON ;
+    rdfs:label "McKinsey"^^xsd:string .
 
 <http://example.org/graphify/person/Melbourne_Tesla> a ns:PERSON ;
     rdfs:label "Melbourne Tesla"^^xsd:string .
@@ -4678,6 +5679,9 @@
 <http://example.org/graphify/person/Nate_PowellPalm> a ns:PERSON ;
     rdfs:label "Nate Powell-Palm"^^xsd:string .
 
+<http://example.org/graphify/person/Officer_Brad_Lightcap> a ns:PERSON ;
+    rdfs:label "Officer Brad Lightcap"^^xsd:string .
+
 <http://example.org/graphify/person/Oliver_Pursche> a ns:PERSON ;
     rdfs:label "Oliver Pursche"^^xsd:string .
 
@@ -4724,6 +5728,13 @@
 <http://example.org/graphify/person/Range_Rover> a ns:PERSON ;
     rdfs:label "Range Rover"^^xsd:string .
 
+<http://example.org/graphify/person/Raphael_Bostic> a ns:PERSON ;
+    rdfs:label "Raphael Bostic"^^xsd:string ;
+    ns1:say_on <http://example.org/graphify/date/Monday> .
+
+<http://example.org/graphify/person/Reed_OConnor> a ns:PERSON ;
+    rdfs:label "Reed OConnor"^^xsd:string .
+
 <http://example.org/graphify/person/Retail> a ns:PERSON ;
     rdfs:label "Retail"^^xsd:string .
 
@@ -4753,11 +5764,17 @@
 <http://example.org/graphify/person/Robert_F_Kennedy_Jr> a ns:PERSON ;
     rdfs:label "Robert F Kennedy Jr"^^xsd:string .
 
+<http://example.org/graphify/person/Robinhood> a ns:PERSON ;
+    rdfs:label "Robinhood"^^xsd:string .
+
 <http://example.org/graphify/person/Robinhood_Markets> a ns:PERSON ;
     rdfs:label "Robinhood Markets"^^xsd:string .
 
 <http://example.org/graphify/person/Robinhood_Witkoff> a ns:PERSON ;
     rdfs:label "Robinhood Witkoff"^^xsd:string .
+
+<http://example.org/graphify/person/Robinhoods_HOODO> a ns:PERSON ;
+    rdfs:label "Robinhoods HOODO"^^xsd:string .
 
 <http://example.org/graphify/person/Rollins> a ns:PERSON ;
     rdfs:label "Rollins"^^xsd:string ;
@@ -4772,6 +5789,9 @@
 <http://example.org/graphify/person/Rossiter> a ns:PERSON ;
     rdfs:label "Rossiter"^^xsd:string .
 
+<http://example.org/graphify/person/Russell> a ns:PERSON ;
+    rdfs:label "Russell"^^xsd:string .
+
 <http://example.org/graphify/person/Russias> a ns:PERSON ;
     rdfs:label "Russias"^^xsd:string .
 
@@ -4783,6 +5803,13 @@
 
 <http://example.org/graphify/person/Salaries> a ns:PERSON ;
     rdfs:label "Salaries"^^xsd:string .
+
+<http://example.org/graphify/person/Sam_Altman> a ns:PERSON ;
+    rdfs:label "Sam Altman"^^xsd:string ;
+    ns1:say_on <http://example.org/graphify/date/Monday> .
+
+<http://example.org/graphify/person/Sam_Stovall> a ns:PERSON ;
+    rdfs:label "Sam Stovall"^^xsd:string .
 
 <http://example.org/graphify/person/Satya_Nadella> a ns:PERSON ;
     rdfs:label "Satya Nadella"^^xsd:string .
@@ -4808,6 +5835,9 @@
 <http://example.org/graphify/person/Sergei_Lavrov> a ns:PERSON ;
     rdfs:label "Sergei Lavrov"^^xsd:string .
 
+<http://example.org/graphify/person/Shai_Akabas> a ns:PERSON ;
+    rdfs:label "Shai Akabas"^^xsd:string .
+
 <http://example.org/graphify/person/Shares> a ns:PERSON ;
     rdfs:label "Shares"^^xsd:string .
 
@@ -4830,17 +5860,29 @@
 <http://example.org/graphify/person/Spencer_Moss> a ns:PERSON ;
     rdfs:label "Spencer Moss"^^xsd:string .
 
+<http://example.org/graphify/person/Standard_Chartereds> a ns:PERSON ;
+    rdfs:label "Standard Chartereds"^^xsd:string .
+
 <http://example.org/graphify/person/Starlink> a ns:PERSON ;
     rdfs:label "Starlink"^^xsd:string .
 
 <http://example.org/graphify/person/Stephen_Jen> a ns:PERSON ;
     rdfs:label "Stephen Jen"^^xsd:string .
 
+<http://example.org/graphify/person/Steve_Bradbury> a ns:PERSON ;
+    rdfs:label "Steve Bradbury"^^xsd:string .
+
 <http://example.org/graphify/person/Steve_Jobs> a ns:PERSON ;
     rdfs:label "Steve Jobs"^^xsd:string .
 
 <http://example.org/graphify/person/Steve_Tucker> a ns:PERSON ;
     rdfs:label "Steve Tucker"^^xsd:string .
+
+<http://example.org/graphify/person/Steven_Englander> a ns:PERSON ;
+    rdfs:label "Steven Englander"^^xsd:string .
+
+<http://example.org/graphify/person/Steven_Englander_Cyclical> a ns:PERSON ;
+    rdfs:label "Steven Englander Cyclical"^^xsd:string .
 
 <http://example.org/graphify/person/Stonepeak> a ns:PERSON ;
     rdfs:label "Stonepeak"^^xsd:string .
@@ -4856,6 +5898,9 @@
 
 <http://example.org/graphify/person/Tata> a ns:PERSON ;
     rdfs:label "Tata"^^xsd:string .
+
+<http://example.org/graphify/person/Tesla> a ns:PERSON ;
+    rdfs:label "Tesla"^^xsd:string .
 
 <http://example.org/graphify/person/Tesla_Model> a ns:PERSON ;
     rdfs:label "Tesla Model"^^xsd:string .
@@ -4929,17 +5974,29 @@
 <http://example.org/graphify/person/William_Woods> a ns:PERSON ;
     rdfs:label "William Woods"^^xsd:string .
 
+<http://example.org/graphify/person/Williamson> a ns:PERSON ;
+    rdfs:label "Williamson"^^xsd:string .
+
+<http://example.org/graphify/person/Williamson_The> a ns:PERSON ;
+    rdfs:label "Williamson The"^^xsd:string .
+
 <http://example.org/graphify/person/Wilson> a ns:PERSON ;
     rdfs:label "Wilson"^^xsd:string .
 
 <http://example.org/graphify/person/Wright> a ns:PERSON ;
     rdfs:label "Wright"^^xsd:string .
 
+<http://example.org/graphify/person/X_Tesla> a ns:PERSON ;
+    rdfs:label "X Tesla"^^xsd:string .
+
 <http://example.org/graphify/person/Xavier_Brun> a ns:PERSON ;
     rdfs:label "Xavier Brun"^^xsd:string .
 
 <http://example.org/graphify/person/Xi_Jinping> a ns:PERSON ;
     rdfs:label "Xi Jinping"^^xsd:string .
+
+<http://example.org/graphify/person/Xiaomis> a ns:PERSON ;
+    rdfs:label "Xiaomis"^^xsd:string .
 
 <http://example.org/graphify/person/Yen> a ns:PERSON ;
     rdfs:label "Yen"^^xsd:string .
@@ -4956,11 +6013,20 @@
 <http://example.org/graphify/person/graffiti> a ns:PERSON ;
     rdfs:label "graffiti"^^xsd:string .
 
+<http://example.org/graphify/person/platform_X_Tesla> a ns:PERSON ;
+    rdfs:label "platform X Tesla"^^xsd:string .
+
+<http://example.org/graphify/person/platform_Xs> a ns:PERSON ;
+    rdfs:label "platform Xs"^^xsd:string .
+
 <http://example.org/graphify/person/von_der> a ns:PERSON ;
     rdfs:label "von der"^^xsd:string ;
     ns1:related_to <http://example.org/graphify/gpe/Leyen> .
 
 ns1:administer rdfs:label "administer"^^xsd:string .
+
+ns1:agree_In rdfs:label "agree In"^^xsd:string,
+        "agree_In"^^xsd:string .
 
 ns1:aim rdfs:label "aim"^^xsd:string .
 
@@ -4986,6 +6052,8 @@ ns1:buy_in rdfs:label "buy in"^^xsd:string,
 
 ns1:cancel_in rdfs:label "cancel in"^^xsd:string,
         "cancel_in"^^xsd:string .
+
+ns1:come_after rdfs:label "come_after"^^xsd:string .
 
 ns1:come_by rdfs:label "come by"^^xsd:string,
         "come_by"^^xsd:string .
@@ -5021,11 +6089,19 @@ ns1:downgrade_on rdfs:label "downgrade on"^^xsd:string,
 ns1:downgrade_to rdfs:label "downgrade to"^^xsd:string,
         "downgrade_to"^^xsd:string .
 
+ns1:drop_from rdfs:label "drop_from"^^xsd:string .
+
 ns1:drop_on rdfs:label "drop on"^^xsd:string,
         "drop_on"^^xsd:string .
 
+ns1:drop_to rdfs:label "drop to"^^xsd:string,
+        "drop_to"^^xsd:string .
+
 ns1:enact_on rdfs:label "enact on"^^xsd:string,
         "enact_on"^^xsd:string .
+
+ns1:fall_to rdfs:label "fall to"^^xsd:string,
+        "fall_to"^^xsd:string .
 
 ns1:found_in rdfs:label "found in"^^xsd:string,
         "found_in"^^xsd:string .
@@ -5062,14 +6138,26 @@ ns1:invest rdfs:label "invest"^^xsd:string .
 ns1:issue_in rdfs:label "issue in"^^xsd:string,
         "issue_in"^^xsd:string .
 
+ns1:join rdfs:label "join"^^xsd:string .
+
+ns1:join_in rdfs:label "join_in"^^xsd:string .
+
 ns1:km_of rdfs:label "km_of"^^xsd:string .
 
 ns1:launch_in rdfs:label "launch in"^^xsd:string .
+
+ns1:lobby rdfs:label "lobby"^^xsd:string .
 
 ns1:lose rdfs:label "lose"^^xsd:string .
 
 ns1:lower_on rdfs:label "lower on"^^xsd:string,
         "lower_on"^^xsd:string .
+
+ns1:meet_on rdfs:label "meet on"^^xsd:string,
+        "meet_on"^^xsd:string .
+
+ns1:meet_with rdfs:label "meet with"^^xsd:string,
+        "meet_with"^^xsd:string .
 
 ns1:member_of rdfs:label "member_of"^^xsd:string .
 
@@ -5107,6 +6195,14 @@ ns1:report_on rdfs:label "report on"^^xsd:string,
 ns1:restore_to rdfs:label "restore to"^^xsd:string,
         "restore_to"^^xsd:string .
 
+ns1:rise_from rdfs:label "rise_from"^^xsd:string .
+
+ns1:rise_to rdfs:label "rise to"^^xsd:string,
+        "rise_to"^^xsd:string .
+
+ns1:risk_between rdfs:label "risk between"^^xsd:string,
+        "risk_between"^^xsd:string .
+
 ns1:rule_with rdfs:label "rule with"^^xsd:string,
         "rule_with"^^xsd:string .
 
@@ -5121,6 +6217,9 @@ ns1:say_on rdfs:label "say on"^^xsd:string,
 
 ns1:scrimp_for rdfs:label "scrimp for"^^xsd:string,
         "scrimp_for"^^xsd:string .
+
+ns1:slip_to rdfs:label "slip to"^^xsd:string,
+        "slip_to"^^xsd:string .
 
 ns1:take_on rdfs:label "take on"^^xsd:string,
         "take_on"^^xsd:string .
@@ -5139,6 +6238,8 @@ ns1:threaten rdfs:label "threaten"^^xsd:string .
 
 ns1:time_over rdfs:label "time_over"^^xsd:string .
 
+ns1:travel_in rdfs:label "travel_in"^^xsd:string .
+
 ns1:travel_to rdfs:label "travel to"^^xsd:string,
         "travel_to"^^xsd:string .
 
@@ -5152,6 +6253,9 @@ ns1:watch_on rdfs:label "watch on"^^xsd:string,
         "watch_on"^^xsd:string .
 
 ns1:week_in rdfs:label "week_in"^^xsd:string .
+
+ns1:win_on rdfs:label "win on"^^xsd:string,
+        "win_on"^^xsd:string .
 
 <http://example.org/graphify/product/386_Data> a ns:PRODUCT ;
     rdfs:label "386 Data"^^xsd:string .
@@ -5174,8 +6278,17 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/product/Gemini> a ns:PRODUCT ;
     rdfs:label "Gemini"^^xsd:string .
 
+<http://example.org/graphify/product/HK5280> a ns:PRODUCT ;
+    rdfs:label "HK5280"^^xsd:string .
+
+<http://example.org/graphify/product/Martin> a ns:PRODUCT ;
+    rdfs:label "Martin"^^xsd:string .
+
 <http://example.org/graphify/product/SmartEstimates_HK849_billion> a ns:PRODUCT ;
     rdfs:label "SmartEstimates HK849 billion"^^xsd:string .
+
+<http://example.org/graphify/product/Teslas> a ns:PRODUCT ;
+    rdfs:label "Teslas"^^xsd:string .
 
 <http://example.org/graphify/product/Tratons> a ns:PRODUCT ;
     rdfs:label "Tratons"^^xsd:string .
@@ -5199,6 +6312,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/quantity/around_three_metric_tons> a ns:QUANTITY ;
     rdfs:label "around three metric tons"^^xsd:string .
 
+<http://example.org/graphify/quantity/over_27_million_metric_tons> a ns:QUANTITY ;
+    rdfs:label "over 27 million metric tons"^^xsd:string .
+
 <http://example.org/graphify/time/0100_pm_ET> a ns:TIME ;
     rdfs:label "0100 pm ET"^^xsd:string .
 
@@ -5220,6 +6336,13 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/time/hours> a ns:TIME ;
     rdfs:label "hours"^^xsd:string .
 
+<http://example.org/graphify/time/latenight> a ns:TIME ;
+    rdfs:label "late-night"^^xsd:string ;
+    ns1:related_to <http://example.org/graphify/norp/Tesla> .
+
+<http://example.org/graphify/time/morning> a ns:TIME ;
+    rdfs:label "morning"^^xsd:string .
+
 <http://example.org/graphify/time/normal_business_hours> a ns:TIME ;
     rdfs:label "normal business hours"^^xsd:string .
 
@@ -5238,6 +6361,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/work_of_art/Meet_the_Press> a ns:WORK_OF_ART ;
     rdfs:label "Meet the Press"^^xsd:string .
 
+<http://example.org/graphify/work_of_art/Monday_Lawmakers> a ns:WORK_OF_ART ;
+    rdfs:label "Monday Lawmakers"^^xsd:string .
+
 <http://example.org/graphify/work_of_art/the_Trump_Administrations> a ns:WORK_OF_ART ;
     rdfs:label "the Trump Administrations"^^xsd:string .
 
@@ -5253,8 +6379,26 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/cardinal/345> a ns:CARDINAL ;
     rdfs:label "345"^^xsd:string .
 
+<http://example.org/graphify/cardinal/498> a ns:CARDINAL ;
+    rdfs:label "498"^^xsd:string .
+
 <http://example.org/graphify/cardinal/5> a ns:CARDINAL ;
     rdfs:label "5"^^xsd:string .
+
+<http://example.org/graphify/cardinal/508> a ns:CARDINAL ;
+    rdfs:label "508"^^xsd:string .
+
+<http://example.org/graphify/cardinal/510> a ns:CARDINAL ;
+    rdfs:label "510"^^xsd:string .
+
+<http://example.org/graphify/cardinal/517> a ns:CARDINAL ;
+    rdfs:label "517"^^xsd:string .
+
+<http://example.org/graphify/cardinal/527> a ns:CARDINAL ;
+    rdfs:label "527"^^xsd:string .
+
+<http://example.org/graphify/cardinal/543> a ns:CARDINAL ;
+    rdfs:label "543"^^xsd:string .
 
 <http://example.org/graphify/cardinal/601111SS> a ns:CARDINAL ;
     rdfs:label "601111SS"^^xsd:string .
@@ -5281,9 +6425,6 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/date/2015> a ns:DATE ;
     rdfs:label "2015"^^xsd:string .
 
-<http://example.org/graphify/date/2018> a ns:DATE ;
-    rdfs:label "2018"^^xsd:string .
-
 <http://example.org/graphify/date/2019> a ns:DATE ;
     rdfs:label "2019"^^xsd:string .
 
@@ -5308,6 +6449,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/date/August> a ns:DATE ;
     rdfs:label "August"^^xsd:string .
 
+<http://example.org/graphify/date/February> a ns:DATE ;
+    rdfs:label "February"^^xsd:string .
+
 <http://example.org/graphify/date/February_19> a ns:DATE ;
     rdfs:label "February 19"^^xsd:string .
 
@@ -5327,6 +6471,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/date/January_22> a ns:DATE ;
     rdfs:label "January 22"^^xsd:string .
 
+<http://example.org/graphify/date/July> a ns:DATE ;
+    rdfs:label "July"^^xsd:string .
+
 <http://example.org/graphify/date/June_of_last_year> a ns:DATE ;
     rdfs:label "June of last year"^^xsd:string .
 
@@ -5336,24 +6483,14 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/date/November> a ns:DATE ;
     rdfs:label "November"^^xsd:string .
 
-<http://example.org/graphify/date/October> a ns:DATE ;
-    rdfs:label "October"^^xsd:string .
-
 <http://example.org/graphify/date/Saturday> a ns:DATE ;
     rdfs:label "Saturday"^^xsd:string .
-
-<http://example.org/graphify/date/Sunday> a ns:DATE ;
-    rdfs:label "Sunday"^^xsd:string ;
-    ns1:related_to <http://example.org/graphify/person/Trump> .
 
 <http://example.org/graphify/date/early_March> a ns:DATE ;
     rdfs:label "early March"^^xsd:string .
 
 <http://example.org/graphify/date/his_first_days> a ns:DATE ;
     rdfs:label "his first days"^^xsd:string .
-
-<http://example.org/graphify/date/midJuly> a ns:DATE ;
-    rdfs:label "mid-July"^^xsd:string .
 
 <http://example.org/graphify/date/nearly_a_decade> a ns:DATE ;
     rdfs:label "nearly a decade"^^xsd:string .
@@ -5395,8 +6532,14 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/gpe/Singapore> a ns:GPE ;
     rdfs:label "Singapore"^^xsd:string .
 
+<http://example.org/graphify/gpe/South_Korea> a ns:GPE ;
+    rdfs:label "South Korea"^^xsd:string .
+
 <http://example.org/graphify/gpe/Sweden> a ns:GPE ;
     rdfs:label "Sweden"^^xsd:string .
+
+<http://example.org/graphify/gpe/Texas> a ns:GPE ;
+    rdfs:label "Texas"^^xsd:string .
 
 <http://example.org/graphify/gpe/Ukraine> a ns:GPE ;
     rdfs:label "Ukraine"^^xsd:string .
@@ -5409,6 +6552,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 
 <http://example.org/graphify/money/more_than_50_billion> a ns:MONEY ;
     rdfs:label "more than 50 billion"^^xsd:string .
+
+<http://example.org/graphify/norp/Tesla> a ns:NORP ;
+    rdfs:label "Tesla"^^xsd:string .
 
 <http://example.org/graphify/ordinal/first> a ns:ORDINAL ;
     rdfs:label "first"^^xsd:string .
@@ -5439,6 +6585,12 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/org/HSI> a ns:ORG ;
     rdfs:label "HSI"^^xsd:string .
 
+<http://example.org/graphify/org/Moon_Capital> a ns:ORG ;
+    rdfs:label "Moon Capital"^^xsd:string .
+
+<http://example.org/graphify/org/OpenAI> a ns:ORG ;
+    rdfs:label "OpenAI"^^xsd:string .
+
 <http://example.org/graphify/org/PowellPalm> a ns:ORG ;
     rdfs:label "Powell-Palm"^^xsd:string .
 
@@ -5451,20 +6603,28 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/org/Reuters_TSMC_2330TW> a ns:ORG ;
     rdfs:label "Reuters - TSMC 2330TW"^^xsd:string .
 
+<http://example.org/graphify/org/Robinhood> a ns:ORG ;
+    rdfs:label "Robinhood"^^xsd:string .
+
 <http://example.org/graphify/org/Tesla_TSLAO> a ns:ORG ;
     rdfs:label "Tesla TSLAO"^^xsd:string ;
     ns1:open_in <http://example.org/graphify/date/2015> .
 
+<http://example.org/graphify/org/Trump> a ns:ORG ;
+    rdfs:label "Trump"^^xsd:string ;
+    ns1:impose_from <http://example.org/graphify/gpe/Canada_Mexico> ;
+    ns1:say_on <http://example.org/graphify/date/Monday> ;
+    ns1:trump_in <http://example.org/graphify/date/his_first_days> ;
+    ns1:trump_on <http://example.org/graphify/date/March_6> .
+
 <http://example.org/graphify/org/Volkswagen> a ns:ORG ;
     rdfs:label "Volkswagen"^^xsd:string .
 
-<http://example.org/graphify/org/the_White_House> a ns:ORG ;
-    rdfs:label "the White House"^^xsd:string ;
-    ns1:say_on <http://example.org/graphify/date/January_22> ;
-    ns1:threaten <http://example.org/graphify/gpe/Canada> .
-
 <http://example.org/graphify/person/Alastair_Pinder> a ns:PERSON ;
     rdfs:label "Alastair Pinder"^^xsd:string .
+
+<http://example.org/graphify/person/Brian_Quintenz> a ns:PERSON ;
+    rdfs:label "Brian Quintenz"^^xsd:string .
 
 <http://example.org/graphify/person/Dick_Friend> a ns:PERSON ;
     rdfs:label "Dick Friend"^^xsd:string ;
@@ -5483,6 +6643,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/person/Montana> a ns:PERSON ;
     rdfs:label "Montana"^^xsd:string .
 
+<http://example.org/graphify/person/Moon> a ns:PERSON ;
+    rdfs:label "Moon"^^xsd:string .
+
 <http://example.org/graphify/person/Rebecca_Sharpe> a ns:PERSON ;
     rdfs:label "Rebecca Sharpe"^^xsd:string .
 
@@ -5498,11 +6661,24 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/product/Gelsinger> a ns:PRODUCT ;
     rdfs:label "Gelsinger"^^xsd:string .
 
+<http://example.org/graphify/product/Robinhood> a ns:PRODUCT ;
+    rdfs:label "Robinhood"^^xsd:string .
+
 <http://example.org/graphify/time/255_pm> a ns:TIME ;
     rdfs:label "255 pm"^^xsd:string .
 
 <http://example.org/graphify/time/evening> a ns:TIME ;
     rdfs:label "evening"^^xsd:string .
+
+<http://example.org/graphify/date/2018> a ns:DATE ;
+    rdfs:label "2018"^^xsd:string .
+
+<http://example.org/graphify/date/October> a ns:DATE ;
+    rdfs:label "October"^^xsd:string .
+
+<http://example.org/graphify/date/Sunday> a ns:DATE ;
+    rdfs:label "Sunday"^^xsd:string ;
+    ns1:related_to <http://example.org/graphify/person/Trump> .
 
 <http://example.org/graphify/date/Thursday> a ns:DATE ;
     rdfs:label "Thursday"^^xsd:string ;
@@ -5511,6 +6687,9 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/date/Wednesday> a ns:DATE ;
     rdfs:label "Wednesday"^^xsd:string ;
     ns1:related_to <http://example.org/graphify/org/Volkswagen> .
+
+<http://example.org/graphify/date/midJuly> a ns:DATE ;
+    rdfs:label "mid-July"^^xsd:string .
 
 <http://example.org/graphify/gpe/China> a ns:GPE ;
     rdfs:label "China"^^xsd:string ;
@@ -5534,6 +6713,11 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
 <http://example.org/graphify/loc/Europe> a ns:LOC ;
     rdfs:label "Europe"^^xsd:string .
 
+<http://example.org/graphify/org/the_White_House> a ns:ORG ;
+    rdfs:label "the White House"^^xsd:string ;
+    ns1:say_on <http://example.org/graphify/date/January_22> ;
+    ns1:threaten <http://example.org/graphify/gpe/Canada> .
+
 <http://example.org/graphify/person/Trump> a ns:PERSON ;
     rdfs:label "Trump"^^xsd:string ;
     ns1:tell <http://example.org/graphify/org/Fox_News> .
@@ -5547,6 +6731,7 @@ ns1:week_in rdfs:label "week_in"^^xsd:string .
     ns1:drop_on <http://example.org/graphify/date/Friday> ;
     ns1:report_on <http://example.org/graphify/date/February_19>,
         <http://example.org/graphify/date/Tuesday> ;
+    ns1:risk_between <http://example.org/graphify/date/midJuly> ;
     ns1:say_on <http://example.org/graphify/date/Friday> .
 
 <http://example.org/graphify/gpe/Canada> a ns:GPE ;

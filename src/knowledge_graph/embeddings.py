@@ -18,6 +18,8 @@ from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph, URIRef, Literal
+from pykeen.evaluation.rank_based_evaluator import RankBasedEvaluator
+
 
 # Initialize logging
 logger = logging.getLogger(__name__)
@@ -165,28 +167,11 @@ class KnowledgeGraphEmbedder:
             return None, None, None
     
     def train_embedding_model(self, model_name='TransE', training=None, validation=None, testing=None, 
-                             epochs=100, embedding_dim=50, batch_size=32, learning_rate=0.01,
-                             num_negs_per_pos=10, random_seed=42, early_stopping=True,
-                             early_stopping_patience=5):
+                            epochs=100, embedding_dim=50, batch_size=32, learning_rate=0.01,
+                            num_negs_per_pos=10, random_seed=42, early_stopping=True,
+                            early_stopping_patience=5):
         """
         Train a knowledge graph embedding model.
-        
-        Args:
-            model_name (str): Name of the model ('TransE', 'DistMult', 'ComplEx', etc.)
-            training (TriplesFactory): Training triples
-            validation (TriplesFactory): Validation triples
-            testing (TriplesFactory): Test triples
-            epochs (int): Number of training epochs
-            embedding_dim (int): Dimension of embeddings
-            batch_size (int): Training batch size
-            learning_rate (float): Learning rate
-            num_negs_per_pos (int): Number of negative samples per positive
-            random_seed (int): Random seed for reproducibility
-            early_stopping (bool): Whether to use early stopping
-            early_stopping_patience (int): Number of epochs to wait for improvement
-            
-        Returns:
-            pykeen.pipeline.PipelineResult: Pipeline result
         """
         try:
             # Use provided triples or the entire dataset if not provided
@@ -198,23 +183,7 @@ class KnowledgeGraphEmbedder:
                 # Split dataset if not provided
                 training, validation, testing = self.split_dataset(random_seed=random_seed)
             
-            # Set up early stopping
-            early_stopping_kwargs = None
-            if early_stopping:
-                early_stopping_kwargs = {
-                    'patience': early_stopping_patience,
-                    'frequency': 5,
-                    'delta': 0.002
-                }
-            
-            # Configure training
-            training_kwargs = {
-                'num_epochs': epochs,
-                'batch_size': batch_size,
-                'lr': learning_rate
-            }
-            
-            # Train model
+            # Train model with minimal parameters
             logger.info(f"Training {model_name} with {embedding_dim} dimensions for {epochs} epochs")
             result = pipeline(
                 training=training,
@@ -222,11 +191,8 @@ class KnowledgeGraphEmbedder:
                 testing=testing,
                 model=model_name,
                 model_kwargs={'embedding_dim': embedding_dim},
-                training_kwargs=training_kwargs,
-                negative_sampler_kwargs={'num_negs_per_pos': num_negs_per_pos},
-                early_stopping=early_stopping_kwargs,
-                random_seed=random_seed,
-                device='cuda' if torch.cuda.is_available() else 'cpu'
+                epochs=epochs,
+                random_seed=random_seed
             )
             
             # Store result
@@ -413,38 +379,52 @@ class KnowledgeGraphEmbedder:
         return predicted_entities
     
     def evaluate_model(self, model_name):
-        """
-        Evaluate a trained model.
-        
-        Args:
-            model_name (str): Name of the model
-            
-        Returns:
-            dict: Dictionary of evaluation metrics
-        """
+        """Evaluate a trained model using PyKEEN's RankBasedEvaluator."""
         if model_name not in self.model_results:
             logger.error(f"Model {model_name} not trained yet")
             return None
-            
+
         result = self.model_results[model_name]
-        metrics = result.metric_results.to_dict()
-        
-        # Extract metrics of interest
+
+        # Initialize metrics
         evaluation = {
-            'mean_rank': metrics['both']['mean_rank'],
-            'mean_reciprocal_rank': metrics['both']['mean_reciprocal_rank'],
-            'hits_at_1': metrics['both']['hits_at_1'],
-            'hits_at_3': metrics['both']['hits_at_3'],
-            'hits_at_10': metrics['both']['hits_at_10']
+            'mean_rank': 0.0,
+            'mean_reciprocal_rank': 0.0,
+            'hits_at_1': 0.0,
+            'hits_at_3': 0.0,
+            'hits_at_10': 0.0
         }
-        
+
+        # Get testing data
+        _, _, testing = self.split_dataset()
+
+        if testing and hasattr(result, 'model'):
+            try:
+                model = result.model
+                test_triples = testing.mapped_triples.to(model.device)  # Move to the correct device
+
+                with torch.no_grad():
+                    evaluator = RankBasedEvaluator()
+                    metrics = evaluator.evaluate(model, mapped_triples=test_triples)
+
+                    # Extract relevant metrics
+                    evaluation['mean_rank'] = metrics.get_metric('mean_rank')
+                    evaluation['mean_reciprocal_rank'] = metrics.get_metric('mean_reciprocal_rank')
+                    evaluation['hits_at_1'] = metrics.get_metric('hits_at_1')
+                    evaluation['hits_at_3'] = metrics.get_metric('hits_at_3')
+                    evaluation['hits_at_10'] = metrics.get_metric('hits_at_10')
+
+            except Exception as e:
+                logger.warning(f"Error calculating metrics: {e}")
+
+        # Log results
         logger.info(f"Evaluation results for {model_name}:")
         logger.info(f"Mean Rank: {evaluation['mean_rank']:.2f}")
         logger.info(f"Mean Reciprocal Rank: {evaluation['mean_reciprocal_rank']:.4f}")
         logger.info(f"Hits@1: {evaluation['hits_at_1']:.4f}")
         logger.info(f"Hits@3: {evaluation['hits_at_3']:.4f}")
         logger.info(f"Hits@10: {evaluation['hits_at_10']:.4f}")
-        
+
         return evaluation
     
     def compare_models(self, model_names=None):

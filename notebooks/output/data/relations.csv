@@ -183,3 +183,49 @@ Tata,ORG,push_in,January,DATE
 Tata,ORG,push_to,2026-2027,DATE
 Bershka,ORG,launch in,Sweden,GPE
 China,GPE,related_to,Mexico,GPE
+the Wall Street Journal,ORG,report on,Monday,DATE
+Half,CARDINAL,related_to,Moon,PERSON
+Half,CARDINAL,related_to,Moon Capital,ORG
+the Wall Street Journal,ORG,report_on,Monday,DATE
+Raphael Bostic,PERSON,say on,Monday,DATE
+He Lifeng,PERSON,meet on,Sunday,DATE
+Raphael Bostic,PERSON,say_on,Monday,DATE
+He Lifeng,PERSON,meet_on,Sunday,DATE
+Donald Trump,PERSON,take on,January 20,DATE
+Boeing,ORG,agree In,July,DATE
+Boeing,ORG,win on,Friday,DATE
+Fort Worth,GPE,related_to,Texas,GPE
+Donald Trump,PERSON,take_on,January 20,DATE
+Boeing,ORG,agree_In,July,DATE
+Boeing,ORG,win_on,Friday,DATE
+Sam Altman,PERSON,say on,Monday,DATE
+Lightcap,PERSON,join,OpenAI,ORG
+post Altman,ORG,say in,February,DATE
+Sam Altman,PERSON,say_on,Monday,DATE
+Lightcap,PERSON,join_in,2018,DATE
+post Altman,ORG,say_in,February,DATE
+Reuters,ORG,risk between,mid-July,DATE
+Reuters,ORG,risk_between,mid-July,DATE
+Jeff Landry,PERSON,travel to,South Korea,GPE
+Trump,ORG,say on,Monday,DATE
+Automakers,GPE,lobby,the White House,ORG
+Mary Barra,PERSON,meet with,Trump,ORG
+Jeff Landry,PERSON,travel_to,South Korea,GPE
+Jeff Landry,PERSON,travel_in,October,DATE
+Trump,ORG,say_on,Monday,DATE
+Mary Barra,PERSON,meet_with,Trump,ORG
+late-night,TIME,related_to,Tesla,NORP
+Menlo Park California,GPE,related_to,Robinhood,ORG
+CFTC,ORG,related_to,Brian Quintenz,PERSON
+March 17 came a month,DATE,come_after,Robinhood,PRODUCT
+China,GPE,related_to,Mexico,GPE
+PMI,ORG,drop to,498,CARDINAL
+PMI,ORG,slip to,517,CARDINAL
+PMI,ORG,rise to,543,CARDINAL
+PMI,ORG,fall to,508,CARDINAL
+PMI,ORG,drop_to,498,CARDINAL
+PMI,ORG,drop_from,527,CARDINAL
+PMI,ORG,slip_to,517,CARDINAL
+PMI,ORG,rise_to,543,CARDINAL
+PMI,ORG,rise_from,510,CARDINAL
+PMI,ORG,fall_to,508,CARDINAL
