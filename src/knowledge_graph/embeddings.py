@@ -165,28 +165,11 @@ class KnowledgeGraphEmbedder:
             return None, None, None
     
     def train_embedding_model(self, model_name='TransE', training=None, validation=None, testing=None, 
-                             epochs=100, embedding_dim=50, batch_size=32, learning_rate=0.01,
-                             num_negs_per_pos=10, random_seed=42, early_stopping=True,
-                             early_stopping_patience=5):
+                            epochs=100, embedding_dim=50, batch_size=32, learning_rate=0.01,
+                            num_negs_per_pos=10, random_seed=42, early_stopping=True,
+                            early_stopping_patience=5):
         """
         Train a knowledge graph embedding model.
-        
-        Args:
-            model_name (str): Name of the model ('TransE', 'DistMult', 'ComplEx', etc.)
-            training (TriplesFactory): Training triples
-            validation (TriplesFactory): Validation triples
-            testing (TriplesFactory): Test triples
-            epochs (int): Number of training epochs
-            embedding_dim (int): Dimension of embeddings
-            batch_size (int): Training batch size
-            learning_rate (float): Learning rate
-            num_negs_per_pos (int): Number of negative samples per positive
-            random_seed (int): Random seed for reproducibility
-            early_stopping (bool): Whether to use early stopping
-            early_stopping_patience (int): Number of epochs to wait for improvement
-            
-        Returns:
-            pykeen.pipeline.PipelineResult: Pipeline result
         """
         try:
             # Use provided triples or the entire dataset if not provided
@@ -198,23 +181,7 @@ class KnowledgeGraphEmbedder:
                 # Split dataset if not provided
                 training, validation, testing = self.split_dataset(random_seed=random_seed)
             
-            # Set up early stopping
-            early_stopping_kwargs = None
-            if early_stopping:
-                early_stopping_kwargs = {
-                    'patience': early_stopping_patience,
-                    'frequency': 5,
-                    'delta': 0.002
-                }
-            
-            # Configure training
-            training_kwargs = {
-                'num_epochs': epochs,
-                'batch_size': batch_size,
-                'lr': learning_rate
-            }
-            
-            # Train model
+            # Train model with minimal parameters
             logger.info(f"Training {model_name} with {embedding_dim} dimensions for {epochs} epochs")
             result = pipeline(
                 training=training,
@@ -222,11 +189,8 @@ class KnowledgeGraphEmbedder:
                 testing=testing,
                 model=model_name,
                 model_kwargs={'embedding_dim': embedding_dim},
-                training_kwargs=training_kwargs,
-                negative_sampler_kwargs={'num_negs_per_pos': num_negs_per_pos},
-                early_stopping=early_stopping_kwargs,
-                random_seed=random_seed,
-                device='cuda' if torch.cuda.is_available() else 'cpu'
+                epochs=epochs,
+                random_seed=random_seed
             )
             
             # Store result
@@ -427,15 +391,34 @@ class KnowledgeGraphEmbedder:
             return None
             
         result = self.model_results[model_name]
+        
+        # Get metrics from the result
         metrics = result.metric_results.to_dict()
         
-        # Extract metrics of interest
+        # First, let's inspect the structure of metrics dictionary
+        logger.info(f"Metrics structure for {model_name}: {list(metrics.keys())}")
+        
+        # Handle different metric dictionary structures
+        if 'both' in metrics:
+            side_metrics = metrics['both']
+        else:
+            # If 'both' is not available, try other keys or use the metrics dict directly
+            side_metrics = metrics
+        
+        # Create a safe extraction helper
+        def get_metric(metric_name, default=0.0):
+            if metric_name in side_metrics:
+                return side_metrics[metric_name]
+            logger.warning(f"Metric '{metric_name}' not found in results for {model_name}")
+            return default
+        
+        # Extract metrics safely
         evaluation = {
-            'mean_rank': metrics['both']['mean_rank'],
-            'mean_reciprocal_rank': metrics['both']['mean_reciprocal_rank'],
-            'hits_at_1': metrics['both']['hits_at_1'],
-            'hits_at_3': metrics['both']['hits_at_3'],
-            'hits_at_10': metrics['both']['hits_at_10']
+            'mean_rank': get_metric('mean_rank'),
+            'mean_reciprocal_rank': get_metric('mean_reciprocal_rank'),
+            'hits_at_1': get_metric('hits_at_1'),
+            'hits_at_3': get_metric('hits_at_3'),
+            'hits_at_10': get_metric('hits_at_10')
         }
         
         logger.info(f"Evaluation results for {model_name}:")
