@@ -220,7 +220,30 @@ class KnowledgeGraphEmbedder:
             return None
             
         result = self.model_results[model_name]
-        return result.model.entity_embeddings.weight.detach().numpy()
+        model = result.model
+        
+        # Try different possible attribute names for entity embeddings
+        if hasattr(model, 'entity_embeddings'):
+            # Older API style
+            return model.entity_embeddings.weight.detach().numpy()
+        elif hasattr(model, 'entity_representations'):
+            # Newer API style - typically a ModuleList in PyKEEN
+            # Usually the first element is the main embedding table
+            return model.entity_representations[0]().detach().numpy()
+        else:
+            # Last resort - look for any attribute that might contain entity embeddings
+            for name in dir(model):
+                if 'entity' in name.lower() and not name.startswith('_'):
+                    attr = getattr(model, name)
+                    # Check if it's a tensor or parameter
+                    if isinstance(attr, torch.Tensor) or isinstance(attr, torch.nn.Parameter):
+                        return attr.detach().numpy()
+                    # Check if it's a module with a weight attribute
+                    elif hasattr(attr, 'weight'):
+                        return attr.weight.detach().numpy()
+            
+            logger.error(f"Could not find entity embeddings in model {model_name}")
+            return None
     
     def get_relation_embeddings(self, model_name):
         """
@@ -237,7 +260,30 @@ class KnowledgeGraphEmbedder:
             return None
             
         result = self.model_results[model_name]
-        return result.model.relation_embeddings.weight.detach().numpy()
+        model = result.model
+        
+        # Try different possible attribute names for relation embeddings
+        if hasattr(model, 'relation_embeddings'):
+            # Older API style
+            return model.relation_embeddings.weight.detach().numpy()
+        elif hasattr(model, 'relation_representations'):
+            # Newer API style - typically a ModuleList in PyKEEN
+            # Usually the first element is the main embedding table
+            return model.relation_representations[0]().detach().numpy()
+        else:
+            # Last resort - look for any attribute that might contain relation embeddings
+            for name in dir(model):
+                if 'relation' in name.lower() and not name.startswith('_'):
+                    attr = getattr(model, name)
+                    # Check if it's a tensor or parameter
+                    if isinstance(attr, torch.Tensor) or isinstance(attr, torch.nn.Parameter):
+                        return attr.detach().numpy()
+                    # Check if it's a module with a weight attribute
+                    elif hasattr(attr, 'weight'):
+                        return attr.weight.detach().numpy()
+            
+            logger.error(f"Could not find relation embeddings in model {model_name}")
+            return None
     
     def find_similar_entities(self, entity_uri, model_name, top_k=5):
         """
@@ -283,15 +329,6 @@ class KnowledgeGraphEmbedder:
     def predict_tail_entities(self, head_uri, relation_uri, model_name, top_k=5):
         """
         Predict tail entities for a given head and relation.
-        
-        Args:
-            head_uri (str): URI of the head entity
-            relation_uri (str): URI of the relation
-            model_name (str): Name of the model
-            top_k (int): Number of predicted entities to return
-            
-        Returns:
-            list: List of (entity_uri, score) tuples
         """
         if model_name not in self.model_results:
             logger.error(f"Model {model_name} not trained yet")
@@ -311,23 +348,63 @@ class KnowledgeGraphEmbedder:
         head_id = self.entity_to_id[head_uri]
         relation_id = self.relation_to_id[relation_uri]
         
-        # Get predictions
-        with torch.no_grad():
-            predictions = model.predict_with_score_t(
-                h=torch.tensor([head_id], device=model.device),
-                r=torch.tensor([relation_id], device=model.device)
-            )
-        
-        # Get top K predictions
-        top_indices = torch.topk(predictions[0], k=top_k).indices.cpu().numpy()
-        top_scores = torch.topk(predictions[0], k=top_k).values.cpu().numpy()
-        
-        # Return predicted entities with scores
-        predicted_entities = []
-        for idx, score in zip(top_indices, top_scores):
-            predicted_entities.append((self.id_to_entity[idx], score))
-        
-        return predicted_entities
+        # Get predictions using the correct method for your PyKEEN version
+        # Different versions of PyKEEN use different methods
+        try:
+            with torch.no_grad():
+                # Try the newer PyKEEN API
+                if hasattr(model, 'predict'):
+                    head_tensor = torch.tensor([head_id], device=model.device)
+                    rel_tensor = torch.tensor([relation_id], device=model.device)
+                    predictions = model.predict(head=head_tensor, relation=rel_tensor)
+                
+                # Try older PyKEEN API
+                elif hasattr(model, 'score_t'):
+                    predictions = model.score_t(
+                        h_indices=torch.tensor([head_id], device=model.device),
+                        r_indices=torch.tensor([relation_id], device=model.device)
+                    )
+                
+                # Last resort - try the exact method from your code
+                elif hasattr(model, 'predict_with_score_t'):
+                    predictions = model.predict_with_score_t(
+                        h=torch.tensor([head_id], device=model.device),
+                        r=torch.tensor([relation_id], device=model.device)
+                    )
+                else:
+                    # If we can't find a prediction method, log error and return empty list
+                    logger.error(f"Could not find prediction method for model {model_name}")
+                    return []
+                
+            # Get the scores for each entity
+            if isinstance(predictions, tuple):
+                # Some methods return (scores, indices)
+                scores = predictions[0]
+            else:
+                # Some methods just return scores
+                scores = predictions
+                
+            # Get top K predictions
+            if len(scores.shape) > 1:
+                scores = scores[0]  # Get the first batch
+                
+            top_k_values, top_k_indices = torch.topk(scores, k=min(top_k, len(scores)))
+            
+            # Convert to CPU and numpy
+            top_indices = top_k_indices.cpu().numpy()
+            top_scores = top_k_values.cpu().numpy()
+            
+            # Return predicted entities with scores
+            predicted_entities = []
+            for idx, score in zip(top_indices, top_scores):
+                if idx in self.id_to_entity:
+                    predicted_entities.append((self.id_to_entity[idx], float(score)))
+                    
+            return predicted_entities
+            
+        except Exception as e:
+            logger.error(f"Error predicting tail entities: {e}")
+            return []
     
     def predict_head_entities(self, relation_uri, tail_uri, model_name, top_k=5):
         """
@@ -360,23 +437,67 @@ class KnowledgeGraphEmbedder:
         tail_id = self.entity_to_id[tail_uri]
         relation_id = self.relation_to_id[relation_uri]
         
-        # Get predictions
-        with torch.no_grad():
-            predictions = model.predict_with_score_h(
-                r=torch.tensor([relation_id], device=model.device),
-                t=torch.tensor([tail_id], device=model.device)
-            )
-        
-        # Get top K predictions
-        top_indices = torch.topk(predictions[0], k=top_k).indices.cpu().numpy()
-        top_scores = torch.topk(predictions[0], k=top_k).values.cpu().numpy()
-        
-        # Return predicted entities with scores
-        predicted_entities = []
-        for idx, score in zip(top_indices, top_scores):
-            predicted_entities.append((self.id_to_entity[idx], score))
-        
-        return predicted_entities
+        # Get predictions using the correct method for your PyKEEN version
+        try:
+            with torch.no_grad():
+                # Try the newer PyKEEN API
+                if hasattr(model, 'predict'):
+                    rel_tensor = torch.tensor([relation_id], device=model.device)
+                    tail_tensor = torch.tensor([tail_id], device=model.device)
+                    # Some models allow specifying which position to predict
+                    if 'target' in inspect.signature(model.predict).parameters:
+                        predictions = model.predict(relation=rel_tensor, tail=tail_tensor, target='head')
+                    else:
+                        # Try to infer from parameter order
+                        predictions = model.predict(None, rel_tensor, tail_tensor)
+                
+                # Try older PyKEEN API
+                elif hasattr(model, 'score_h'):
+                    predictions = model.score_h(
+                        r_indices=torch.tensor([relation_id], device=model.device),
+                        t_indices=torch.tensor([tail_id], device=model.device)
+                    )
+                
+                # Last resort - try the exact method from your code
+                elif hasattr(model, 'predict_with_score_h'):
+                    predictions = model.predict_with_score_h(
+                        r=torch.tensor([relation_id], device=model.device),
+                        t=torch.tensor([tail_id], device=model.device)
+                    )
+                else:
+                    # If we can't find a prediction method, log error and return empty list
+                    logger.error(f"Could not find head prediction method for model {model_name}")
+                    return []
+                
+            # Get the scores for each entity
+            if isinstance(predictions, tuple):
+                # Some methods return (scores, indices)
+                scores = predictions[0]
+            else:
+                # Some methods just return scores
+                scores = predictions
+                
+            # Get top K predictions
+            if len(scores.shape) > 1:
+                scores = scores[0]  # Get the first batch
+                
+            top_k_values, top_k_indices = torch.topk(scores, k=min(top_k, len(scores)))
+            
+            # Convert to CPU and numpy
+            top_indices = top_k_indices.cpu().numpy()
+            top_scores = top_k_values.cpu().numpy()
+            
+            # Return predicted entities with scores
+            predicted_entities = []
+            for idx, score in zip(top_indices, top_scores):
+                if idx in self.id_to_entity:
+                    predicted_entities.append((self.id_to_entity[idx], float(score)))
+                    
+            return predicted_entities
+            
+        except Exception as e:
+            logger.error(f"Error predicting head entities: {e}")
+            return []
     
     def evaluate_model(self, model_name):
         """Evaluate a trained model using PyKEEN's RankBasedEvaluator."""
