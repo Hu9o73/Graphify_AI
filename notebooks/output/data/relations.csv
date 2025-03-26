@@ -269,3 +269,34 @@ Lee,PERSON,found,01AI,CARDINAL
 Earlier this month 01AI,DATE,launch,Wanzhi,PRODUCT
 Reuters - China,ORG,narrow_to,just three months,DATE
 Lee,PERSON,found_in,March 2023,DATE
+the United States,GPE,related_to,Japans,NORP
+BYD,ORG,build in,Brazil,GPE
+Tuesday,DATE,related_to,BYD,ORG
+Wednesday,DATE,related_to,BYD,ORG
+BYD,ORG,build_in,Brazil,GPE
+The Australian Defence Force,ORG,trialle at,Base Darwin,PERSON
+Anduril,PERSON,develop with,the Australian Defence Force,ORG
+The Australian Defence Force,ORG,trialle_at,Base Darwin,PERSON
+Anduril,PERSON,develop_with,the Australian Defence Force,ORG
+the day ahead,DATE,day_from,Kevin Buckland,PERSON
+Reuters - Tesla,ORG,launch in,Saudi Arabia,GPE
+The Wall Street Journal,ORG,report in,2023,DATE
+Reuters - Tesla,ORG,launch_in,Saudi Arabia,GPE
+The Wall Street Journal,ORG,report_in,2023,DATE
+Five,CARDINAL,base in,China,GPE
+one,CARDINAL,place in,2023,DATE
+The Beijing Academy of Artificial Intelligence BAAI,ORG,say on,Wednesday,DATE
+Five,CARDINAL,base_in,China,GPE
+one,CARDINAL,place_in,2023,DATE
+The Beijing Academy of Artificial Intelligence BAAI,ORG,say_on,Wednesday,DATE
+TAIPEI,ORG,defend on,Wednesday,DATE
+Bessent,ORG,refer as,15,CARDINAL
+TAIPEI,ORG,defend_on,Wednesday,DATE
+Bessent,ORG,refer_as,15,CARDINAL
+Chrystia Freeland,PERSON,say on,Tuesday,DATE
+Canada,GPE,freeze,C43 million 3011 million,MONEY
+Mark Carney,PERSON,announce on,April 28,DATE
+Tesla,ORG,file in,January,DATE
+Chrystia Freeland,PERSON,say_on,Tuesday,DATE
+Mark Carney,PERSON,announce_on,April 28,DATE
+Tesla,ORG,file_in,January,DATE
