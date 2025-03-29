@@ -106,17 +106,7 @@ class KnowledgeGraphAugmenter:
     
     def link_entity_to_dbpedia(self, entity_uri, entity_text, entity_type, lang="en", cache=True):
         """
-        Link an entity to DBpedia.
-        
-        Args:
-            entity_uri (str): URI of the entity
-            entity_text (str): Text of the entity
-            entity_type (str): Type of the entity
-            lang (str): Language for DBpedia lookup
-            cache (bool): Whether to use the cache
-            
-        Returns:
-            str: DBpedia URI for the entity, or None if not found
+        Link an entity to DBpedia using a very simple and direct approach.
         """
         try:
             # Check cache first
@@ -124,59 +114,69 @@ class KnowledgeGraphAugmenter:
             if cache and cache_key in self.entity_cache:
                 return self.entity_cache[cache_key]
             
-            # Escape quotes in entity text
-            safe_entity_text = entity_text.replace('"', '\\"')
+            # Clean entity text - just basic cleaning
+            clean_text = entity_text.replace('"', '').strip()
             
-            # Map entity type to DBpedia class
-            dbpedia_class = ""
-            if entity_type in ["PERSON", "PER"]:
-                dbpedia_class = "dbo:Person"
-            elif entity_type in ["ORG", "ORGANIZATION"]:
-                dbpedia_class = "dbo:Organisation"
-            elif entity_type in ["LOC", "GPE", "LOCATION"]:
-                dbpedia_class = "dbo:Place"
+            # Try two main approaches:
             
-            # Query DBpedia
+            # 1. Direct resource lookup (most reliable for well-known entities)
+            # Convert "Central Asia" to "Central_Asia" for the URI format
+            resource_name = clean_text.replace(' ', '_')
+            direct_uri = f"http://dbpedia.org/resource/{resource_name}"
+            
+            # Check if this resource exists with a very simple query
             sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-            query = f"""
-            PREFIX dbo: <http://dbpedia.org/ontology/>
+            sparql.setTimeout(5)
             
+            direct_check_query = f"""
+            ASK {{ <{direct_uri}> ?p ?o }}
+            """
+            
+            sparql.setQuery(direct_check_query)
+            sparql.setReturnFormat(JSON)
+            
+            try:
+                result = sparql.query().convert()
+                if result.get('boolean', False):
+                    # Resource exists!
+                    if cache:
+                        self.entity_cache[cache_key] = direct_uri
+                    logger.debug(f"Linked '{entity_text}' directly to DBpedia: {direct_uri}")
+                    return direct_uri
+            except Exception as e:
+                logger.debug(f"Direct resource check failed: {e}")
+            
+            # 2. Simple label lookup without constraints
+            simple_query = f"""
             SELECT DISTINCT ?s WHERE {{
-              ?s rdfs:label ?label .
-              FILTER(LANG(?label) = '{lang}')
-              FILTER(LCASE(STR(?label)) = LCASE("{safe_entity_text}"))
-              
-              # Add type constraint if available
-              {f"?s a {dbpedia_class} ." if dbpedia_class else ""}
+            ?s rdfs:label ?label .
+            FILTER(LCASE(STR(?label)) = LCASE("{clean_text}") && LANG(?label) = '{lang}')
             }}
             LIMIT 1
             """
             
-            sparql.setQuery(query)
+            sparql.setQuery(simple_query)
             sparql.setReturnFormat(JSON)
-            results = sparql.query().convert()
             
-            # Extract results
-            if results["results"]["bindings"]:
-                dbpedia_uri = results["results"]["bindings"][0]["s"]["value"]
-                
-                # Add to cache
-                if cache:
-                    self.entity_cache[cache_key] = dbpedia_uri
-                
-                logger.debug(f"Linked '{entity_text}' to DBpedia: {dbpedia_uri}")
-                return dbpedia_uri
+            try:
+                results = sparql.query().convert()
+                if results["results"]["bindings"]:
+                    dbpedia_uri = results["results"]["bindings"][0]["s"]["value"]
+                    if cache:
+                        self.entity_cache[cache_key] = dbpedia_uri
+                    logger.debug(f"Linked '{entity_text}' to DBpedia via label: {dbpedia_uri}")
+                    return dbpedia_uri
+            except Exception as e:
+                logger.debug(f"Label lookup failed: {e}")
             
+            # Nothing found
             logger.debug(f"No DBpedia entity found for '{entity_text}'")
-            
-            # Add to cache as None
             if cache:
                 self.entity_cache[cache_key] = None
-                
             return None
             
         except Exception as e:
-            logger.error(f"Error linking entity to DBpedia: {e}")
+            logger.warning(f"Error linking entity to DBpedia: {e}")
             return None
     
     def link_entity_to_wikidata(self, entity_uri, entity_text, entity_type, lang="en", cache=True):
@@ -213,6 +213,7 @@ class KnowledgeGraphAugmenter:
             
             # Query Wikidata
             sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+            sparql.setTimeout(5)  
             query = f"""
             PREFIX wd: <http://www.wikidata.org/entity/>
             PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -300,6 +301,7 @@ class KnowledgeGraphAugmenter:
         try:
             # Query DBpedia for properties
             sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+            sparql.setTimeout(5)  
             query = f"""
             SELECT DISTINCT ?p ?o WHERE {{
               <{dbpedia_uri}> ?p ?o .
@@ -379,6 +381,7 @@ class KnowledgeGraphAugmenter:
         try:
             # Query Wikidata for properties
             sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+            sparql.setTimeout(5)  
             query = f"""
             PREFIX wd: <http://www.wikidata.org/entity/>
             PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -470,6 +473,7 @@ class KnowledgeGraphAugmenter:
         try:
             # Query DBpedia for connections
             sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+            sparql.setTimeout(5)  
             query = f"""
             SELECT DISTINCT ?p ?o ?oLabel WHERE {{
               <{dbpedia_uri}> ?p ?o .
@@ -546,9 +550,10 @@ class KnowledgeGraphAugmenter:
             return 0
     
     def enrich_entity(self, entity_uri, use_dbpedia=True, use_wikidata=True, connection_depth=1, 
-                     retry_count=3, sleep_time=1):
+                 retry_count=3, sleep_time=1):
         """
-        Enrich an entity with external knowledge.
+        Enrich an entity with external knowledge, with early termination for entities
+        that are unlikely to yield useful results.
         
         Args:
             entity_uri (str): URI of the entity
@@ -569,14 +574,60 @@ class KnowledgeGraphAugmenter:
             logger.warning(f"Could not get metadata for entity {entity_uri}")
             return 0
         
+        # Optimizing the enrichment process by skipping certain entities (To go faster, else it's way too slow)
+
+        # Skip singleton/unclear entities (likely to be noise)
+        if len(entity_text.split()) < 2 and entity_type not in ['PERSON', 'ORG', 'GPE', 'LOC']:
+            # logger.info(f"Skipping likely non-productive entity: {entity_text} ({entity_type})")
+            return 0
+        
+        # Check if entity is already in cache with negative results
+        cache_key = f"enrich:{entity_text}:{entity_type}"
+        if cache_key in self.entity_cache and self.entity_cache[cache_key] is False:
+            # logger.info(f"Skipping previously unproductive entity: {entity_text}")
+            return 0
+        
+        # Try quick entity linking first to see if any sources recognize this entity
+        has_potential = False
+        
+        # Do a quick check with DBpedia
+        if use_dbpedia:
+            try:
+                dbpedia_uri = self.link_entity_to_dbpedia(entity_uri, entity_text, entity_type)
+                if dbpedia_uri:
+                    has_potential = True
+            except Exception as e:
+                logger.debug(f"Error in quick DBpedia check: {e}")
+        
+        # Do a quick check with Wikidata if still no potential
+        if use_wikidata and not has_potential:
+            try:
+                wikidata_uri = self.link_entity_to_wikidata(entity_uri, entity_text, entity_type)
+                if wikidata_uri:
+                    has_potential = True
+            except Exception as e:
+                logger.debug(f"Error in quick Wikidata check: {e}")
+        
+        # If entity has no potential, cache this result and skip
+        if not has_potential:
+            self.entity_cache[cache_key] = False
+            # logger.info(f"Skipping entity with no external knowledge: {entity_text}")
+            return 0
+        
+        # Proceed with full enrichment since entity has potential
+        
         # Add DBpedia info
         if use_dbpedia:
             for i in range(retry_count):
                 try:
                     dbpedia_uri = self.link_entity_to_dbpedia(entity_uri, entity_text, entity_type)
                     if dbpedia_uri:
-                        added_count += self.add_dbpedia_info(entity_uri, dbpedia_uri)
-                        added_count += self.add_dbpedia_connections(entity_uri, dbpedia_uri, depth=connection_depth)
+                        new_triples = self.add_dbpedia_info(entity_uri, dbpedia_uri)
+                        added_count += new_triples
+                        
+                        # Only add connections if we got some basic info
+                        if new_triples > 0 and connection_depth > 0:
+                            added_count += self.add_dbpedia_connections(entity_uri, dbpedia_uri, depth=connection_depth)
                     break
                 except Exception as e:
                     logger.warning(f"Error enriching with DBpedia (attempt {i+1}): {e}")
@@ -596,7 +647,11 @@ class KnowledgeGraphAugmenter:
                     if i < retry_count - 1:
                         time.sleep(sleep_time)
         
-        logger.info(f"Added {added_count} triples for entity {entity_uri}")
+        # Cache the result
+        if added_count == 0:
+            self.entity_cache[cache_key] = False
+        
+        # logger.info(f"Added {added_count} triples for entity {entity_uri}")
         return added_count
     
     def enrich_all_entities(self, entity_types=None, max_entities=None, use_dbpedia=True, 

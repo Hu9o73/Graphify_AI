@@ -300,3 +300,33 @@ Tesla,ORG,file in,January,DATE
 Chrystia Freeland,PERSON,say_on,Tuesday,DATE
 Mark Carney,PERSON,announce_on,April 28,DATE
 Tesla,ORG,file_in,January,DATE
+Christopher Landau,PERSON,speak with,Vikram Misri,PERSON
+Landau,PERSON,thank,India,GPE
+Washington,GPE,related_to,India,GPE
+Christopher Landau,PERSON,speak_with,Vikram Misri,PERSON
+Friday,DATE,related_to,Glass Lewis,PERSON
+TikTok,NORP,go in,US,GPE
+nearly half,CARDINAL,half_of,Americans,NORP
+TikTok,NORP,go_in,US,GPE
+TikTok,NORP,go_in,January,DATE
+the Washington Post,ORG,report on,Saturday,DATE
+Friday,DATE,related_to,Trump,PERSON
+the Washington Post,ORG,report_on,Saturday,DATE
+Friday,DATE,related_to,Reuters,ORG
+Brussels,GPE,give,three years,DATE
+Saturday,DATE,related_to,Carmakers,NORP
+The US Department of Labor,ORG,investigate,Scale AI,ORG
+Founded,PERSON,found_in,Scale AI,PERSON
+the White House,ORG,say on,Watson,PERSON
+Friday,DATE,related_to,Watson,PERSON
+CNBC,ORG,related_to,Watson,PERSON
+the White House,ORG,say_on,Watson,PERSON
+Founded,PERSON,found_in,2013,DATE
+500,CARDINAL,decline,197,CARDINAL
+Nasdaq,ORG,decline,26,CARDINAL
+UBS Global Wealth Management,ORG,lower from,6600,CARDINAL
+UBS Global Wealth Management,ORG,lower_from,6600,CARDINAL
+Memphis,GPE,related_to,Tennessee,GPE
+DeepSeek,PRODUCT,take on,Thursday,DATE
+CoreWeaves,ORG,related_to,IPO,ORG
+DeepSeek,PRODUCT,take_on,Thursday,DATE
