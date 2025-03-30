@@ -229,3 +229,104 @@ PMI,ORG,slip_to,517,CARDINAL
 PMI,ORG,rise_to,543,CARDINAL
 PMI,ORG,rise_from,510,CARDINAL
 PMI,ORG,fall_to,508,CARDINAL
+HDB,ORG,tell,Reuters,ORG
+Germanys,GPE,related_to,HDB,ORG
+Joe Tsai,PERSON,say on,Tuesday,DATE
+Reuters - Alibaba Group,ORG,related_to,9988HK,CARDINAL
+Joe Tsai,PERSON,say_on,Tuesday,DATE
+Howard Lutnick,PERSON,related_to,India,GPE
+PsiQuantum,ORG,raise,at least 750 million,CARDINAL
+Brisbane,GPE,related_to,Australia,GPE
+Reuters - India,ORG,order,Samsung,ORG
+Tuesday,DATE,related_to,morning,TIME
+Reuters - Teslas TSLAO,ORG,open in,Europe,LOC
+Tesla,ORG,command,18,CARDINAL
+PHEV,ORG,account for,584,CARDINAL
+Chris Heron,PERSON,tell,Reuters,ORG
+the European Union,ORG,related_to,Britain,GPE
+Reuters - Teslas TSLAO,ORG,open_in,Europe,LOC
+Tesla,ORG,command_in,February,DATE
+PHEV,ORG,account_for,584,CARDINAL
+PHEV,ORG,account_in,February,DATE
+the Securities and Exchange Commission,ORG,approve in,January 2024,DATE
+the Securities and Exchange Commission,ORG,approve_in,January 2024,DATE
+Hyundai,ORG,related_to,Steels,ORG
+Lee Tae-hwan,PERSON,analyst_at,Daishin Securities Hyundai Steel,ORG
+Trump,ORG,say for,weeks,DATE
+Trump,ORG,announce on,Monday,DATE
+Bessent,ORG,refer as,15,CARDINAL
+Hassett,PERSON,tell,Fox Business,ORG
+Venezuela,GPE,send,tens of thousands,CARDINAL
+Jeff Landry,PERSON,related_to,Trump,PERSON
+Brazil,GPE,related_to,China,GPE
+Canada,GPE,related_to,China,GPE
+Trump,ORG,say_for,weeks,DATE
+Trump,ORG,announce_on,Monday,DATE
+Bessent,ORG,refer_as,15,CARDINAL
+Venezuela,GPE,send_to,the United States,GPE
+Reuters - China,ORG,narrow to,just three months,DATE
+Lee,PERSON,found,01AI,CARDINAL
+Earlier this month 01AI,DATE,launch,Wanzhi,PRODUCT
+Reuters - China,ORG,narrow_to,just three months,DATE
+Lee,PERSON,found_in,March 2023,DATE
+the United States,GPE,related_to,Japans,NORP
+BYD,ORG,build in,Brazil,GPE
+Tuesday,DATE,related_to,BYD,ORG
+Wednesday,DATE,related_to,BYD,ORG
+BYD,ORG,build_in,Brazil,GPE
+The Australian Defence Force,ORG,trialle at,Base Darwin,PERSON
+Anduril,PERSON,develop with,the Australian Defence Force,ORG
+The Australian Defence Force,ORG,trialle_at,Base Darwin,PERSON
+Anduril,PERSON,develop_with,the Australian Defence Force,ORG
+the day ahead,DATE,day_from,Kevin Buckland,PERSON
+Reuters - Tesla,ORG,launch in,Saudi Arabia,GPE
+The Wall Street Journal,ORG,report in,2023,DATE
+Reuters - Tesla,ORG,launch_in,Saudi Arabia,GPE
+The Wall Street Journal,ORG,report_in,2023,DATE
+Five,CARDINAL,base in,China,GPE
+one,CARDINAL,place in,2023,DATE
+The Beijing Academy of Artificial Intelligence BAAI,ORG,say on,Wednesday,DATE
+Five,CARDINAL,base_in,China,GPE
+one,CARDINAL,place_in,2023,DATE
+The Beijing Academy of Artificial Intelligence BAAI,ORG,say_on,Wednesday,DATE
+TAIPEI,ORG,defend on,Wednesday,DATE
+Bessent,ORG,refer as,15,CARDINAL
+TAIPEI,ORG,defend_on,Wednesday,DATE
+Bessent,ORG,refer_as,15,CARDINAL
+Chrystia Freeland,PERSON,say on,Tuesday,DATE
+Canada,GPE,freeze,C43 million 3011 million,MONEY
+Mark Carney,PERSON,announce on,April 28,DATE
+Tesla,ORG,file in,January,DATE
+Chrystia Freeland,PERSON,say_on,Tuesday,DATE
+Mark Carney,PERSON,announce_on,April 28,DATE
+Tesla,ORG,file_in,January,DATE
+Christopher Landau,PERSON,speak with,Vikram Misri,PERSON
+Landau,PERSON,thank,India,GPE
+Washington,GPE,related_to,India,GPE
+Christopher Landau,PERSON,speak_with,Vikram Misri,PERSON
+Friday,DATE,related_to,Glass Lewis,PERSON
+TikTok,NORP,go in,US,GPE
+nearly half,CARDINAL,half_of,Americans,NORP
+TikTok,NORP,go_in,US,GPE
+TikTok,NORP,go_in,January,DATE
+the Washington Post,ORG,report on,Saturday,DATE
+Friday,DATE,related_to,Trump,PERSON
+the Washington Post,ORG,report_on,Saturday,DATE
+Friday,DATE,related_to,Reuters,ORG
+Brussels,GPE,give,three years,DATE
+Saturday,DATE,related_to,Carmakers,NORP
+The US Department of Labor,ORG,investigate,Scale AI,ORG
+Founded,PERSON,found_in,Scale AI,PERSON
+the White House,ORG,say on,Watson,PERSON
+Friday,DATE,related_to,Watson,PERSON
+CNBC,ORG,related_to,Watson,PERSON
+the White House,ORG,say_on,Watson,PERSON
+Founded,PERSON,found_in,2013,DATE
+500,CARDINAL,decline,197,CARDINAL
+Nasdaq,ORG,decline,26,CARDINAL
+UBS Global Wealth Management,ORG,lower from,6600,CARDINAL
+UBS Global Wealth Management,ORG,lower_from,6600,CARDINAL
+Memphis,GPE,related_to,Tennessee,GPE
+DeepSeek,PRODUCT,take on,Thursday,DATE
+CoreWeaves,ORG,related_to,IPO,ORG
+DeepSeek,PRODUCT,take_on,Thursday,DATE
